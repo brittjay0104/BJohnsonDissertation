@@ -11,7 +11,7 @@ In the following sections, I will define and discuss static analysis and dynamic
 
 \subsection{Static Analysis Tools}
 
-Static analysis tools are designed to aide developers when developing software by statically analyzing source code, pre-runtime, and providing the developer with feedback about the state of their code~\cite{ernst2003static}.
+Static analysis tools are designed to aid developers when developing software by statically analyzing source code, pre-runtime, and providing the developer with feedback about the state of their code~\cite{ernst2003static}.
 Typically, static analysis works by examining the current state of the program, predicting how the program may react in that state at runtime, and reporting any information they deem necessary to the developer. Static analyses are often more conservative than dynamic analyses; this is to reduce the potential for false positives, as in most cases static analysis cannot say with 100\% certainty what will happen during run-time~\cite{ernst2003static}. 
 Examples of static analysis tools include defect detectors, such as FindBugs, compilers, code smell detectors, and refactoring tools.
 % TODO talk about what static analysis can do/find to motivate further
@@ -150,7 +150,7 @@ can be influenced by a number of things, such as the subjective preferences of
 the user.
 
 % TODO: flesh this out
-Pettit and colleagues studied the effect of enhanced compiler messages for students\cite{pettit2017enhanced}.
+Pettit and colleagues studied the effect of enhanced compiler messages for students~\cite{pettit2017enhanced}.
 They found no significant improvement, based on likelihood of successive compiler errors, compiler error occurrence, and progress students make towards successful project completion.
 Their enhancements were designed without rationale, only focusing on students. Also, the information the was same no matter how much students already knew. Enhancements were made based somewhat on assumed knowledge; the adaptations I am proposing would be based on actual knowledge.
 I also assessed other types of enhancements, such as inclusion of examples and links to external information.
@@ -222,8 +222,8 @@ Rather than studying program analysis tools separately, we believe it is more fr
 As we describe in this section,
 existing studies that examine multiple tools typically either focus on tools of the same type (i.e. multiple compilers) 
 or helping developers make informed choices among tools. 
-Our work is related in that our findings can be used to improve the design of tools to better support developers.
-Our work differs in that we investigate different types of tools to identify general challenges developers encounter when interpreting notifications across tools. 
+My work is related in that our findings can be used to improve the design of tools to better support developers.
+My work differs in that we investigate different types of tools to identify general challenges developers encounter when interpreting notifications across tools. 
 
 Much of the research on improving developers' ability to interpret tool notifications has focused on compiler notifications~\cite{Hartmann:2010:Suggestions,Traver:2010:Messages,barik14}. 
 Hartmann and colleagues developed a social recommender system, \textsc{HelpMeOut}, to better assist novices with understanding and resolving compiler notifications~\cite{Hartmann:2010:Suggestions}. They found their tool provides useful fixes about half of the time. Traver investigated why developers have difficulty with compiler notifications and ways to improve compiler notification design~\cite{Traver:2010:Messages}. Based on his findings, Traver developed compiler notification design principles, which includes using consistent messages and including more visual aids.
@@ -243,7 +243,7 @@ Wagner and colleagues compared two analysis tools that detect defects to evaluat
 Other tool evaluations have had the same goal~\cite{roy2009comparison,zheng2006value}.
 
 Though to our knowledge there are no studies that explore the applicability of communication theory to tool use, there are studies that explore the applicability of other theories to tool use~\cite{barik14,xiao2014social,riemenschneider2001explaining}.  
-One is our prior work on how developers visualize compiler messages; we found that self-explanation theory can be used to explain how developers work through compiler error messages~\cite{barik14}. 
+One is my prior work on how developers visualize compiler messages; we found that self-explanation theory can be used to explain how developers work through compiler error messages~\cite{barik14}. 
 In other prior work, we used Diffusion of Innovation theory to explore factors that influence 
 security tool adoption~\cite{xiao2014social}. 
 Similarly, Rienmenschneider and Hardgrave explored why tools do not get used using the Technology Acceptance Model, based largely on the Theory of Reasoned Action~\cite{riemenschneider2001explaining}.

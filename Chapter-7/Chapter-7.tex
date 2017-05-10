@@ -161,7 +161,7 @@ The final set of defects used in the study can be found in Table~\ref{table:noti
 
 \subsection{Adaptation Evaluation}
 
-Once I had a set of modified notifications, I developed a wizard-of-oz plug-in to evaluate to evaluate H1, H2, and my RQ. This plug-in presents defects that have been augmented with modified notifications to participants. Below I outline the user study I designed to evaluate my hypotheses, which are:
+Once I had a set of modified notifications, I developed a wizard-of-oz plug-in to evaluate H1, H2, and my RQ. This plug-in presents defects that have been augmented with modified notifications to participants. Below I outline the user study I designed to evaluate my hypotheses, which are:
 
 \begin{itemize}
     \item [H\textsubscript{1}] Knowledge-based notifications can decrease the time required for notification resolution.
@@ -222,7 +222,7 @@ All participants completed all three concept inventories necessary for data anal
 One participant was unable to finish all the defects in the user study due to work obligations. Although he did not get to all 9 notifications, since he completed the inventories I analyzed data collected from the 7 he did complete.
 
 To determine the significance between the differences calculated, I used R with RStudio~\cite{RSoftware} to run a two-sample unpaired t-test for set of aligned and misaligned values. I chose run a t-test because it can provide accurate results despite my small sample size. A t-test is also an  appropriate test for comparing averages across two samples that are different sizes.
-I report the findins from these analyses in the next section.
+I report the findings from these analyses in the next section.
 
 \section{Adaptation Effectiveness}
 % TODO rethink name?
@@ -316,7 +316,7 @@ Nine of the 14 participants spent less time on notifications aligned with their 
 For two participants, the aligned notifications significantly reduced the time to resolution (Table~\ref{tab:time}).
 Also, despite there being more participants presented with aligned notifications (67) than misaligned notifications (57), participants took less time overall to resolve aligned notifications (231.25 seconds) than misaligned notifications (320.9 seconds). The difference was not significant, however, this may be due to the fact that I did not take into account other relevant factors, such as defect and notification experience, when determining developer concept knowledge classification.
 
-Participants also took less time to resolve notifications aligned with their experience in
+%Participants also took less time to resolve notifications aligned with their experience for 
 The concepts I evaluated include fundamental and nuanced concepts.
 For exceptions and generics, the two more nuanced concepts, it took participants longer to resolve misaligned notifications.
 It took participants significantly longer to resolve misaligned notifications on exception handling. 
@@ -443,7 +443,7 @@ Overall, novices and experts in a given concept resolved a larger percentage of 
 The difference was the largest for experts (8\%), who resolved all of the aligned notifications.
 This difference existed even though participants encountered more aligned notifications than misaligned.
 
-Six of the 14 participants were able to resolve all the aligned notifications presented to them for each concept (Table~\ref{tab:resolved}. 
+Six of the 14 participants were able to resolve all the aligned notifications presented to them for each concept (Table~\ref{tab:resolved}). 
 Two of the 6 participants resolved a higher percentage of aligned notifications than misaligned notifications.
 The remaining four participants resolved 100\% of the defects presented to them, whether aligned or misaligned with their knowledge.
 
@@ -537,7 +537,7 @@ We also only focused on Java software projects.
 However, the defects that we chose are reported by various tools and for different languages, increasing my confidence that these findings would generalize to other languages and tools.
 
 % small data set
-Finally, a common concern with empirical studies is the number of participants. Given the time-intensive nature of this study, I was only able to recruit 14 participants.This is on par with other similar studies~\cite{smith2015questions,Layman:2007:FaultFix}, though it may seem like a low number of participants. 
+Finally, a common concern with empirical studies is the number of participants. Given the time-intensive nature of this study, I was only able to recruit 14 participants. This is on par with other similar studies~\cite{smith2015questions,Layman:2007:FaultFix}, though it may seem like a low number of participants. 
 Along the same lines, there was a large number of participants classified as experts in exceptions which led to expert-heavy data for that concept; the same was true for generics novices.
 
 

@@ -12,7 +12,7 @@ However, currently tools have no way of assessing anything about the developer's
 Existing work in the area of source code mining has focused on measuring and predicting functional and non-functional properties of software~\cite{heckman2009model,menzies2007data,haapio2011exploring}. 
 Contrary to much of the work in this area, I used source code mining to predict developer knowledge of programming concepts.
 
-Based on previous research that suggests we can use source code as an indicator of how much a developer knows about a codebase~\cite{fritz2010degree}, I believe source code can also be an indicator of what developers know about programming.
+Based on previous research that suggests I can use source code as an indicator of how much a developer knows about a codebase~\cite{fritz2010degree}, I believe source code can also be an indicator of what developers know about programming.
 Therefore, I designed a study to answer the following research questions:
 
 \begin{itemize}
@@ -256,12 +256,12 @@ Once the attributes have been calculated, I performed discretization to convert 
 
 Discretization involves iteratively comparing attribute values for each instance and finding the ``best cut'' in the data; each cut is considered a class of the data. A distinguishing feature of this data set is its small size (just a few dozen rows). Hence, I cut the concept inventory scores for each model into two and three classes to answer the research questions. Two classes comes from cutting on the median. I chose three to account for the potential transition between classes~\cite{dreyfus2004five}. For the three way split, with the small data set, I tried to maintain relatively even size chunks while making sure there is some consistency across models (i.e. someone with a score of 7 or above is never a beginner).
 
-The generics data yielded ternary discretization (three classes) and the variables and exceptions data yielded binary discretization (two classes). For data sets with three classes, I labeled each developer as either Beginner, Intermediate, or Expert. For data sets with two classes, we labeled each developer as either Beginner or Expert.	
+The generics data yielded ternary discretization (three classes) and the variables and exceptions data yielded binary discretization (two classes). For data sets with three classes, I labeled each developer as either Beginner, Intermediate, or Expert. For data sets with two classes, I labeled each developer as either Beginner or Expert.	
 Based on Gabrielle's concept inventory scores and source code data, she is labeled Expert for both generics and variables. 
 We will talk about what the differences in the discretization output might mean in Section~\ref{sec:disc}.
 
 \subsubsection{Attribute Selection}
-Once I assigned classifications to each developer, I used developer knowledge classifications to perform Correlation-based Feature Selection (CFS) in Weka, software that provides a collection of machine learning algorithms for data mining.~\cite{Hall:2009:WDM:1656274.1656278}. CFS helps to determine the attributes best suited for each model (Figure~\ref{fig:approach}e)~\cite{hall1999correlation} by pruning irrelevant attributes, leaving only the attributes that correlate the most with the developer's classification.
+Once I assigned classifications to each developer, I used developer knowledge classifications to perform Correlation-based Feature Selection (CFS) in Weka, software that provides a collection of machine learning algorithms for data mining~\cite{Hall:2009:WDM:1656274.1656278}. CFS helps to determine the attributes best suited for each model (Figure~\ref{fig:approach}e)~\cite{hall1999correlation} by pruning irrelevant attributes, leaving only the attributes that correlate the most with the developer's classification.
 
 This analysis runs k-fold cross validation using the attributes passed in; to lower the potential for a model with overestimation bias, I maintained even and sizable chunks by using 4-fold cross validation.	
 CFS evaluates each attribute on its predictive ability and uses cross-validation to indicate how stable the best subset of variables is based on how many folds the variable appeared in.
@@ -388,7 +388,7 @@ The values for each model's \emph{precision}, \emph{recall}, \emph{F-Score}, \em
 
 \subsection{RQ\textsubscript{1} Findings}
 
-All four decision tree models had total precision, recall, and F-Score of at least 60\%, suggesting these models correctly classified developers at least 60\% of the time. Even the model built using LOC only (Figure~\ref{fig:loc}) provided accurate predictions. 
+All four decision tree models had total precision, recall, and F-Score of at least 60\%, suggesting these models correctly classified developers at least 60\% of the time. Even the model built using LOC only (Table~\ref{tab:loc}) provided accurate predictions. 
 This supports existing research that suggests all of our experiences contribute to our overall knowledge~\cite{argote2011organizational}; my findings quantify this notion, showing it is possible to use developer experience to predict their knowledge.
 The models also exhibit low FP rates, with a median FP rate of 19.9\%. I observed the highest FP rate with the variables model (Figure~\ref{fig:vars}); I will discuss limitations that may have caused the difference in FP rate for the variables model in Section~\ref{sec:challenges}.
 

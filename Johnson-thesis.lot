@@ -4,12 +4,56 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Table Example\relax }}{4}{table.caption.7}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Landscape Table Example\relax }}{6}{table.caption.8}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Descriptive statistics reported by participants.\relax }}{22}{table.caption.16}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Notifications used in our study\relax }}{44}{table.caption.23}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary of the differences between my approach and existing approaches.\relax }}{63}{table.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Exception handling concept inventory item analysis results\relax }}{66}{table.caption.29}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Source Code Collected for Variables\relax }}{74}{table.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Source Code Collected for Exceptions\relax }}{75}{table.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Source Code Collected for Generics\relax }}{76}{table.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.4}{\ignorespaces Variables Model Accuracy\relax }}{82}{table.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.5}{\ignorespaces Exceptions Model Accuracy\relax }}{82}{table.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.6}{\ignorespaces Generics Model Accuracy (Non-LOC)\relax }}{82}{table.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.7}{\ignorespaces Generics Model Accuracy (LOC only)\relax }}{83}{table.caption.39}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.1}{\ignorespaces Notifications used in the user study.\relax }}{96}{table.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Average time to resolve (seconds) aligned and misaligned notifications for each concept.\relax }}{99}{table.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.3}{\ignorespaces Totals for aligned and misaligned defect resolution.\relax }}{100}{table.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.4}{\ignorespaces Aligned and misaligned notifications resolved by each participant\relax }}{102}{table.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.5}{\ignorespaces Average resolution times (seconds) for aligned and misaligned notifications by participant.\relax }}{102}{table.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.6}{\ignorespaces Average attempts made toward resolution by participant.\relax }}{103}{table.caption.50}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces A table in the appendix.\relax }}{24}{table.caption.20}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

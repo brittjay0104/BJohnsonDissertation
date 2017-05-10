@@ -2,30 +2,78 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Findbugs notification in the Eclipse IDE concerning multi-threading.\relax }}{3}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Here is a sample figure\relax }}{7}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Here is a HUGE sample figure with a HUGE caption. Our goal is to make a caption that is so long that the caption spills into the lower margin, leading to an ETD error. The way to solve this problem in a systematic way is to calculate how many lines of text the caption will use, then adjust the size of the image, such that it leaves just enough space for your huge caption. How I am solving this problem is by providing a new variable called graphht that stores how tall the image should be. Then, to calculate how tall to make the figure, you use the new function that I am providing called calculategraphicstargetheight. This function has one argument. The argument of the function is how many lines of text you estimate that the caption occupies. You can always run your tex once, measure this number, and type it into the argument for the function. What the function will do (it is defined in the preamble) is take into account the size you give it, the spacing of the chapter and the footer at the bottom, and then calculate the total vertical space available. Thus, this function should be used for images that are taller than they are wide.\relax }}{8}{figure.caption.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Here is a sample figure\relax }}{9}{figure.caption.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Here are two floating subfigures\relax }}{9}{figure.caption.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{9}{subfigure.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{9}{subfigure.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces This figure has been turned sideways. With large figures, the author must ensure that there are at least two double spaces between the caption and the page number.\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Findbugs notification in the Eclipse IDE on checking string equality.\relax }}{4}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A figure at the top of the page.\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces EclEmma notifications in the Eclipse IDE.\relax }}{9}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A figure in the middle of text.\relax }}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Notifications provided by Cobertura regarding code coverage.\relax }}{11}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A figure at the bottom of the page.\relax }}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Notifications provided by JSlice regarding a dynamic slice of the program.\relax }}{12}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A notification provided by Coverity regarding a race condition.\relax }}{12}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Notifications provided by StenchBlossom regarding code smells.\relax }}{13}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A notification provided by WitchDoctor regarding a refactoring that's taking place.\relax }}{14}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A source code example for writing to a log file.\relax }}{15}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces A figure in the appendix.\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The number of participants in each category expressing the good and the bad about static analysis tools they have used.\relax }}{28}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces One of our participant, Matt's, Participatory Design drawing; (A) shows where Matt wants the gradient colors and (B) shows the way his current tool represents severity.\relax }}{35}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of participants based on years of programming experience.\relax }}{40}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A notification of a previous null check from FindBugs (FB4).\relax }}{42}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces An Eclipse compiler notification about unimplemented methods (CMP5).\relax }}{42}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An EclEmma notification about partial branch coverage (ECL3).\relax }}{43}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A notification from the compiler about generics (CMP2).\relax }}{45}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of challenges encountered and notifications that caused them.\relax }}{49}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A notification from EclEmma regarding \texttt {finally} coverage (ECL5).\relax }}{55}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Question assessing ability to evaluate generic type instantiation.\relax }}{63}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Item removed from original concept inventory. \relax }}{67}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces An overview of my approach.\relax }}{72}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Mapping of developer source code contributions on one class in an open source repository.\relax }}{73}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Variables decision tree model.\relax }}{83}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Exceptions decision tree model.\relax }}{84}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Generics decision tree model.\relax }}{84}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces A notification modified for a developer classified as a novice in exception handling.\relax }}{94}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces A notification modified for a developer classified as an expert in generics.\relax }}{95}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
