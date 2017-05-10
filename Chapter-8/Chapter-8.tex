@@ -1,0 +1,79 @@
+\chapter{Contributions and Future Work}
+\label{chap:future}
+
+This dissertation outlines and describes the findings of four studies designed to provide an in-depth understanding of how developers use tool and ways to improve how notifications support developers during tool use. Each study built on the previous, revealing more about the state of current tools, improvements that can be made, and how we might make the improvements a reality. 
+
+In summary, the contributions of this dissertation are as follows:
+\begin{itemize}
+    \item A categorized list of reasons developers have for not using program analysis tools, accompanied by tool design suggestions provided by developers.
+    \item An explanatory theory for the challenges that developers encounter when interpreting information provided by tool notifications.
+    \item An approach for assessing developer depth of programming concept knowledge that builds on an existing validated approach for assessing breadth of knowledge.
+    \item An approach, based on existing problem solving research, for adapting tool notifications based on developer concept knowledge classification.
+\end{itemize}
+
+This dissertation focused on one potential route to improving notifications, via making specific changes to tool output and presenting that output to developers based on how much they know about the concepts present in the notification. However, findings from the studies discussed in this thesis suggest various routes that can be explored and exploited to improve communication between developers and the notifications used by their tools.
+Based on the contributions from this thesis, below I briefly discuss some ares for future work that build on the theoretical and technical foundations laid by the work completed in this thesis.
+
+\section{Future Directions}
+% TODO what are some RQs that might be associated with each line of future work??
+
+\subsection{The Big Picture}
+The first 7 chapters of the thesis laid out a progression of studies that came together to suggest one possible solution for improving how tools communicate with developers. Based on this proposed solution, I first outline future work toward the big picture of adaptive tool notifications.
+
+\subsubsection{Notification Adaptations}
+The final study in this thesis suggests the potential for improving communication with developers by using their knowledge to adapt the information provided. One way to improve and further evaluate the effectiveness of notifications adapted to developer knowledge is to provide more accurate developer classifications that are based on more than just the code they write, as discussed in the previous section. Another way to realize the potential of adaptable tool notifications and the support they can provide is to further explore and generalize the design decisions that inform notification adaptations.
+
+% examples: useful for all, but some wanted context specific examples; does this depend on classification? Are there differences between examples desired by novices and experts in a given concept or for a given type of defect.
+Novice and expert developers find value in examples when writing and maintaining their source code~\cite{nasehi2012makes}, as was supported by the findings in Chapter~\ref{chap:improve}. One direction for further research is determining what makes a good example in the context of resolving notifications and the differences, if they exist, between examples experts and novices consider good. Previous research that explored what makes a good examples did so using votes on the site~\cite{nasehi2012makes}. I propose research that both explores the usefulness of these examples and differences between examples novices and experts find valuable in practice. For example, some participants from the study in Chapter~\ref{chap:improve} mentioned preferring examples that are similar to the code they are working on. Does this preference propagate across experts and novices? Are there differences between the examples novices and experts find useful for helping them resolve tool notifications? These are the types of questions this direction of research would explore.
+
+Another area for future work in terms of notification adaptations is to determine the concepts in a notifications and how having multiple concepts, where the developer may be more knowledgeable in one than the other(s), affects overall classification for a given notification.
+All of the notifications I evaluated my proposed solution with communicated about one programming concept exclusively, which is not always the case. How can we determine all of the concepts relevant to a given notification? How are multi-concept adaptations different from single concept adaptations? 
+These are the kinds of questions this area of research will answer.
+
+\subsubsection{Incorporating Automation}
+Another step necessary to realizing the big picture of adaptive tool notifications that better support developers is to determine how models would be incorporated in the process of developing tools and presenting tool output. 
+The study in Chapter~\ref{chap:improve} assigned developer classification manually, which is not practical or feasible in a real world setting. 
+Another area for future work is exploring the potential for automating model creation and usage. This could be one research study, or split into multiple studies. One study could explore how to automate the creation of a model based on, for example, developers on a given project. The next study would then explore how tools could automatically populate these models to determine developer classification. 
+
+Another automation piece that is necessary is for tools to be able to automatically create and present the appropriate notification to a developer, depending on their classification.
+The study in Chapter~\ref{chap:improve} laid a foundation for this by determining the kinds of information notifications may need to present. The next step is to determine what information to present in real time along with how, and from where, this information is gathered and presented. 
+This includes determining the concepts relevant to the notification, which informs what classification(s) should be considered for presentation and the goal, subgoals, and best examples to include.
+
+\subsubsection{Dealing with Change}
+Knowledge is not stagnant. It fluctuates with our experiences, or lack there of. 
+Therefore, it is necessary for adaptive tools to have that same kind of flexibility. 
+Another direction for future work is to understand how models and tools can keep up with the changes that happen in developer knowledge across time. 
+Along the same lines, it is not clear how to identify when a developer is transitioning or has transitioned from one stage of expertise to another.
+This is particularly important for developing tools that are able to consistently support developers, rather than becoming useless once a developer has gained or lost knowledge on a given concept.
+One solution to explore is the possibility of collecting developer experience in real time to populate knowledge models and allow for constant refinement of their classification.
+
+% How does developer knowledge change over time? Can it be monitored and updated live?
+Because knowledge is ever-changing, there may other ways necessary to accommodate developer information needs. 
+Future research could take a deeper time into information needs, how they may change over time, and developer knowledge changes map, or do not map, with information need changes. Expandable information and feedback loops are two mechanisms that can be used to provide developers with more control over the information provided while potentially providing tools with information they can use to improve communication later down the line.
+
+
+\subsection{Developer Knowledge Acquisition}
+
+One contribution from my thesis is the notion that we can use the source code developers write relevant to a given programming concept to determine how much they know about that concept. 
+Findings from the last two studies suggest that outside of the code developers write, there maybe other experiences that affect developers' overall software development knowledge such as the defects they have encountered or resolved. One future direction for this research is to further, and more explicitly, explore factors that affect developer knowledge and feasibility of providing information regarding those factors to tools.
+
+If it is possible to collect and use source code contributions, there are other contributions and activities that we can collect from developers to evaluate the role they play in overall knowledge. For example, this thesis found that developer experiences with defect resolution affect their ability to interpret and resolve defects. The approach I proposed for classifying developer knowledge could be improved by collecting defect resolved or issues opend and closed by a given developer and analyzing the relationship between defects that developer has encountered, resolved, and left unresolved and their knowledge pertaining to the notifications she is presented with.
+Other factors that future research will consider include developer interactions with specific tools and notification text and frequently visited on-line resources.
+
+Research has also found that sometimes knowledge is acquired informally, sometimes without realizing it, through peer interactions~\cite{forman1989role,ge2003scaffolding,murphy2011peer}.
+Therefore, another area of research to explore is how peer interactions affect knowledge that contributes to developers' ability to understand and resolve notifications. Peer interactions come in various forms, from pair programming to casual conversations, so this research would explore the effects on knowledge produced from both settings. It may be that, for example, knowledge acquired during formal activities like pair programming provide knowledge more specific and useful to notification interpretation and resolution than knowledge acquired during informal activities like casual conversation.
+
+\subsection{Developer Knowledge Classification}
+%other applications for developer knowledge classification
+
+For any given defect, there are one or more programming concepts relevant to understanding and being able to resolve that defect. Similar to work on code review assignment~\cite{balachandran2013reducing}, another potential application for the proposed approach for classifying developers' conceptual knowledge is to assign the best developer to resolve a defect or complete a code review. 
+Although knowledge of the code base is important~\cite{fritz2010degree}, my thesis research suggests knowledge of concepts relevant to the defect or code of interest is also important~\cite{johnson2016cross}. My approach can be combined with other approaches, such as those that look at the developer's familiarity with the code base, to assign defects to developers that are most likely to be able to resolve them.
+Another direction for this research would be exploring the relationship between the code contributed by a given developer, the code reviews and issues they have completed, and their fit for completing a pending pull request or closing an open issue/defect. This type of evaluation, like the ones completed for the thesis, can be automated and use publicly available data from developers' code repositories.
+
+The ability to classify developer knowledge also opens the door for the potential to more effectively assign student teams in industrial and educational settings. For example, if the design and implementation of a project or piece of functionality requires specific conceptual knowledge, analysis of developers' existing source code can yield information for ensuring someone with the necessary knowledge is on that team.
+Along the same lines, our approach can be useful for determining effective pair programming pairs. Pair programming is an effective way of transferring knowledge~\cite{plonka2015knowledge} and fostering tool discovery~\cite{murphy2011peer}, both of which can aide in defect resolution. Knowledge transfer is more likely to occur when the developers paired together differ in experience (i.e. one is novice and one is expert). Furthermore, a previous study on pair programming found that the productivity provided by pair programming can drop substantially when it comes to problem solving if both programmers have experience with the problem at hand; this is especially true if the experiences are recent and has not had a chance to be forgotten~\cite{lui2006pair}. When it comes to pairing developers for a specific task, our approach can be useful for determining which developer is more expert in the concepts relevant to the task at hand.
+
+
+
+
+% other information needs not explored or found in existing research? other modes of communication -- what about visual (i.e. linking information in notification to code in editor when applicable)? how much thought should be put into the vocabulary used?

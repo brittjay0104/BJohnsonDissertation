@@ -1,0 +1,71 @@
+%% ------------------------------ Abstract ---------------------------------- %%
+\begin{abstract}
+\doublespacing
+\noindent Software development and maintenance is an important part of the software engineering process. It is during these phases of the software engineering process that developers complete actions to ensure quality software, such as finding and resolving software defects and refactoring.
+Many of the actions involved in writing and maintaining software are manual, tedious and, as a result, error-prone.
+Program analysis tools, including those that find and resolve defects, provide feedback to and automate tasks for developers. 
+Research has found, however, that developers use these tools infrequently in practice. 
+Multiple studies have explored developers' usage of program analysis tools and cumulatively found that developers encounter various challenges when attempting to understand and resolve problems in their code. 
+
+\textit{The goal of this research is to improve the communication between developers and static analysis tools by providing theories and approaches that identify and utilize the differences between developers' information needs, based on their knowledge, that influence developers' ability to resolve tool notifications.}
+To achieve this goal, I explored developer tool usage and information needs when understanding and resolving notifications.
+In this thesis, I propose a theory that suggests developers have difficulty with tool output because of gaps and mismatches between how much developers know and how tools communicate. I evaluate this theory by building on other existing research to determine factors that influence developer knowledge and information needs of developers, based on their knowledge, when resolving defects.
+
+
+My thesis consists of a consecution four studies. I first conducted a study to explore the reasons developers have for using and not using static analysis tools. I categorized interview responses from professional developers about their usage of tools and identified five reasons developers have for not frequently using the tools available to them. 
+The results suggest that one major barrier to use is the ability for developers to understand the textual and visual notifications provided by tools. 
+The second study took a deeper look at the difficulties developers have when understanding tool notifications by observing developers as they attempt to explain textual and visual notifications presented by various tools. Based on the data collected and analyzed, I proposed a theory of tool communication based on the 10 kinds of challenges identified in the data. All of the challenges identified in this study stemmed from gaps in developers' knowledge that notifications did not fill and mismatches between knowledge participants had accrued through their experiences and the information provided by tools.
+
+After determining an explanation for developer difficulties with tool notifications, the next study evaluated the possibility of operationalizing and evaluating that theory. The theory, and previous research, suggests software development experiences influence developer knowledge. Therefore, the third study used developer source code contributions, one of the primary experiences for developers, and concept inventories, a validated educational assessment, to classify developers based on their knowledge of programming concepts.
+The models created from this study classified developers' knowledge of variables, exception handling, and generics with 60--80\% accuracy. 
+Results from this study support the possibility for tools to automatically ascertain how much developers know about the defects they encounter in their code using the source code they have written. 
+
+Finally, because it is possible can classify developer knowledge using their code contributions, the fourth study evaluated the effectiveness of using developer knowledge classification to customize the information presented to developers by program analysis tools. I used existing research on problem solving to adapt notifications communicating about defects pertaining to the concepts of variables, exception handling, and generics. I presented developers classified as novices and experts in the concepts of interest with notifications aligned and misaligned with their knowledge classification to compare performance and preference. I found that most often, it took participants less time to resolve notifications aligned with their knowledge classification; there was a significant difference between the time it took novices and experts in a given concept to resolve aligned versus misaligned notifications. I also found that on average, novices in a given concept presented with aligned notifications made significantly fewer attempts at resolving notifications than those presented with misaligned notifications, and that developers tended to prefer information provided in aligned notifications. For experts, aligned notifications led to a higher percentage of resolved notifications.
+Although not all differences in observations were statistically significant, results from this study suggests that presenting information in tool notifications based on developer software development experiences can improve communication between developers and their tools. 
+I conclude this thesis with a discussion of future research directions that will stem from this research.
+
+
+
+\end{abstract}
+
+
+%% ---------------------------- Copyright page ------------------------------ %%
+%% Comment the next line if you don't want the copyright page included.
+\makecopyrightpage
+
+%% -------------------------------- Title page ------------------------------ %%
+\maketitlepage
+
+%% -------------------------------- Dedication ------------------------------ %%
+\begin{dedication}
+\doublespacing
+ \centering To my parents, Engadine and Valerie, who made me the strong black woman I am.
+ 
+ \centering To my sister, Chelsea, who continues to motivate and inspire me through everything.
+ 
+ \centering To the love of my life, Anthony, who has been supportive and by side the whole ride.
+ 
+ \centering To my first mentor, Dr. James Bowring, who helped me find my passion and urged me to pursue it.
+\end{dedication}
+
+%% -------------------------------- Biography ------------------------------- %%
+\begin{biography}
+\doublespacing
+Brittany Itelia Johnson was born in a small town called Sumter, South Carolina to Engadine and Valerie Johnson on November 25, 1988. She graduated from Sumter High School in 2007. During her time in high school, Brittany was active in the marching and jazz bands. After high school, she continued on to pursue her undergraduate degree at the College of Charleston (CofC), where she studied Computer Science. 
+While at CofC, Brittany was a member of SCAMP, an organization focused on increasing minority participation in STEM research. This led to her participation in undergraduate research, which informed her passion to pursue a Ph.D. She was also a member of the Pep Band, where she let off some academic steam, and an officer in the CofC Chapter of the National Society of Collegiate Scholars.
+Brittany obtained her Bachelor of Arts in Computer Science in Spring 2011. She was selected as the feature student graduating from College of Charleston with the Class of 2011 for her involvement and performance in academics, research, and extra-curricular activities. 
+Following her time at CofC, Brittany began her journey to her Ph.D. at NC State University in Fall 2011 under the direction of Dr. Emerson Murphy-Hill. As she began her Ph.D. studies, she accrued a co-advisor, Dr. Sarah Heckman. During her time at NC State, aside from her research, she participated in numerous outreach and mentoring initiatives as she discovered her passion for mentoring others like her.  
+Brittany aspires to have a career in academia, where she can incorporate both her passion for research and her passion for mentoring.
+\end{biography}
+
+%% ----------------------------- Acknowledgements --------------------------- %%
+\begin{acknowledgements}
+I would like to thank my advisors, my committee, the Developer Liberation Front, RealSearch, and AltCode for their help.
+\end{acknowledgements}
+
+
+\thesistableofcontents
+
+\thesislistoftables
+
+\thesislistoffigures
