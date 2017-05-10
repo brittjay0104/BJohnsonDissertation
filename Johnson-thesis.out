@@ -1,0 +1,98 @@
+\BOOKMARK [0][-]{section*.5}{LIST OF TABLES}{}% 1
+\BOOKMARK [0][-]{section*.6}{LIST OF FIGURES}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Program Analysis Tools}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Static Analysis Tools}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.2}{Dynamic Analysis Tools}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.3}{Communication via Notifications}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.4}{Typical Notification Components}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.5}{Breaking Down the Code Developers Write \046 Tools Analyze}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Program Analysis Tool Usability}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Aiding Notification Resolution}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Predictive User Models}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Why Don't Developers Use Tools?}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Exploring Developer Tool Use}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{Participants}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.2}{Research Questions}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.3}{Part I: Questions and Short Responses}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.4}{Part II: Interactive Interview}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.5}{Part III: Participatory Design}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.6}{Coding Interview Responses}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Barriers to Tool Use}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{RQ1: Reasons for Use and Underuse}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{RQ2: Workflow Integration}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.3}{RQ3: Tool Design}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.4}{Threats to Validity}{section.3.2}% 26
+\BOOKMARK [1][-]{section.3.3}{Next Steps to A Solution}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.1}{Notification Resolution Solutions}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{Notification Understandability Solutions}{section.3.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Theory of \(Mis\)communication}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Identifying Challenges}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.1.1}{Participants}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.2}{Program Analysis Tools Investigated}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.3}{Study Protocol}{section.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.1.4}{Data Collection}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.5}{Data Analysis}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.6}{Study Credibility \046 Findings Validation}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{Knowledge-Related Challenges}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{Knowledge Gaps}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.2}{Knowledge Mismatches}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.3}{Member Check}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{From Theory to Practice}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Filling Developer Knowledge Gaps}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Matching Developer Expectations}{section.4.3}% 44
+\BOOKMARK [0][-]{chapter.5}{Assessing Developer Knowledge}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Modified Concept Inventories}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.2}{Defining Conceptual Content}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.3}{Building A Bank of Questions}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.4}{Think Aloud Pilots}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.5}{Concept Inventory Validation}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.5.1}{Item Analysis}{section.5.5}% 51
+\BOOKMARK [2][-]{subsection.5.5.2}{Distractor Analysis}{section.5.5}% 52
+\BOOKMARK [1][-]{section.5.6}{Limitations \046 Challenges}{chapter.5}% 53
+\BOOKMARK [0][-]{chapter.6}{Developer Knowledge Classification}{}% 54
+\BOOKMARK [1][-]{section.6.1}{Knowledge Acquisition}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.2}{Knowledge Classification}{chapter.6}% 56
+\BOOKMARK [2][-]{subsection.6.2.1}{Knowledge Validation}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.2}{Knowledge Prediction}{section.6.2}% 58
+\BOOKMARK [1][-]{section.6.3}{Knowledge Models}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.3.1}{RQ1 Findings}{section.6.3}% 60
+\BOOKMARK [2][-]{subsection.6.3.2}{RQ2 Findings}{section.6.3}% 61
+\BOOKMARK [1][-]{section.6.4}{Implications}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.4.1}{Program Analysis Tool Output}{section.6.4}% 63
+\BOOKMARK [2][-]{subsection.6.4.2}{Industry \046 Education Practices}{section.6.4}% 64
+\BOOKMARK [1][-]{section.6.5}{Lessons Learned}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.5.1}{Limitations}{section.6.5}% 66
+\BOOKMARK [2][-]{subsection.6.5.2}{Challenges}{section.6.5}% 67
+\BOOKMARK [0][-]{chapter.7}{Knowledge-Based Communication}{}% 68
+\BOOKMARK [1][-]{section.7.1}{Proposed Approach}{chapter.7}% 69
+\BOOKMARK [2][-]{subsection.7.1.1}{Notification Adaptations}{section.7.1}% 70
+\BOOKMARK [2][-]{subsection.7.1.2}{Notification Selection}{section.7.1}% 71
+\BOOKMARK [2][-]{subsection.7.1.3}{Adaptation Evaluation}{section.7.1}% 72
+\BOOKMARK [1][-]{section.7.2}{Adaptation Effectiveness}{chapter.7}% 73
+\BOOKMARK [2][-]{subsection.7.2.1}{Resolving Adapted Notifications}{section.7.2}% 74
+\BOOKMARK [2][-]{subsection.7.2.2}{Adaptation Preferences}{section.7.2}% 75
+\BOOKMARK [2][-]{subsection.7.2.3}{Threats to Validity}{section.7.2}% 76
+\BOOKMARK [1][-]{section.7.3}{From ``Pipe Dream'' to Reality}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.3.1}{Challenges to Overcome}{section.7.3}% 78
+\BOOKMARK [0][-]{chapter.8}{Contributions and Future Work}{}% 79
+\BOOKMARK [1][-]{section.8.1}{Future Directions}{chapter.8}% 80
+\BOOKMARK [2][-]{subsection.8.1.1}{The Big Picture}{section.8.1}% 81
+\BOOKMARK [2][-]{subsection.8.1.2}{Developer Knowledge Acquisition}{section.8.1}% 82
+\BOOKMARK [2][-]{subsection.8.1.3}{Developer Knowledge Classification}{section.8.1}% 83
+\BOOKMARK [0][-]{subsection.8.1.3}{Bibliography}{}% 84
+\BOOKMARK [0][-]{chapter*.51}{APPENDICES}{}% 85
+\BOOKMARK [0][-]{appendix.A}{Chapter 3 Artifacts}{}% 86
+\BOOKMARK [1][-]{section.A.1}{Pre-Interview Questionnaire}{appendix.A}% 87
+\BOOKMARK [1][-]{section.A.2}{Interview Script}{appendix.A}% 88
+\BOOKMARK [1][-]{section.A.3}{Participatory Design Sketches}{appendix.A}% 89
+\BOOKMARK [0][-]{appendix.B}{Chapter 4 Artifacts}{}% 90
+\BOOKMARK [1][-]{section.B.1}{Notification Oracle}{appendix.B}% 91
+\BOOKMARK [1][-]{section.B.2}{Pre-Questionnaire and Consent Form}{appendix.B}% 92
+\BOOKMARK [1][-]{section.B.3}{Session Script}{appendix.B}% 93
+\BOOKMARK [0][-]{appendix.C}{Chapter 6 Artifacts}{}% 94
+\BOOKMARK [1][-]{section.C.1}{Example Concept Inventory \(Generics\)}{appendix.C}% 95
+\BOOKMARK [1][-]{section.C.2}{Example Feature Hierarchy \(Generics\)}{appendix.C}% 96
+\BOOKMARK [1][-]{section.C.3}{Example Concept Map and Bloom's Taxonomy Assessment Mapping \(Generics\)}{appendix.C}% 97
+\BOOKMARK [0][-]{appendix.D}{Chapter 7 Artifacts}{}% 98
