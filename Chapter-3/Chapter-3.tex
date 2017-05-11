@@ -2,15 +2,18 @@
 \label{chap:why}
 
 % TODO static analysis --> program analysis ??
-%One common type of program analysis tool that developers use when writing code is known as a static analysis tool....
-Despite the benefits of using static analysis tools to find bugs, consistent
-usage of these tools is not very frequent~\cite{Ayewah:2008:FindBugs, ge2012reconciling}. 
+One common type of program analysis tool that developers use when writing code is known as a static analysis tool. 
+As described in the previous chapter, static analysis tools automate software development tasks to reduce developer effort, especially when completing tasks such as finding and resolving defects.
+However, despite the benefits of using static analysis tools to find bugs, consistent
+usage of these tools is not very frequent~\cite{Ayewah:2008:FindBugs, ge2012reconciling}.
+ 
 There have been studies to investigate ways of improving static analysis tools~\cite{Bessey:2010:Coverity, Khoo:2008:PathProjection}.
 However, none look at what the tools do for a developer, what could be improved \emph{and}
-why. The study outlined in this chapter provided an improved understanding 
+why these improvements might help. The study outlined in this chapter provided an improved understanding 
 of why software developers are not using static analysis tools and how
 current tools could be improved to increase usage based on developer feedback.
-To answer the question \emph{why do developers not use program analysis tools}, I conducted interactive interviews with 20 professional developers to better understand why they do not use static analysis tools, one common type of program analysis tool, to find bugs when writing code~\cite{johnson2013don}.
+
+To answer the question \emph{why do developers not use program analysis tools}, I conducted interactive interviews with 20 professional developers to better understand why they do not use static analysis tools to find bugs when writing code~\cite{johnson2013don}.
 For this study, I focused on static analysis tools used to finds bugs.
 This includes tools like FindBugs, Lint~\cite{Johnson:1978:Lint} ,
 IntelliJ~\cite{IntelliJIDEA} (which includes built-in static analyzers), and
