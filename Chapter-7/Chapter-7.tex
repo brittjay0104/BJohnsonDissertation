@@ -2,7 +2,7 @@
 \label{chap:improve}
 
 Based on findings from previous studies, tools do not always effectively communicating with developers.
-One reason this occurs is because of differences between developer knowledge and the information provided by notifications~\cite{johnson2016cross}.
+One reason this occurs is because of differences between developer knowledge and the information provided by notifications, which I discovered in the study outlines in Chapter~\ref{chap:theory}.s
 Perhaps if tools could ascertain how much developers know about the concepts present in the information they provide, tools could provide feedback to better support developers in understanding and resolving defects.
 The previous chapter suggested the ability to use developer source code contributions to predict how much they know about the concepts in tool notifications.
 
@@ -16,24 +16,24 @@ Most relevant to this research are the models proposed by Zou and colleagues for
 Similarly, this research explores using source code and machine learning to predict user knowledge but for adaptive tool notifications.
 
 
-In this chapter, I discuss research that explores possible notification adaptations and the ability to improve communication by improving the support provided by tools to fill knowledge gaps and match developer expectations. 
+In this chapter, I discuss my current research which explores possible notification adaptations and the ability to improve communication by improving the support provided by tools to fill knowledge gaps and match developer expectations. 
 To evaluate this proposal, I borrowed from existing research on expertise and problem solving to determine potential notification adaptations to evaluate and how they map to expertise.
 I used the same concepts used in previous chapters to create and evaluate knowledge models: variables, exception handling, and generics.
 I found notifications that communicate primarily about various aspect of these concepts, focusing on notifications that communicate about defects that are found in real software projects~\cite{ayewah2007evaluating, zheng2006value}.
 
-I conducted 14 user studies with students and professional developers with various backgrounds and knowledge regarding the concepts of interest to evaluate their ability to resolve notifications designed for their level of expertise. This study was designed to evaluate the following hypotheses and research question:
+I conducted a user study with 14 students and professional developers with various backgrounds and knowledge regarding the concepts of interest to evaluate their ability to resolve notifications designed for their level of expertise. This study was designed to evaluate the following hypotheses:
 \begin{itemize}
     \item [H\textsubscript{1}] Knowledge-based notifications can decrease the time required for notification resolution.
-    \item [H\textsubscript{2}] Knowledge-based notifications increase developer likelihood of resolving notifications. 
+    \item [H\textsubscript{2}] Knowledge-based notifications increase developer likelihood of resolving notifications correctly. 
     \item [H\textsubscript{3}] Knowledge-based notifications decrease developer attempts to resolve notifications.
-    \item[RQ] Do developer adaptation preferences match expectations, based on existing literature?
+    \item [H\textsubscript{4}] Developer adaptation preferences match expectations, based on existing literature.
 \end{itemize}
 
 
 \section{Proposed Approach}
 
 For adaptive tool notifications to be realized, it is necessary to determine how tools should present information to developers. Previous research suggests one thing to consider when presenting information regarding a defect is the knowledge of the developer~\cite{johnson2016cross}.
-To evaluate H\textsubscript{1} -- H\textsubscript{3}, I conducted user studies where I presented developers with adapted notifications and asked them to resolve each. In this section, I will outline the related research I used to create the adapted notifications and the approach I used to evaluate notification adaptations.
+To evaluate H\textsubscript{1} -- H\textsubscript{4}, I conducted user studies where I presented developers with adapted notifications and asked them to resolve each. In this section, I will outline the related research I used to create the adapted notifications and the approach I used to evaluate notification adaptations.
 
 \subsection{Notification Adaptations}
 
@@ -69,6 +69,20 @@ Larkin and colleagues found that experts in STEM domains have common foundations
 Most notifications provided by state-of-the-art tools provide a problem statement when communicating about a defect. However, my previous research suggests current notifications do not always communicate effectively.
 Research in other STEM fields suggests that when problem solving, experts work from a goal to solution~\cite{larkin1980expert}. Therefore, the notifications modified for experts will provide a goal statement rather than a problem statement. The same research found that novices require a goal and set of subgoals that help them achieve the goal to reach a solution. Therefore, notifications modified for novices included a set of general subgoals for resolving the defects. Novice notification also include the problem statement used by FindBugs and the compiler.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=5.5in]{Chapter-7/figs/novice}
+	\caption{A notification modified for a developer classified as a novice in  exception handling.}
+	\label{fig:novice}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=5.5in]{Chapter-7/figs/expert}
+	\caption{A notification modified for a developer classified as an expert in  generics.}
+	\label{fig:expert}
+\end{figure}
+
 % How did I determine goal statement?
 I determined the goal statement for each notification by determining the general solution being suggested by the problem statement. For example, the goal statement in Figure~\ref{fig:expert} is based on the problem statement provided for raw type compiler warnings. However, the goal speaks to resolution, letting the developer know she needs to ``Correct the creation and/or initialization for the generic collections.'' There is also a link present, which is active and links to a top search page on the web providing information regarding generic collections, if needed.
 % TODO may be more realted studies for here
@@ -83,22 +97,6 @@ Developers use examples to understand and resolve problems in code; often they g
 My previous research also found that professional developers like having insights regarding possible fixes to the problem~\cite{johnson2013don,johnson2016cross}.
 Therefore, I included examples in all of the notifications. I primarily used StackOverflow to find code examples for the notifications. I also used the same resources used to create the concept inventories in Chapter~\ref{chap:assess}.
 
-Finally, to help mitigate notification familiarity bias, which was found to be relevant to notification understanding and resolution~\cite{johnson2016cross}, I only presented participants with the modified notifications. This included disabling the relevant compiler notifications, which are familiar notifications for participants. 
-Example modified notifications are shown in Figure~\ref{fig:novice} and Figure~\ref{fig:expert}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=5.5in]{Chapter-7/figs/novice}
-	\caption{A notification modified for a developer classified as a novice in  exception handling.}
-	\label{fig:novice}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=5.5in]{Chapter-7/figs/expert}
-	\caption{A notification modified for a developer classified as an expert in  generics.}
-	\label{fig:expert}
-\end{figure}
 
 % provided insights into what examples I should include -- due technical and time limitations, used examples available online as-is. There exists technologies that can incorporate context-specificity into examples but evaluating availability of examples in notification rather than if they should be context specific.
 
@@ -116,7 +114,7 @@ Example modified notifications are shown in Figure~\ref{fig:novice} and Figure~\
 
 \subsection{Notification Selection}
 
-Using the criteria outlined above, I modified 9 program analysis tool notifications from FindBugs and the Eclipse Java compiler, the same tools used in my previous study. I excluded ECLEmma to scope the current problem and solution to textual notifications. For each notification, I created a novice version and an expert version.
+Using the criteria outlined above, I modified 9 program analysis tool notifications from FindBugs and the Eclipse Java compiler, the same tools used in my previous study. I excluded ECLEmma to scope the current problem and solution to textual notifications, as most environments and tools use some form of text to communicate with developers. For each notification, I created a novice version and an expert version.
 
 % how did I determine what defects to look for initially?
 To determine the notifications for the user study, I attempted to find pre-existing defects in open source software. To narrow my search, I focused on defects that have been found to frequently appear in real world software projects~\cite{ayewah2010google}. 
@@ -161,17 +159,22 @@ The final set of defects used in the study can be found in Table~\ref{table:noti
 
 \subsection{Adaptation Evaluation}
 
-Once I had a set of modified notifications, I developed a wizard-of-oz plug-in to evaluate H1, H2, and my RQ. This plug-in presents defects that have been augmented with modified notifications to participants. Below I outline the user study I designed to evaluate my hypotheses, which are:
-
-\begin{itemize}
-    \item [H\textsubscript{1}] Knowledge-based notifications can decrease the time required for notification resolution.
-    \item [H\textsubscript{2}] Knowledge-based notifications can increase developer ability to resolve notifications.
-    \item[RQ] Do developer adaptation preferences match expectations, based on existing literature?
-\end{itemize}
+Once I had a set of modified notifications, I developed a wizard-of-oz plug-in to evaluate H1, H2, and my RQ. 
+Finally, to help mitigate notification familiarity bias, which I found to be relevant to notification understanding and resolution in Chapter~\ref{chap:theory}, I only presented participants with the modified notifications. This included disabling the relevant compiler notifications, which are familiar notifications for participants. 
+Example modified notifications are shown in Figure~\ref{fig:novice} and Figure~\ref{fig:expert}.
+My plug-in presents defects that have been augmented with modified notifications to participants. Below I outline the user study I designed to evaluate my hypotheses.
+%, which are:
+%
+%\begin{itemize}
+%        \item [H\textsubscript{1}] Knowledge-based notifications can decrease the time required for notification resolution.
+%        \item [H\textsubscript{2}] Knowledge-based notifications increase developer likelihood of resolving notifications correctly. 
+%        \item [H\textsubscript{3}] Knowledge-based notifications decrease developer attempts to resolve notifications.
+%        \item [H\textsubscript{4}] Developer adaptation preferences match expectations, based on existing literature.
+%\end{itemize}
 
 % \subsubsection*{Participants}
 
-Participants in this study were developers from academia and industry. 
+I recruited participants for this study from academia and industry. 
 I attempted to recruit participants using various sources, including departmental mailing lists, social media, and personal contacts.
 I was able to obtain 14 user study participants, most of which I obtained through personal contacts in academia and industry.
 All participants had prior experience with Java, Eclipse, and the Eclipse Java compiler. All but 4 participants had prior experience with FindBugs. 
@@ -181,14 +184,14 @@ Participants ranged from undergraduate students to professional developers with 
 % TODO rethink methodology labels (be consistent)
 
 % quizzes
-To evaluate knowledge-based notifications, I need to know when participants in  the study are looking at notifications that are aligned and misaligned with their knowledge. A notification is aligned with a participant's knowledge if the classification the notification was designed for matches the developer's classification. To determine developer classification, each participant completed concept inventories on the concepts relevant to the study. These are the same concept inventories used in Chapter~\ref{chap:experience}.
+To evaluate knowledge-based notifications, I need participants in the study to look at notifications that are aligned and misaligned with their knowledge. A notification is aligned with a participant's knowledge if the classification the notification was designed for matches the developer's classification. To determine developer classification, each participant completed concept inventories on the concepts relevant to the study. These are the same concept inventories used in Chapter~\ref{chap:experience}.
 
 Each session lasted approximately 1 hour. In this hour, I asked participants to resolve the 9 defects selected. 
 For the user studies I used two set-ups.
 Rather than having all participants look at the same novice and expert notifications, I evaluated a novice and expert version for each notification across user studies. I alternated between two groups, each group consisting of a different subset of the 18 novice and expert notifications. In other words, all participants saw all 9 defects; but, for example, the novice notifications participants in Group 1 saw, another participant in Group 2 saw the expert version of that same notification.
 
 % training exercise
-At the beginning of each user study, I first briefed participants on what they would be doing. 
+At the beginning of each user study, I first briefed participants on what I would be asking them to do during the user study. 
 I also asked participants to rank their experience with Java, Eclipse, FindBugs, and the Eclipse Java compiler on a scale of 1 to 10 (1 being unfamiliar, 10 being extremely familiar). 
 % TODO include some visual showing range of experience??
 
@@ -200,14 +203,14 @@ After the training exercise, participants worked their way through each defect i
 
 After participants resolved, or attempted to resolve, each notification, I debriefed with them to learn more about how they came to the solution they used. The goal of debriefing was to determine if the notification contributed to or hindered their ability to resolve the defect. This was also an opportunity to ask participants about experience with the individual defects. 
 
-Some participants were distributed, therefore, I also had a remote set-up that I used to conduct user studies with remote participants. The remote set-up was similar to the local set-up; the only difference was that remote participants remotely controlled my computer to complete the user study while local participants physically used my computer. I recorded audio and the screen for all of the user studies in preparation for data analysis.
+Three participants were distributed, therefore, I also had a remote set-up that I used to conduct user studies with remote participants. The remote set-up was similar to the local set-up; the only difference was that remote participants remotely controlled my computer to complete the user study while local participants physically used my computer. I recorded audio and the screen for all of the user studies in preparation for data analysis.
 
 % TODO explain how I accounted for remote lag (determining when lag was affecting performance and remove time based on time wasted dealing with it)
 
 \subsubsection{Data Analysis}
 
 % Extract resolution times and correctness
-The primary data point of interest was the time it took for participants to resolve each defect. 
+One data point of interest was the time it took for participants to resolve each defect. 
 Resolution of a defect for the sake of this study began when the participant opened and began to use the notification to work towards a resolution. For participants that attempted to resolve the defect without looking at the notification, time began when they either a) explored nearby code as if to determine the resolution or b) began fixing the defect if they did no exploring.
 
 Along with time to resolve, I also collected data regarding the fixes participants selected to implement. For each defect, a fix was considered correct if it both compiled and would not cause new problems at runtime. For some defects, since they were pre-existing in the code base, I used Java best practices examples to determine the potential solutions. I also kept track of how many fixes participants attempted for each defect.
@@ -243,7 +246,7 @@ Using the data from the user studies, I evaluated my hypotheses regarding develo
                     & \textbf{\begin{tabular}[c]{@{}l@{}}Aligned \\ Novices\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Misaligned \\ Novices\end{tabular}} & \textbf{p-value}  & \textbf{\begin{tabular}[c]{@{}l@{}}Aligned \\ Experts\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Misaligned \\ Experts\end{tabular}} & \textbf{p-value}  \\
 \midrule
 \textbf{Variables}  & 156.1                                                               & 98.4                                                                   & \textit{0.192}   & 87.8                                                                & 88.7                                                                   & \textit{0.970}   \\
-\textbf{Exceptions} & 46.9                                                                & 137                                                                    & \textit{0.019*} & 42.2                                                                & 79.1                                                                   & \textit{0.042*} \\
+\textbf{Exceptions} & 46.9                                                                & 137.0                                                                   & \textit{0.019*} & 42.2                                                                & 79.1                                                                   & \textit{0.042*} \\
 \textbf{Generics}   & 235.4                                                               & 249.8                                                                  & \textit{0.861}   & 237                                                                 & 341                                                                    & \textit{0.628}    \\
 \hline
 \textbf{Total}      & 148.25                                                              & 180.7                                                                  & \textit{0.446}   & 83                                                                  & 140.2                                                                  & \textit{0.130}  \\
@@ -343,7 +346,8 @@ Participants were least familiar with the other two defects related to generics,
 
 \fbox{%
 	\parbox{0.9\linewidth}{%
-		\noindent\textbf{\textit{These findings suggest that knowledge-based notifications do not always significantly decrease the time it takes for developers to resolve defects, but can significantly decrease the time it takes for developers to resolve defects.}}
+		\noindent\textbf{\textit{Knowledge-based notifications significantly decreased the time for developers to resolve exceptions defects, but did not significantly decrease the time for developers to resolve variable or generics defects.}}
+
 	}%
 }
 \vspace{1em}
@@ -455,7 +459,7 @@ For many participants in this group, along with being a concept novice, they men
 \vspace{1em}
 \fbox{%
 	\parbox{0.9\linewidth}{%
-		\noindent\textbf{\textit{These findings suggest that knowledge-based notifications do not significantly increase developers' overall ability to resolve defects but can significantly decrease the attempts novices make to resolve notifications.}}
+		\noindent\textbf{\textit{I found insufficient evidence to support an increase in ability to resolve.}}
 	}%
 }
 \vspace{1em}
@@ -470,13 +474,14 @@ These findings suggest aligned notifications were generally able to lead novices
 \vspace{1em}
 \fbox{%
 	\parbox{0.9\linewidth}{%
-		\noindent\textbf{\textit{These findings suggest that knowledge-based notifications do significantly decrease novice developers' attempts to resolve notifications but do not affect the number of expert developer attempts.}}
+		\noindent\textbf{\textit{Knowledge-based notifications significantly decreased novice developers' attempts to resolve notifications but did not affect the number of expert developer attempts.}}
+
 	}%
 }
 \vspace{1em}
 
 
-The differences discovered in exploring H\textsubscript{1} -- H\textsubscript{3} are promising and suggestive, despite being in its infancy. This was a first run of user studies in a research area that has not been explicitly explored. Along with the quantitative data discussed above, I collected qualitative data regarding participants' notification preferences to further explore the usefulness of adapted notifications.
+The differences discovered in exploring H\textsubscript{1} -- H\textsubscript{4} are promising and suggestive, despite being in its infancy. This was a first run of user studies in a research area that has not been explicitly explored. Along with the quantitative data discussed above, I collected qualitative data regarding participants' notification preferences to further explore the usefulness of adapted notifications.
 
 \subsection{Adaptation Preferences}
 
@@ -498,7 +503,7 @@ All participants found the goal statements provided useful, especially when they
 
 For 6 participants, it was difficult to pick just one version for each concept; most often, it was when participants were expert in a given concept that they had more than one best notification.
 In 8 instances, participants had varying levels of experience with the defects they had to resolve, which they stated made it difficult across notifications for primarily exceptions and generics. 
-For these participants, the information they preferred depended on the defect they were trying to resolve. This coincides with my previous research that suggested defect knowledge also affects ability to understand and resolve notifications~\cite{johnson2016cross}.
+For these participants, the information they preferred depended on the defect they were trying to resolve. This coincides with my previous research, from Chapter~\ref{chap:theory}, that suggested notification experience affects ability to understand and resolve notifications.
 % TODO example(s)?? quote(s)??
 
 
@@ -522,7 +527,7 @@ Two participants requested the examples be partnered with the appropriate subgoa
 \vspace{0.5em}
 \fbox{%
 	\parbox{0.9\linewidth}{%
-		\noindent\textbf{\textit{These findings suggest that some developer adaptation preferences match expectations, based on existing literature, and some do not.}}
+		\noindent\textbf{\textit{Developer adaptation preferences typically match expectations, but with caveats.}}
 	}%
 }
 \vspace{0.5em}
@@ -537,7 +542,7 @@ We also only focused on Java software projects.
 However, the defects that we chose are reported by various tools and for different languages, increasing my confidence that these findings would generalize to other languages and tools.
 
 % small data set
-Finally, a common concern with empirical studies is the number of participants. Given the time-intensive nature of this study, I was only able to recruit 14 participants. This is on par with other similar studies~\cite{smith2015questions,Layman:2007:FaultFix}, though it may seem like a low number of participants. 
+Also, a common concern with empirical studies is the number of participants. Given the time-intensive nature of this study, I was only able to recruit 14 participants. This is on par with other similar studies~\cite{smith2015questions,Layman:2007:FaultFix}, though it may seem like a low number of participants. 
 Along the same lines, there was a large number of participants classified as experts in exceptions which led to expert-heavy data for that concept; the same was true for generics novices.
 
 

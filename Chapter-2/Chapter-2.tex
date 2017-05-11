@@ -1,12 +1,17 @@
 \chapter{Related Work}
 \label{chap:related}
 
+%Program analysis tools have been a frequent topic of discussion, research, and development~\cite{ernst2003static, robilliard2014recommendation, dugan2000developing}. 
+%In order to understand the research in my dissertation, it is necessary to understand what program analysis tools are, how they communicate, and existing efforts on understanding and improving tool use.
+%In this chapter, I will provide some background on program analysis tools, specifically those that perform static and dynamic analysis, and existing research that has explored program analysis tool usability and improvements. Similar to existing works, my dissertation explores program analysis tool use to improve the state of the art. Unlike existing work, this research focuses on the notifications used by tools as a form of communication that can be better understood and adapted. 
+
+
 \section{Program Analysis Tools}
 Program analysis tools are designed to aid developers when developing software by automating the writing, analysis, and modification of source code.
 Often, program analysis is discussed as synonymous with static analysis~\cite{nielson2015principles}. 
-For the purpose of my research, I define a program analysis tool as \emph{a recommendation system that performs program analysis, whether it be static or dynamic analysis, and provides information to develoeprss regarding the source code being analyzed}~\cite{robillard2014recommendation}.
+For the purpose of my research, I define a program analysis tool as \emph{a recommendation system that performs program analysis, whether it be static or dynamic analysis, and provides information to developers regarding the source code being analyzed}~\cite{robillard2014recommendation}.
 Examples of program analysis tools include, but are not limited to, static code analyzers, code coverage tools, code smell detectors, and refactoring tools~\cite{adolph2011using,Murphy-Hill:2010:Ambient,ge2012reconciling}.
-Program analysis tools can be used in integrated development environments (IDEs) as well in most text editors that can be used for programming, such as Vim~\footnote{http://www.vim.org/} or Emacs~\footnote{https://www.gnu.org/software/emacs/}. 
+Program analysis tools can be used in integrated development environments (IDEs) as well in most text editors that can be used for programming, such as Vim~\footnote{\url{http://www.vim.org/}} or Emacs~\footnote{\url{https://www.gnu.org/software/emacs/}}. 
 In the following sections, I will define and discuss static analysis and dynamic analysis tools separately; the reader should note that although I discuss static and dynamic analysis separately, it is not uncommon to find program analysis tools that combine static and dynamic analysis~\cite{ernst2003static}.                                                
 
 \subsection{Static Analysis Tools}
@@ -16,7 +21,7 @@ Typically, static analysis works by examining the current state of the program, 
 Examples of static analysis tools include defect detectors, such as FindBugs, compilers, code smell detectors, and refactoring tools.
 % TODO talk about what static analysis can do/find to motivate further
 
-Let's use the example of FindBugs,\footnote{http://findbugs.sourceforge.net/factSheet.html} an open source static analysis tool, to better understand how static analysis tools work. FindBugs statically analyzes code to report potential defects. FindBugs determines the potential for defects using \emph{bug patterns}. Bug patterns are code idioms that map to errors, found in Java \emph{bytecode}. Bytecode, in Java, represents the compiled Java class files. Because FindBugs analyzes code without executing it, there is a heightened risk for \emph{false positives}. False positives are defects detected that will never manifest during run-time. When FindBugs finds a potential defect, it alerts the developer using notifications that provide information regarding the defect. I will discuss tool notifications in more detail in Section~\ref{subsec:comm}.
+Let's use the example of FindBugs,\footnote{\url{http://findbugs.sourceforge.net/factSheet.html}} an open source static analysis tool, to better understand how static analysis tools work. FindBugs statically analyzes code to report potential defects. FindBugs determines the potential for defects using \emph{bug patterns}. Bug patterns are code idioms that map to errors, found in Java \emph{bytecode}. Bytecode, in Java, represents the compiled Java class files. Because FindBugs analyzes code without executing it, there is a heightened risk for \emph{false positives}. False positives are defects detected that will never manifest during run-time. When FindBugs finds a potential defect, it alerts the developer using notifications that provide information regarding the defect. I will discuss tool notifications in more detail in Section~\ref{subsec:comm}.
 
 
 \subsection{Dynamic Analysis Tools}
@@ -25,7 +30,7 @@ Dynamic analysis tools are designed to aide developers when developing software 
 Dynamic analysis works by executing the program and then making observations about program execution; because dynamic analysis runs the code, it is typically more precise than static analysis. Though dynamic analysis can produce more precise results in a similar amount of time as static analysis, dynamic analysis execution is less likely to generalize to future executions since it is based on a set of inputs that can, and probably will, change for each execution.
 Examples of dynamic analysis tools include testing, code coverage, and profiling tools.
 
-Let's use the example of Cobertura,\footnote{http://cobertura.github.io/cobertura/} an open source dynamic code coverage tool, to better understand how dynamic analysis tools work. Cobertura executes source code using JUnit test cases and reports to the user what parts of the code got covered during execution and what parts did not. Because Cobertura executes the source code, it can communicate precisely regarding the flow of the program during run-time. A static code coverage tool could speculate how much of a code base would be covered based on test cases, and possibly even a set of inputs; however, it would require more effort and be more likely to produce false positives than a dynamic code coverage tool. On the down side, the test suites a developer writes may not be characteristic of all possible executions of the program, thereby lowering the generalizability of dynamic analyses.
+Let's use the example of Cobertura,\footnote{\url{http://cobertura.github.io/cobertura/}} an open source dynamic code coverage tool, to better understand how dynamic analysis tools work. Cobertura executes source code using JUnit test cases and reports to the user what parts of the code got covered during execution and what parts did not. Because Cobertura executes the source code, it can communicate precisely regarding the flow of the program during run-time. A static code coverage tool could speculate how much of a code base would be covered based on test cases, and possibly even a set of inputs; however, it would require more effort and be more likely to produce false positives than a dynamic code coverage tool. On the down side, the test suites a developer writes may not be characteristic of all possible executions of the program, thereby lowering the generalizability of dynamic analyses.
 
 \begin{figure} [ht]
 	\centering
@@ -39,10 +44,10 @@ Let's use the example of Cobertura,\footnote{http://cobertura.github.io/cobertur
 
 One common thread between program analysis tools like FindBugs and Cobertura is that they use \emph{notifications} to communicate with the developer. Figure~\ref{fig:eclipse} and Figure~\ref{fig:ecl} provide examples of tool notifications. 
 A notification, when speaking in terms of program analysis tools, is typically a combination of visuals and text used to communicate a message to its user; for program analysis tools, the user is the developer.
-Text editors like Vim and Emacs rarely include any visual components, however, because text editors are a simpler versions of IDEs, research on notifications in IDEs are more likely to also apply to text editors than vice versa. 
+Text editors like Vim and Emacs rarely include any visual components, however, because most IDEs include text editors and text-based notifications. Therefore research on notifications in IDEs can apply to notifications developers receive in both text editors and IDEs. 
 Therefore, I focus my research on notifications inside IDEs.
 
-Notifications across tools vary; some provide lots of text (like FindBugs) with few visual aides, some use primarily visual means of communications (like Cobertura). Notifications can also have different goals, which may influence how developers design notifications. For example, the goal of a notification from Coverity~\footnote{http://www.coverity.com/}, another static analysis tool, is to explain a potential defect in the developer's source code and, ideally, help the developer make a decision about the defect (i.e. whether and how to resolve). Because Coverity's goal is to explain, we expect to see textual notifications that provide that explanation.
+Notifications across tools vary; some provide lots of text (like FindBugs) with few visual aides, some use primarily visual means of communications (like Cobertura). Notifications can also have different goals, which may influence how developers design notifications. For example, the goal of a notification from Coverity,~\footnote{\url{http://www.coverity.com/}} another static analysis tool, is to explain a potential defect in the developer's source code and, ideally, help the developer make a decision about the defect (i.e. whether and how to resolve). Because Coverity's goal is to explain, we expect to see textual notifications that provide that explanation.
 The goal of code coverage notifications is to statically show dynamic program behavior and help the developer determine the effectiveness of her test suite. EclEmma, another code coverage tool, uses colors applied directly to the source code to communicate as opposed to text. Though EclEmma also uses text to communicate code coverage (i.e. \texttt{1 of 2 branches missed} on a partially covered \texttt{if} statement), this does not allow the developer to scan the program for areas in most need of attention. Therefore, EclEmma uses other visuals, such as the bar visuals in the Coverage View (Figure~\ref{fig:ecl}) to show coverage on a given package or class.
  % TODO talk about how different parts of notification communicate for each tool; make sure it ties back to goals (defects and test coverage)!
 
@@ -58,12 +63,12 @@ There are a variety of ways that a tool can get the attention of its user~\cite{
 Once the tool has the developer's attention, program analysis tool notifications provide descriptive interfaces that convey information about a developer's source code. 
 Information is conveyed using some combination of textual, visual, and sometimes transformative descriptions.
 
-Some tools, like FindBugs and most IDE compilers, use icons to get developers' attention. Using the same icons, developers can access more information either by hovering over or clicking the icon. Although the icons are visual, most of the description provided by these tools is textual. As stated previously, these kinds of notifications are most common with static analysis tools as they typically need to be more descriptive. However, dynamic analysis tools like Veracode~\footnote{http://www.veracode.com/products/dynamic-analysis-dast/dynamic-analysis}, which communicate about defects similar to the ones reported by FindBugs and Coverity, also use icons and text descriptions to pass along information to the developer.
+Some tools, like FindBugs and most IDE compilers, use icons to get developers' attention. Using the same icons, developers can access more information either by hovering over or clicking the icon. Although the icons are visual, most of the description provided by these tools is textual. As stated previously, these kinds of notifications are most common with static analysis tools as they typically need to be more descriptive. However, dynamic analysis tools like Veracode,~\footnote{\url{http://www.veracode.com/products/dynamic-analysis-dast/dynamic-analysis}} which communicate about defects similar to the ones reported by FindBugs and Coverity, also use icons and text descriptions to pass along information to the developer.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{Chapter-2/figs/cobertura.png}
-	\caption{Notifications provided by Cobertura regarding code coverage.}
+	\caption{Notifications provided by Cobertura regarding code coverage. Figure from}
 	\label{fig:cobertura}
 \end{figure}
 
@@ -75,7 +80,7 @@ Some tools, like FindBugs and most IDE compilers, use icons to get developers' a
 \end{figure}
 
 
-Some tools use affordance overlays or annotations to both get the attention of the developer and for the descriptive interface. For example, Cobertura and JSlice~\footnote{http://jslice.sourceforge.net/} use affordance overlays in the form of source code highlighting, as shown in Figure~\ref{fig:cobertura} and Figure~\ref{fig:jslice}, to alert the developer of and communicate about dynamic behavior. Coverity Dynamic Analyzer~\footnote{http://www.coverity.com/library/pdf/Coverity-Dynamic-Analysis.pdf}, which is similar to Veracode, uses annotations, such as the one in Figure~\ref{fig:coverity} in the editor to communicate about defects in the code.
+Some tools use affordance overlays or annotations to both get the attention of the developer and for the descriptive interface. For example, Cobertura and JSlice~\footnote{\url{http://jslice.sourceforge.net/}} use affordance overlays in the form of source code highlighting, as shown in Figure~\ref{fig:cobertura} and Figure~\ref{fig:jslice}, to alert the developer of and communicate about dynamic behavior. Coverity Dynamic Analyzer,~\footnote{\url{http://www.coverity.com/library/pdf/Coverity-Dynamic-Analysis.pdf}} which is similar to Veracode, uses annotations, such as the one in Figure~\ref{fig:coverity} in the editor to communicate about defects in the code.
 
 \begin{figure}
 	\centering
@@ -89,14 +94,14 @@ A small subset of tools use dashboards, such as the one shown to the right in Fi
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{Chapter-2/figs/stenchblossom.pdf}
-	\caption{Notifications provided by StenchBlossom regarding code smells.}
+	\caption{Notifications provided by StenchBlossom regarding code smells. Figure from~\cite{Murphy-Hill:2010:Ambient}.}
 	\label{fig:stench}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{Chapter-2/figs/witchdoctor.png}
-	\caption{A notification provided by WitchDoctor regarding a refactoring that's taking place.}
+	\caption{A notification provided by WitchDoctor regarding a refactoring that's taking place. Figure from~\cite{murphy2014recommendation}.}
 	\label{fig:witch}
 \end{figure}
 
@@ -113,9 +118,9 @@ The goal of program analysis tool notifications is to communicate some informati
 The source code a developer writes is a runnable manifestation of programming-oriented and human-oriented concepts~\cite{van2004concepts,biggerstaff1994program}. 
 At the lowest, most fundamental level, are \emph{programming-oriented concepts}, which relate to how the source code maps to programming language concepts. For simplicity, I will refer to these concepts simply as programming concepts.
 Programming concepts can be as simple as the means for storing and passing data, such as variables, or as complex as the means for structuring data, such as generics~\cite{jazayeri1997programming}.
-At a more abstract level, \emph{human-oriented concepts} relate to the high level requirement of the source code, such as ``acquire target'' or ``complete transaction''.
+At a more abstract level, \emph{human-oriented concepts} relate to the high level requirement of the source code, such as ``complete transaction''.
 
-Typically a given notification is associated with only one human-oriented concept, though not all tools communicate about human-oriented concepts. For example, refactoring tools do not communicate about requirements such as ``acquire target.'' These kinds of tools typically focus on programming concepts; refactoring tools attempt to communicate about programming concepts such as variables and modules.
+A given notification can be associated with one or more human-oriented concept, though not all tools communicate about human-oriented concepts. For example, refactoring tools do not communicate about requirements such as ``acquire target.'' These kinds of tools typically focus on programming concepts; refactoring tools attempt to communicate about programming concepts such as variables and modules.
 On the flip side, there can be more than one notification pertaining to a one human-oriented concept and one notification can communicate about more than one programming concept. 
 
 \begin{figure} [ht]
@@ -248,8 +253,8 @@ In other prior work, we used Diffusion of Innovation theory to explore factors t
 security tool adoption~\cite{xiao2014social}. 
 Similarly, Rienmenschneider and Hardgrave explored why tools do not get used using the Technology Acceptance Model, based largely on the Theory of Reasoned Action~\cite{riemenschneider2001explaining}.
 Lawrance and colleagues used information foraging theory to propose a theory of information foraging for how programmers navigate code when debugging~\cite{lawrance2013programmers}. 
-In contrast, we apply communication theory to understand the challenges 
-developers encounter when interpreting tool notifications.
+%In contrast, we apply communication theory to understand the challenges 
+%developers encounter when interpreting tool notifications.
 
 \section{Predictive User Models}
 Existing research has explored the idea of creating and using predictive user models both in the design of intelligent tutoring systems (ITS) and adaptive user interfaces (AUI). Research also exists that uses code as a proxy for knowledge~\cite{fritz2010degree}. While related, this research proposes models that predict knowledge of source code; my research proposes models that predict knowledge of programming concepts for adapting tool notifications.

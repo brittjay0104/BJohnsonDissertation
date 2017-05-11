@@ -1,10 +1,7 @@
 \chapter{Developer Knowledge Classification}
-\label{chap:experience}
+\label{chap:experience}	
 
-In the previous chapters, I proposed that communication between notifications and developers could be improved if the information provided by notifications could adapt to the developer based on the developer's knowledge. 	
-For it to be possible to adapt the information provided by notifications, tools need a way of knowing what concepts the developer knows and does not know. Furthermore, tools also need a way of knowing how well developers know these concepts. 	
-
-In Chapter~\ref{chap:assess}, I outlined an approach for assessing developer knowledge of programming concepts. However, it is impractical and possibly infeasible to create a concept inventory for every programming concept and then ask developers to take that inventory before or while using a tool. It would be more practical and feasible if there was a way to use information already available to represent developer knowledge. I propose using developer experiences, in the form of the code they have written, to represent their knowledge of programming concepts. For the remainder of this document, I will refer to knowledge of programming concepts as \textit{conceptual knowledge}.  
+In Chapter~\ref{chap:assess}, I outlined an approach for assessing developer knowledge of programming concepts. However, it is impractical and possibly infeasible to create a concept inventory for every programming concept and then ask developers to take that inventory before or while using a tool. It would be more practical and feasible if there was a way to use information already available to represent developer knowledge. I propose using developer experiences, in the form of the code they have written, to represent their conceptual knowledge. 
 
 Perception of any information provided to a developer is affected by that developer's knowledge and experiences; as a software developer, much of the knowledge accrued comes from experiences writing and modifying source code~\cite{Canas:1994:Mental,raju1995differential,fritz2010degree,argote2011organizational}.
 
@@ -33,7 +30,7 @@ The contribution of this chapter is a validated approach and set of models for p
 
 \section{Knowledge Acquisition}
 % TODO do I need to expand on this more?
-According to existing research, we acquire knowledge through our experiences~\cite{argote2011organizational}. For example, a chef's knowledge regarding recipes, best practices, and what tastes good comes from their experiences cooking in both professional and informal settings. Just as a chef gains knowledge from her experiences, as do other professions. Software development is no exclusion.
+According to existing research, we acquire knowledge through our experiences~\cite{argote2011organizational}. For example, a chef's knowledge regarding recipes, best practices, and what tastes good comes from their experiences cooking in both professional and informal settings. Just as a chef gains knowledge from her experiences, as do other professions. Software development is no exception~\cite{fritz2010degree}.
 
 Much of what software developers do involves looking at, writing, or modifying source code. 
 There are a variety of other experiences that come with being a software developer. However, for scoping and proof-of-concept purposes, I focus on the primary task of software development which is writing code.
@@ -46,13 +43,13 @@ To explain the process used to validate and predict developer knowledge, I will 
 
 \subsection{Knowledge Validation}
 
-To determine ground-truth developer knowledge for the models, I borrowed from computer science education literature and developed a set of concept inventories~\cite{tew2010assessing}.
-The process for creating and validating these inventories is discussed in detail in Chapter~\ref{chap:assess}.
-The scores from the concept inventories provide data that I used to provide an independent attribute for each model. 
+I conducted knowledge validation using concept inventories I designed from the process described in Chapter~\ref{chap:assess}.
+The scores from the concept inventories provide data that I used as an independent attribute for each developer. 
+In the following sections I will discuss how I used these scores in the overall process of creating and evaluating knowledge models. 
 
 \subsection{Knowledge Prediction}
 % process for predicting knowledge
-The goal of this study was to determine the possibility of using developer source code contributions to predict how much they know about programming concepts in their tool notifications.
+The goal of this study was to determine the possibility of using developer source code contributions to predict how much developers know about programming concepts in their tool notifications.
 Using developer source code, along with their concept inventory scores and the independent attributes, I used unsupervised learning to determine the relationship between the two.
 
 \begin{figure} [ht]
@@ -66,7 +63,7 @@ Using developer source code, along with their concept inventory scores and the i
 
 To determine the dependent attributes for each model, and answer \textbf{RQ\textsubscript{1}}, I analyzed developers' public repositories for code contributions and assigned them to developers using version control (Figure~\ref{fig:approach}b).
 
-Consider the code in Figure~\ref{fig:code}, which is a portion of code from the JUnit4\footnote{\url{http://junit.org/junit4/}} repository. Gabrielle contributes to this repository often, which provides rich data regarding her experiences with programming concepts. I analyzed developer source code using the Eclipse JDT ASTParser~\cite{eclipseASTParser}. Analyzing code statically with the ASTParser detects the presence of concept-specific code. However, it cannot tell us who contributed that code. In order to predict individual developer knowledge, we need to be able to identify that developer's code contributions.
+Consider the code in Figure~\ref{fig:code}, which is a portion of code from the JUnit4 repository.\footnote{\url{http://junit.org/junit4/}} Gabrielle contributes to this repository often, which provides rich data regarding her experiences with programming concepts. I analyzed developer source code using the Eclipse JDT ASTParser~\cite{eclipseASTParser}. Analyzing code statically with the ASTParser detects the presence of concept-specific code. However, it cannot tell us who contributed that code. In order to predict individual developer knowledge, we need to be able to identify that developer's code contributions.
 
 Therefore, I used code bases in repositories so we could determine what developer made what contribution via the commit history. Since I chose the versioning platform Git,\footnote{\url{https://git-scm.com/}} I used JGit\footnote{\url{http://eclipse.org/jgit/}}, a Java library that allows for manipulation of Git repositories via Java code. Also,  next to SVN, Git is one of the most popular versioning softwares in use today.\footnote{\url{http://www.openhub.net/repositories/compare}}  Along with using ASTParser, I used JGit to analyze for individual developer code contributions. 
 
@@ -407,7 +404,7 @@ Based on the attributes used in the decision trees shown in Figure~\ref{fig:gen}
 
 \subsection{RQ\textsubscript{2} Findings}
 
-All three of the models that we trained using concept-specific attributes classified developers better than random chance ($>$ 50\%).
+All three of the models that we trained using concept-specific attributes classified developers with overall accuracy better than random chance ($>$ 50\%).
 As for comparing the concept-specific models to a more naive model, after using CFS during data analysis, I was able to identify relevant attributes before running cross-validation during tree building. For two of the three concepts evaluated, LOC did not appear in enough folds during attribute selection to be considered during decision tree learning. Even with the variables data, which only included various attributes pertaining to variable declaration, the most meaningful attributes were concept-specific. The only data set in which LOC appeared in more than two folds was the generics data set. This suggests that in some cases, LOC is not predictive of developer concept-specific knowledge.
 
 Upon closer examination of the generics models, overall model performance is higher in the Type Declaration model (74\%) than the LOC model (70\%), with increased precision and F-Score for beginner (\(+ 0.167\), \(+ 0.04\)) and intermediate (\(+ 0.09\), \(+ 0.1\)) classification and increased total precision (\(+ 0.05\)), recall (\(+ 0.04\)), and F-Score (\(+ 0.03\)). 

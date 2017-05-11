@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 MAY 2017 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAY 2017 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2425,33 +2425,9 @@ LaTeX Warning: Citation 'smith2015questions' on page 1 undefined on input line
 9.
 
 
-LaTeX Warning: Citation 'johnson2013don' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'smith2015questions' on page 1 undefined on input line 
-10.
-
-
-LaTeX Warning: Citation 'christakis2016developers' on page 1 undefined on input
- line 10.
-
-
 Overfull \hbox (60.44421pt too wide) in paragraph at lines 9--11
 []\T1/mdput/m/n/10.95 (-20) Research has found, how-ever, that de-vel-op-ers us
 e these tools in-fre-quently in prac-tice [[];
- []
-
-
-Overfull \hbox (0.85252pt too wide) in paragraph at lines 9--11
-\T1/mdput/m/n/10.95 (-20) tempt-ing to un-der-stand and re-solve prob-lems in t
-heir code [[]; [];
- []
-
-LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 10.29301pt on input line 20.
-
-Overfull \hbox (10.356pt too wide) in paragraph at lines 16--21
-[] 
  []
 
 [1
@@ -2461,553 +2437,571 @@ Overfull \hbox (10.356pt too wide) in paragraph at lines 16--21
 
 
 
-] <Chapter-2/figs/eclipse.png, id=663, 1414.28375pt x 1002.74625pt>
-File: Chapter-2/figs/eclipse.png Graphic file (type png)
-
-<use Chapter-2/figs/eclipse.png>
-Package pdftex.def Info: Chapter-2/figs/eclipse.png used on input line 28.
-(pdftex.def)             Requested size: 451.68752pt x 320.25803pt.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 29.
-LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 29.
-
-<Chapter-2/figs/eclipse-2.png, id=666, 1411.2725pt x 994.71625pt>
+] <Chapter-2/figs/eclipse-2.png, id=662, 1411.2725pt x 994.71625pt>
 File: Chapter-2/figs/eclipse-2.png Graphic file (type png)
 
 <use Chapter-2/figs/eclipse-2.png>
-Package pdftex.def Info: Chapter-2/figs/eclipse-2.png used on input line 41.
+Package pdftex.def Info: Chapter-2/figs/eclipse-2.png used on input line 17.
 (pdftex.def)             Requested size: 451.68752pt x 318.36124pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 18.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 9.40002pt on input line 18.
+LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
+(Font)              scaled to size 10.29301pt on input line 23.
  [2
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed.] [3 <./Chapter-2/figs/eclipse.png>] [4 <./Chapter-2/figs/eclipse-2.png>]
+ed. <./Chapter-2/figs/eclipse-2.png>]
+<Chapter-2/figs/eclipse.png, id=675, 1414.28375pt x 1002.74625pt>
+File: Chapter-2/figs/eclipse.png Graphic file (type png)
 
-LaTeX Warning: Reference `chap:rw' on page 5 undefined on input line 52.
+<use Chapter-2/figs/eclipse.png>
+Package pdftex.def Info: Chapter-2/figs/eclipse.png used on input line 33.
+(pdftex.def)             Requested size: 451.68752pt x 320.25803pt.
+ [3 <./Chapter-2/figs/eclipse.png>]
+Overfull \hbox (10.356pt too wide) in paragraph at lines 62--67
+[] 
+ []
 
-[5]) [6]
+[4]) [5]
 \openout2 = `Chapter-2/Chapter-2.aux'.
 
  (./Chapter-2/Chapter-2.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 13.53603pt on input line 4.
+(Font)              scaled to size 13.53603pt on input line 9.
 
-LaTeX Warning: Citation 'nielson2015principles' on page 7 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Citation 'robillard2014recommendation' on page 7 undefined on in
-put line 7.
+LaTeX Warning: Citation 'nielson2015principles' on page 6 undefined on input li
+ne 11.
 
 
-LaTeX Warning: Citation 'adolph2011using' on page 7 undefined on input line 8.
+LaTeX Warning: Citation 'robillard2014recommendation' on page 6 undefined on in
+put line 12.
 
 
-LaTeX Warning: Citation 'Murphy-Hill:2010:Ambient' on page 7 undefined on input
- line 8.
+LaTeX Warning: Citation 'adolph2011using' on page 6 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'ge2012reconciling' on page 7 undefined on input line 8
-.
+
+LaTeX Warning: Citation 'Murphy-Hill:2010:Ambient' on page 6 undefined on input
+ line 13.
+
+
+LaTeX Warning: Citation 'ge2012reconciling' on page 6 undefined on input line 1
+3.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 9.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 9.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 9.
+(Font)              scaled to size 8.46002pt on input line 14.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 9.
+(Font)              scaled to size 4.70001pt on input line 14.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 9.
+(Font)              scaled to size 5.64001pt on input line 14.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 9.63007pt on input line 14.
 
-LaTeX Warning: Citation 'ernst2003static' on page 7 undefined on input line 10.
+LaTeX Warning: Citation 'ernst2003static' on page 6 undefined on input line 15.
 
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 12.
+(Font)              scaled to size 11.28003pt on input line 17.
 
-LaTeX Warning: Citation 'ernst2003static' on page 7 undefined on input line 14.
-
-
-
-LaTeX Warning: Citation 'ernst2003static' on page 7 undefined on input line 15.
+LaTeX Warning: Citation 'ernst2003static' on page 6 undefined on input line 19.
 
 
-[7
+
+LaTeX Warning: Citation 'ernst2003static' on page 6 undefined on input line 20.
+
+
+[6
 
 
 
 ]
 
-LaTeX Warning: Citation 'ernst2003static' on page 8 undefined on input line 24.
+LaTeX Warning: Citation 'ernst2003static' on page 7 undefined on input line 29.
 
 
-[8] <Chapter-2/figs/eclemma.png, id=719, 1022.82124pt x 724.7075pt>
+[7] <Chapter-2/figs/eclemma.png, id=722, 1022.82124pt x 724.7075pt>
 File: Chapter-2/figs/eclemma.png Graphic file (type png)
 
 <use Chapter-2/figs/eclemma.png>
-Package pdftex.def Info: Chapter-2/figs/eclemma.png used on input line 32.
+Package pdftex.def Info: Chapter-2/figs/eclemma.png used on input line 37.
 (pdftex.def)             Requested size: 451.68752pt x 320.03339pt.
- [9 <./Chapter-2/figs/eclemma.png>]
+ [8 <./Chapter-2/figs/eclemma.png>]
 
-LaTeX Warning: Citation 'robillard2014recommendation' on page 10 undefined on i
-nput line 53.
+LaTeX Warning: Citation 'robillard2014recommendation' on page 9 undefined on in
+put line 58.
 
 
-Overfull \hbox (34.22823pt too wide) in paragraph at lines 53--56
+Overfull \hbox (34.22823pt too wide) in paragraph at lines 58--61
 \T1/mdput/m/n/10.95 (-20) pro-vide in-for-ma-tion to de-vel-op-ers com-plet-ing
  soft-ware en-gi-neer-ing tasks [[]].
  []
 
 
-LaTeX Warning: Citation 'robillard2014recommendation' on page 10 undefined on i
-nput line 57.
+LaTeX Warning: Citation 'robillard2014recommendation' on page 9 undefined on in
+put line 62.
 
 
-Overfull \hbox (22.97197pt too wide) in paragraph at lines 57--60
+Overfull \hbox (22.97197pt too wide) in paragraph at lines 62--65
 []\T1/mdput/m/n/10.95 (-20) There are a va-ri-ety of ways that a tool can get t
 he at-ten-tion of its user [[]].
  []
 
-[10] <Chapter-2/figs/cobertura.png, id=735, 802.49812pt x 427.5975pt>
+[9] <Chapter-2/figs/cobertura.png, id=740, 802.49812pt x 427.5975pt>
 File: Chapter-2/figs/cobertura.png Graphic file (type png)
 
 <use Chapter-2/figs/cobertura.png>
-Package pdftex.def Info: Chapter-2/figs/cobertura.png used on input line 65.
+Package pdftex.def Info: Chapter-2/figs/cobertura.png used on input line 70.
 (pdftex.def)             Requested size: 216.81pt x 115.52463pt.
 
-<Chapter-2/figs/jslice.jpg, id=736, 656.4525pt x 454.69875pt>
+<Chapter-2/figs/jslice.jpg, id=741, 656.4525pt x 454.69875pt>
 File: Chapter-2/figs/jslice.jpg Graphic file (type jpg)
 
 <use Chapter-2/figs/jslice.jpg>
-Package pdftex.def Info: Chapter-2/figs/jslice.jpg used on input line 72.
+Package pdftex.def Info: Chapter-2/figs/jslice.jpg used on input line 77.
 (pdftex.def)             Requested size: 216.81pt x 150.17593pt.
 
-<Chapter-2/figs/coverity-dynamic.png, id=742, 413.545pt x 329.23pt>
+<Chapter-2/figs/coverity-dynamic.png, id=749, 413.545pt x 329.23pt>
 File: Chapter-2/figs/coverity-dynamic.png Graphic file (type png)
 
 <use Chapter-2/figs/coverity-dynamic.png>
 Package pdftex.def Info: Chapter-2/figs/coverity-dynamic.png used on input line
- 82.
+ 87.
 (pdftex.def)             Requested size: 216.81pt x 172.6072pt.
 
 
-LaTeX Warning: Citation 'Murphy-Hill:2010:Ambient' on page 11 undefined on inpu
-t line 87.
+LaTeX Warning: Citation 'Murphy-Hill:2010:Ambient' on page 10 undefined on inpu
+t line 92.
 
-[11 <./Chapter-2/figs/cobertura.png>] [12 <./Chapter-2/figs/jslice.jpg> <./Chap
+[10 <./Chapter-2/figs/cobertura.png>] [11 <./Chapter-2/figs/jslice.jpg> <./Chap
 ter-2/figs/coverity-dynamic.png>]
-<Chapter-2/figs/stenchblossom.pdf, id=757, 614.295pt x 794.97pt>
+<Chapter-2/figs/stenchblossom.pdf, id=763, 614.295pt x 794.97pt>
 File: Chapter-2/figs/stenchblossom.pdf Graphic file (type pdf)
 
 <use Chapter-2/figs/stenchblossom.pdf>
-Package pdftex.def Info: Chapter-2/figs/stenchblossom.pdf used on input line 91
+Package pdftex.def Info: Chapter-2/figs/stenchblossom.pdf used on input line 96
 .
 (pdftex.def)             Requested size: 216.81pt x 280.57268pt.
 
-<Chapter-2/figs/witchdoctor.png, id=758, 321.2pt x 179.67125pt>
+
+LaTeX Warning: Citation 'Murphy-Hill:2010:Ambient' on page 12 undefined on inpu
+t line 97.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]\T1/mdput/b/n/10 Figure 2.5 |\T1/mdput/m/n/10 (+20) No-ti-fi-ca-tions pro-vid
+ed by Stench-Blos-som re-gard-ing code smells. Fig-ure 
+ []
+
+<Chapter-2/figs/witchdoctor.png, id=764, 321.2pt x 179.67125pt>
 File: Chapter-2/figs/witchdoctor.png Graphic file (type png)
 
 <use Chapter-2/figs/witchdoctor.png>
-Package pdftex.def Info: Chapter-2/figs/witchdoctor.png used on input line 98.
+Package pdftex.def Info: Chapter-2/figs/witchdoctor.png used on input line 103.
+
 (pdftex.def)             Requested size: 216.81pt x 121.28107pt.
 
 
-LaTeX Warning: Citation 'van2004concepts' on page 13 undefined on input line 11
-3.
+LaTeX Warning: Citation 'murphy2014recommendation' on page 12 undefined on inpu
+t line 104.
 
 
-LaTeX Warning: Citation 'biggerstaff1994program' on page 13 undefined on input 
-line 113.
+LaTeX Warning: Citation 'van2004concepts' on page 12 undefined on input line 11
+8.
 
 
-LaTeX Warning: Citation 'jazayeri1997programming' on page 13 undefined on input
- line 115.
+LaTeX Warning: Citation 'biggerstaff1994program' on page 12 undefined on input 
+line 118.
 
 
-Overfull \hbox (58.30196pt too wide) in paragraph at lines 112--117
+LaTeX Warning: Citation 'jazayeri1997programming' on page 12 undefined on input
+ line 120.
+
+
+Overfull \hbox (58.30196pt too wide) in paragraph at lines 117--122
 \T1/mdput/m/n/10.95 (-20) fes-ta-tion of programming-oriented and human-oriente
 d con-cepts [[]; []].
  []
 
-[13 <./Chapter-2/figs/stenchblossom.pdf>]
-<Chapter-2/figs/code-example.pdf, id=778, 794.97pt x 614.295pt>
+[12 <./Chapter-2/figs/stenchblossom.pdf>]
+<Chapter-2/figs/code-example.pdf, id=786, 794.97pt x 614.295pt>
 File: Chapter-2/figs/code-example.pdf Graphic file (type pdf)
 
 <use Chapter-2/figs/code-example.pdf>
-Package pdftex.def Info: Chapter-2/figs/code-example.pdf used on input line 123
+Package pdftex.def Info: Chapter-2/figs/code-example.pdf used on input line 128
 .
 (pdftex.def)             Requested size: 451.68752pt x 349.03635pt.
- [14 <./Chapter-2/figs/witchdoctor.png>]
+ [13 <./Chapter-2/figs/witchdoctor.png>]
 
-LaTeX Warning: Citation 'Ayewah:2008:FindBugs' on page 15 undefined on input li
-ne 145.
-
-
-LaTeX Warning: Citation 'Bessey:2010:Coverity' on page 15 undefined on input li
-ne 145.
+LaTeX Warning: Citation 'Ayewah:2008:FindBugs' on page 14 undefined on input li
+ne 150.
 
 
-LaTeX Warning: Citation 'dugan2000developing' on page 15 undefined on input lin
-e 145.
+LaTeX Warning: Citation 'Bessey:2010:Coverity' on page 14 undefined on input li
+ne 150.
 
 
-LaTeX Warning: Citation 'luk2005pin' on page 15 undefined on input line 145.
+LaTeX Warning: Citation 'dugan2000developing' on page 14 undefined on input lin
+e 150.
 
 
-LaTeX Warning: Citation 'Dastani:2002:Perception' on page 15 undefined on input
- line 148.
+LaTeX Warning: Citation 'luk2005pin' on page 14 undefined on input line 150.
 
 
-Overfull \hbox (28.38776pt too wide) in paragraph at lines 144--151
+LaTeX Warning: Citation 'Dastani:2002:Perception' on page 14 undefined on input
+ line 153.
+
+
+Overfull \hbox (28.38776pt too wide) in paragraph at lines 149--156
 \T1/mdput/m/n/10.95 (-20) plays an im-por-tant role in when con-sid-er-ing hu-m
 an and com-puter in-ter-ac-tions [[]]
  []
 
-[15 <./Chapter-2/figs/code-example.pdf, page is rotated 90 degrees>]
+[14 <./Chapter-2/figs/code-example.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Citation 'pettit2017enhanced' on page 16 undefined on input line
- 153.
+LaTeX Warning: Citation 'pettit2017enhanced' on page 15 undefined on input line
+ 158.
 
 
-Overfull \hbox (40.84166pt too wide) in paragraph at lines 153--157
+Overfull \hbox (42.3959pt too wide) in paragraph at lines 158--162
 []\T1/mdput/m/n/10.95 (-20) Pettit and col-leagues stud-ied the ef-fect of en-h
-anced com-piler mes-sages for students[[]].
+anced com-piler mes-sages for stu-dents [[]].
  []
 
 
-LaTeX Warning: Citation 'hamou2004survey' on page 16 undefined on input line 15
-9.
+LaTeX Warning: Citation 'hamou2004survey' on page 15 undefined on input line 16
+4.
 
 
-LaTeX Warning: Citation 'pacione2003comparative' on page 16 undefined on input 
-line 162.
+LaTeX Warning: Citation 'pacione2003comparative' on page 15 undefined on input 
+line 167.
 
 
-LaTeX Warning: Citation 'storey1997rigi' on page 16 undefined on input line 164
+LaTeX Warning: Citation 'storey1997rigi' on page 15 undefined on input line 169
 .
 
 
-LaTeX Warning: Citation 'bennett2008survey' on page 16 undefined on input line 
-165.
+LaTeX Warning: Citation 'bennett2008survey' on page 15 undefined on input line 
+170.
 
 
-LaTeX Warning: Citation 'Ayewah:2008:FBSurvey' on page 16 undefined on input li
-ne 171.
+LaTeX Warning: Citation 'Ayewah:2008:FBSurvey' on page 15 undefined on input li
+ne 176.
 
 
-LaTeX Warning: Citation 'Ayewah:2009:Checklists' on page 16 undefined on input 
-line 175.
+LaTeX Warning: Citation 'Ayewah:2009:Checklists' on page 15 undefined on input 
+line 180.
 
-[16]
+[15]
 
-LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 17 undefined on inpu
-t line 185.
-
-
-LaTeX Warning: Citation 'Heckman:2008:Faultbench' on page 17 undefined on input
- line 208.
+LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 16 undefined on inpu
+t line 190.
 
 
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 17 undefined on input li
-ne 212.
+LaTeX Warning: Citation 'Heckman:2008:Faultbench' on page 16 undefined on input
+ line 213.
 
 
-LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 17 undefined on inp
-ut line 220.
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 16 undefined on input li
+ne 217.
 
 
-LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 17 undefined on input
- line 220.
+LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 16 undefined on inp
+ut line 225.
 
 
-LaTeX Warning: Citation 'pham2015automatically' on page 17 undefined on input l
-ine 220.
+LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 16 undefined on input
+ line 225.
 
 
-LaTeX Warning: Citation 'fritz2014developers' on page 17 undefined on input lin
-e 220.
+LaTeX Warning: Citation 'pham2015automatically' on page 16 undefined on input l
+ine 225.
 
 
-Overfull \hbox (120.33083pt too wide) in paragraph at lines 220--227
+LaTeX Warning: Citation 'fritz2014developers' on page 16 undefined on input lin
+e 225.
+
+
+Overfull \hbox (120.33083pt too wide) in paragraph at lines 225--232
 \T1/mdput/m/n/10.95 (-20) Existing re-search has fo-cused on eas-ing the pro-ce
 ss of un-der-stand-ing and re-solv-ing no-ti-fi-ca-tions [[];
  []
 
 
-Overfull \hbox (1.26498pt too wide) in paragraph at lines 220--227
+Overfull \hbox (1.26498pt too wide) in paragraph at lines 225--232
 []\T1/mdput/m/n/10.95 (-20) ; []; []] from one par-tic-u-lar tool.
  []
 
 
-LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 17 undefined on inp
-ut line 228.
+LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 16 undefined on inp
+ut line 233.
 
 
-LaTeX Warning: Citation 'Traver:2010:Messages' on page 17 undefined on input li
-ne 228.
+LaTeX Warning: Citation 'Traver:2010:Messages' on page 16 undefined on input li
+ne 233.
 
 
-LaTeX Warning: Citation 'barik14' on page 17 undefined on input line 228.
+LaTeX Warning: Citation 'barik14' on page 16 undefined on input line 233.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 10.29301pt on input line 229.
+(Font)              scaled to size 10.29301pt on input line 234.
 
-LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 17 undefined on inp
-ut line 229.
-
-
-LaTeX Warning: Citation 'Traver:2010:Messages' on page 17 undefined on input li
-ne 229.
-
-[17]
-
-LaTeX Warning: Citation 'Nienaltowski:2008:Compiler' on page 18 undefined on in
-put line 231.
+LaTeX Warning: Citation 'Hartmann:2010:Suggestions' on page 16 undefined on inp
+ut line 234.
 
 
-LaTeX Warning: Citation 'Rigby:2005:Novice' on page 18 undefined on input line 
-232.
+LaTeX Warning: Citation 'Traver:2010:Messages' on page 16 undefined on input li
+ne 234.
+
+[16]
+
+LaTeX Warning: Citation 'Nienaltowski:2008:Compiler' on page 17 undefined on in
+put line 236.
 
 
-LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 18 undefined on input
- line 234.
+LaTeX Warning: Citation 'Rigby:2005:Novice' on page 17 undefined on input line 
+237.
 
 
-LaTeX Warning: Citation 'mucslu2012improving' on page 18 undefined on input lin
-e 235.
+LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 17 undefined on input
+ line 239.
 
 
-LaTeX Warning: Citation 'barik14' on page 18 undefined on input line 236.
+LaTeX Warning: Citation 'mucslu2012improving' on page 17 undefined on input lin
+e 240.
 
 
-LaTeX Warning: Citation 'mettrey1991comparative' on page 18 undefined on input 
-line 241.
+LaTeX Warning: Citation 'barik14' on page 17 undefined on input line 241.
 
 
-LaTeX Warning: Citation 'wagner2008evaluation' on page 18 undefined on input li
-ne 242.
+LaTeX Warning: Citation 'mettrey1991comparative' on page 17 undefined on input 
+line 246.
 
 
-LaTeX Warning: Citation 'roy2009comparison' on page 18 undefined on input line 
-243.
+LaTeX Warning: Citation 'wagner2008evaluation' on page 17 undefined on input li
+ne 247.
 
 
-LaTeX Warning: Citation 'zheng2006value' on page 18 undefined on input line 243
+LaTeX Warning: Citation 'roy2009comparison' on page 17 undefined on input line 
+248.
+
+
+LaTeX Warning: Citation 'zheng2006value' on page 17 undefined on input line 248
 .
 
 
-Overfull \hbox (32.30324pt too wide) in paragraph at lines 240--244
+Overfull \hbox (32.30324pt too wide) in paragraph at lines 245--249
 \T1/mdput/m/n/10.95 (-20) leagues com-pared two anal-y-sis tools that de-tect d
 e-fects to eval-u-ate their ef-fi-ciency [[]].
  []
 
 
-LaTeX Warning: Citation 'barik14' on page 18 undefined on input line 245.
+LaTeX Warning: Citation 'barik14' on page 17 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'xiao2014social' on page 18 undefined on input line 245
+LaTeX Warning: Citation 'xiao2014social' on page 17 undefined on input line 250
 .
 
 
-LaTeX Warning: Citation 'riemenschneider2001explaining' on page 18 undefined on
- input line 245.
+LaTeX Warning: Citation 'riemenschneider2001explaining' on page 17 undefined on
+ input line 250.
 
 
-LaTeX Warning: Citation 'barik14' on page 18 undefined on input line 246.
+LaTeX Warning: Citation 'barik14' on page 17 undefined on input line 251.
 
 
-LaTeX Warning: Citation 'xiao2014social' on page 18 undefined on input line 248
+LaTeX Warning: Citation 'xiao2014social' on page 17 undefined on input line 253
 .
 
 
-LaTeX Warning: Citation 'riemenschneider2001explaining' on page 18 undefined on
- input line 249.
+LaTeX Warning: Citation 'riemenschneider2001explaining' on page 17 undefined on
+ input line 254.
 
 
-LaTeX Warning: Citation 'lawrance2013programmers' on page 18 undefined on input
- line 250.
+LaTeX Warning: Citation 'lawrance2013programmers' on page 17 undefined on input
+ line 255.
+
+[17]
+
+LaTeX Warning: Citation 'fritz2010degree' on page 18 undefined on input line 26
+0.
+
+
+LaTeX Warning: Citation 'murray1999authoring' on page 18 undefined on input lin
+e 262.
+
+
+LaTeX Warning: Citation 'amershi2007unsupervised' on page 18 undefined on input
+ line 264.
+
+
+LaTeX Warning: Citation 'stamper2009unsupervised' on page 18 undefined on input
+ line 265.
+
+
+LaTeX Warning: Citation 'schlungbaum1996model' on page 18 undefined on input li
+ne 268.
+
+
+LaTeX Warning: Citation 'lonczewski1996fuse' on page 18 undefined on input line
+ 268.
+
+
+LaTeX Warning: Citation 'zou2008adapting' on page 18 undefined on input line 26
+8.
+
+
+LaTeX Warning: Citation 'fritz2010degree' on page 18 undefined on input line 27
+2.
+
+
+LaTeX Warning: Citation 'stylos2009improving' on page 18 undefined on input lin
+e 273.
+
+
+LaTeX Warning: Citation 'perscheid2012test' on page 18 undefined on input line 
+274.
 
 [18]
 
-LaTeX Warning: Citation 'fritz2010degree' on page 19 undefined on input line 25
-5.
+LaTeX Warning: Citation 'eagle2015measuring' on page 19 undefined on input line
+ 276.
 
 
-LaTeX Warning: Citation 'murray1999authoring' on page 19 undefined on input lin
-e 257.
+LaTeX Warning: Citation 'hicks2014building' on page 19 undefined on input line 
+276.
 
-
-LaTeX Warning: Citation 'amershi2007unsupervised' on page 19 undefined on input
- line 259.
-
-
-LaTeX Warning: Citation 'stamper2009unsupervised' on page 19 undefined on input
- line 260.
-
-
-LaTeX Warning: Citation 'schlungbaum1996model' on page 19 undefined on input li
-ne 263.
-
-
-LaTeX Warning: Citation 'lonczewski1996fuse' on page 19 undefined on input line
- 263.
-
-
-LaTeX Warning: Citation 'zou2008adapting' on page 19 undefined on input line 26
-3.
-
-
-LaTeX Warning: Citation 'fritz2010degree' on page 19 undefined on input line 26
-7.
-
-
-LaTeX Warning: Citation 'stylos2009improving' on page 19 undefined on input lin
-e 268.
-
-
-LaTeX Warning: Citation 'perscheid2012test' on page 19 undefined on input line 
-269.
-
-[19]
-
-LaTeX Warning: Citation 'eagle2015measuring' on page 20 undefined on input line
- 271.
-
-
-LaTeX Warning: Citation 'hicks2014building' on page 20 undefined on input line 
-271.
-
-) [20]
+) [19]
 \openout2 = `Chapter-3/Chapter-3.aux'.
 
  (./Chapter-3/Chapter-3.tex
 Chapter 3.
 
-LaTeX Warning: Citation 'Ayewah:2008:FindBugs' on page 21 undefined on input li
+LaTeX Warning: Citation 'Ayewah:2008:FindBugs' on page 20 undefined on input li
 ne 7.
 
 
-LaTeX Warning: Citation 'ge2012reconciling' on page 21 undefined on input line 
+LaTeX Warning: Citation 'ge2012reconciling' on page 20 undefined on input line 
 7.
 
 
-LaTeX Warning: Citation 'Bessey:2010:Coverity' on page 21 undefined on input li
-ne 11.
+LaTeX Warning: Citation 'Bessey:2010:Coverity' on page 20 undefined on input li
+ne 8.
 
 
-LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 21 undefined on inpu
-t line 11.
+LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 20 undefined on inpu
+t line 8.
 
 
-LaTeX Warning: Citation 'johnson2013don' on page 21 undefined on input line 14.
+LaTeX Warning: Citation 'johnson2013don' on page 20 undefined on input line 13.
 
 
 
-LaTeX Warning: Citation 'Johnson:1978:Lint' on page 21 undefined on input line 
-16.
+LaTeX Warning: Citation 'Johnson:1978:Lint' on page 20 undefined on input line 
+15.
 
 
-LaTeX Warning: Citation 'IntelliJIDEA' on page 21 undefined on input line 17.
+LaTeX Warning: Citation 'IntelliJIDEA' on page 20 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'PMD' on page 21 undefined on input line 18.
+LaTeX Warning: Citation 'PMD' on page 20 undefined on input line 17.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 23.
+               Default added (so using `tbp') on input line 22.
 
 
-Overfull \hbox (47.7943pt too wide) in paragraph at lines 28--55
+Overfull \hbox (47.7943pt too wide) in paragraph at lines 27--54
  [][] 
  []
 
 
-LaTeX Warning: Citation 'Hove:2005:Interview' on page 21 undefined on input lin
-e 61.
+LaTeX Warning: Citation 'Hove:2005:Interview' on page 20 undefined on input lin
+e 60.
 
 
-LaTeX Warning: Citation 'Johnson:2012:PreFFSAT' on page 21 undefined on input l
-ine 66.
+LaTeX Warning: Citation 'Johnson:2012:PreFFSAT' on page 20 undefined on input l
+ine 65.
 
-[21
-
-
-
-] [22]
-LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 9.63007pt on input line 72.
+[20
 
 
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 23 undefined on input li
-ne 81.
+
+] [21]
+
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 22 undefined on input li
+ne 80.
+
+[22]
+
+LaTeX Warning: Citation 'Robertson:2004:Interruption' on page 23 undefined on i
+nput line 118.
+
+
+LaTeX Warning: Citation 'Gluck:2007:Attentional' on page 23 undefined on input 
+line 118.
+
+
+LaTeX Warning: Citation 'Lewis:1982:ThinkAloudProtocol' on page 23 undefined on
+ input line 150.
+
+
+LaTeX Warning: Citation 'Johnson:2012:PreFFSAT' on page 23 undefined on input l
+ine 154.
 
 [23]
 
-LaTeX Warning: Citation 'Robertson:2004:Interruption' on page 24 undefined on i
-nput line 119.
+LaTeX Warning: Citation 'log4j' on page 24 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'Gluck:2007:Attentional' on page 24 undefined on input 
-line 119.
+LaTeX Warning: Citation 'ANT' on page 24 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'Lewis:1982:ThinkAloudProtocol' on page 24 undefined on
- input line 151.
+LaTeX Warning: Citation 'Spinuzzi:2005:Participatory' on page 24 undefined on i
+nput line 184.
 
 
 LaTeX Warning: Citation 'Johnson:2012:PreFFSAT' on page 24 undefined on input l
-ine 155.
-
-[24]
-
-LaTeX Warning: Citation 'log4j' on page 25 undefined on input line 172.
+ine 189.
 
 
-LaTeX Warning: Citation 'ANT' on page 25 undefined on input line 172.
+LaTeX Warning: Citation 'Gordon:1998:Coding' on page 24 undefined on input line
+ 199.
 
+[24] [25] [26]
 
-LaTeX Warning: Citation 'Spinuzzi:2005:Participatory' on page 25 undefined on i
-nput line 185.
-
-
-LaTeX Warning: Citation 'Johnson:2012:PreFFSAT' on page 25 undefined on input l
-ine 190.
-
-
-LaTeX Warning: Citation 'Gordon:1998:Coding' on page 25 undefined on input line
- 200.
-
-[25] [26] [27]
-
-LaTeX Warning: File `Chapter-3/figs/results.eps' not found on input line 304.
+LaTeX Warning: File `Chapter-3/figs/results.eps' not found on input line 303.
 
 Package epstopdf Info: Source file: <Chapter-3/figs/results.eps>
 (epstopdf)             Output file: <Chapter-3/figs/results-eps-converted-to.pd
@@ -3016,63 +3010,63 @@ f>
 (epstopdf)                    size: 5050 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter-3/figs/results-eps
 -converted-to.pdf Chapter-3/figs/results.eps>
-(epstopdf)             \includegraphics on input line 304.
+(epstopdf)             \includegraphics on input line 303.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter-3/figs/results-eps-converted-to.pdf, id=874, 690.58pt x 204.765pt>
+<Chapter-3/figs/results-eps-converted-to.pdf, id=880, 690.58pt x 204.765pt>
 File: Chapter-3/figs/results-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/results-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter-3/figs/results-eps-converted-to.pdf used on in
-put line 304.
+put line 303.
 (pdftex.def)             Requested size: 448.87167pt x 133.09566pt.
- [28 <./Chapter-3/figs/results-eps-converted-to.pdf>]
+ [27 <./Chapter-3/figs/results-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation 'Shen:2011:EFindBugs' on page 29 undefined on input lin
-e 353.
-
-
-LaTeX Warning: Citation 'Ayewah:2010:GFF' on page 29 undefined on input line 35
-5.
+LaTeX Warning: Citation 'Shen:2011:EFindBugs' on page 28 undefined on input lin
+e 352.
 
 
-LaTeX Warning: Citation 'FindBugsCloud' on page 29 undefined on input line 386.
+LaTeX Warning: Citation 'Ayewah:2010:GFF' on page 28 undefined on input line 35
+4.
 
 
-[29] [30]
-
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 31 undefined on input li
-ne 470.
-
-[31] [32]
-
-LaTeX Warning: Citation 'Murphy-Hill:2008:RefactoringTools' on page 33 undefine
-d on input line 554.
+LaTeX Warning: Citation 'FindBugsCloud' on page 28 undefined on input line 385.
 
 
-LaTeX Warning: Citation 'Ayewah:2010:GFF' on page 33 undefined on input line 55
-9.
+[28] [29]
+
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 30 undefined on input li
+ne 469.
+
+[30] [31]
+
+LaTeX Warning: Citation 'Murphy-Hill:2008:RefactoringTools' on page 32 undefine
+d on input line 553.
+
+
+LaTeX Warning: Citation 'Ayewah:2010:GFF' on page 32 undefined on input line 55
+8.
+
+[32]
+
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 33 undefined on input li
+ne 602.
+
+
+LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 33 undefined on inpu
+t line 636.
 
 [33]
 
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 34 undefined on input li
-ne 603.
+LaTeX Warning: Citation 'Oberg:1992:Gradients' on page 34 undefined on input li
+ne 648.
 
 
-LaTeX Warning: Citation 'Khoo:2008:PathProjection' on page 34 undefined on inpu
-t line 637.
-
-[34]
-
-LaTeX Warning: Citation 'Oberg:1992:Gradients' on page 35 undefined on input li
-ne 649.
-
-
-LaTeX Warning: Citation 'Murphy-Hill:2010:StenchBlossom' on page 35 undefined o
-n input line 649.
+LaTeX Warning: Citation 'Murphy-Hill:2010:StenchBlossom' on page 34 undefined o
+n input line 648.
 
 
 LaTeX Warning: File `Chapter-3/figs/participatory.eps' not found on input line 
-665.
+664.
 
 Package epstopdf Info: Source file: <Chapter-3/figs/participatory.eps>
 (epstopdf)             Output file: <Chapter-3/figs/participatory-eps-converted
@@ -3081,953 +3075,952 @@ Package epstopdf Info: Source file: <Chapter-3/figs/participatory.eps>
 (epstopdf)                    size: 808937 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter-3/figs/participato
 ry-eps-converted-to.pdf Chapter-3/figs/participatory.eps>
-(epstopdf)             \includegraphics on input line 665.
+(epstopdf)             \includegraphics on input line 664.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapter-3/figs/participatory-eps-converted-to.pdf, id=913, 451.6875pt x 439.64
+<Chapter-3/figs/participatory-eps-converted-to.pdf, id=919, 451.6875pt x 439.64
 25pt>
 File: Chapter-3/figs/participatory-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Chapter-3/figs/participatory-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter-3/figs/participatory-eps-converted-to.pdf used
- on input line 665.
+ on input line 664.
 (pdftex.def)             Requested size: 225.84319pt x 219.82071pt.
- [35 <./Chapter-3/figs/participatory-eps-converted-to.pdf>]
+ [34 <./Chapter-3/figs/participatory-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 36 undefined on input li
-ne 682.
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 35 undefined on input li
+ne 681.
 
 
-LaTeX Warning: Citation 'Threats' on page 36 undefined on input line 716.
+LaTeX Warning: Citation 'Threats' on page 35 undefined on input line 715.
 
-[36]
+[35]
 
-LaTeX Warning: Citation 'barik2016quick' on page 37 undefined on input line 741
+LaTeX Warning: Citation 'barik2016quick' on page 36 undefined on input line 740
 .
 
 
-LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 37 undefined on input
- line 745.
+LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 36 undefined on input
+ line 744.
 
 
-Overfull \hbox (32.6883pt too wide) in paragraph at lines 743--749
+Overfull \hbox (32.6883pt too wide) in paragraph at lines 742--748
 \T1/mdput/m/n/10.95 (-20) could po-ten-tially lead to more prob-lems, such as t
 he in-tro-duc-tion of new de-fects [[]].
  []
 
-) [37] [38]
+) [36] [37]
 \openout2 = `Chapter-4/Chapter-4.aux'.
 
  (./Chapter-4/Chapter-4.tex
 Chapter 4.
 
-LaTeX Warning: Citation 'bowman1987modeling' on page 39 undefined on input line
- 8.
+LaTeX Warning: Citation 'bowman1987modeling' on page 38 undefined on input line
+ 10.
 
 
-LaTeX Warning: Citation 'mustajoki2008modelling' on page 39 undefined on input 
-line 9.
+LaTeX Warning: Citation 'mustajoki2008modelling' on page 38 undefined on input 
+line 11.
 
 
-LaTeX Warning: Citation 'corbin2014basics' on page 39 undefined on input line 1
-3.
+LaTeX Warning: Citation 'corbin2014basics' on page 38 undefined on input line 1
+6.
 
 
-LaTeX Warning: Citation 'hannay2007systematic' on page 39 undefined on input li
-ne 13.
+LaTeX Warning: Citation 'hannay2007systematic' on page 38 undefined on input li
+ne 16.
 
 
-LaTeX Warning: Citation 'lawrance2013programmers' on page 39 undefined on input
- line 13.
+LaTeX Warning: Citation 'lawrance2013programmers' on page 38 undefined on input
+ line 16.
 
 
-LaTeX Warning: Citation 'pirolli1999information' on page 39 undefined on input 
-line 14.
+LaTeX Warning: Citation 'pirolli1999information' on page 38 undefined on input 
+line 17.
 
 
-LaTeX Warning: Citation 'bowman1987modeling' on page 39 undefined on input line
- 14.
+LaTeX Warning: Citation 'bowman1987modeling' on page 38 undefined on input line
+ 17.
 
-[39
+
+Overfull \hbox (16.05339pt too wide) in paragraph at lines 14--19
+\T1/mdput/m/n/10.95 (-20) same way that Lawrance and col-leagues' build on in-f
+or-ma-tion for-ag-ing the-ory [[]],
+ []
+
+[38
 
 
 
 ]
 
-LaTeX Warning: Citation 'johnson2013don' on page 40 undefined on input line 31.
+LaTeX Warning: Citation 'hannay2007systematic' on page 39 undefined on input li
+ne 36.
 
-
-
-LaTeX Warning: Citation 'hannay2007systematic' on page 40 undefined on input li
-ne 33.
-
-<Chapter-4/figs/participants.pdf, id=1343, 693.35048pt x 141.41783pt>
+<Chapter-4/figs/participants.pdf, id=1350, 693.35048pt x 141.41783pt>
 File: Chapter-4/figs/participants.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/participants.pdf>
-Package pdftex.def Info: Chapter-4/figs/participants.pdf used on input line 38.
+Package pdftex.def Info: Chapter-4/figs/participants.pdf used on input line 41.
 
 (pdftex.def)             Requested size: 451.68752pt x 92.12764pt.
- [40 <./Chapter-4/figs/participants.pdf>]
+ [39 <./Chapter-4/figs/participants.pdf>]
 
-LaTeX Warning: Citation 'EclipseIDE' on page 41 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Goth:2005:Beware' on page 41 undefined on input line 6
-5.
+LaTeX Warning: Citation 'EclipseIDE' on page 40 undefined on input line 67.
 
 
-Overfull \hbox (3.60779pt too wide) in paragraph at lines 63--69
+LaTeX Warning: Citation 'Goth:2005:Beware' on page 40 undefined on input line 6
+8.
+
+
+Overfull \hbox (3.60779pt too wide) in paragraph at lines 66--72
 \T1/mdput/m/n/10.95 (-20) (IDE) [[]]. I chose Eclipse be-cause it is one of the
  most widely used IDEs [[]],
  []
 
-<Chapter-4/figs/bug.png, id=1361, 9.03375pt x 17.31468pt>
+<Chapter-4/figs/bug.png, id=1368, 9.03375pt x 17.31468pt>
 File: Chapter-4/figs/bug.png Graphic file (type png)
 
 <use Chapter-4/figs/bug.png>
-Package pdftex.def Info: Chapter-4/figs/bug.png used on input line 74.
+Package pdftex.def Info: Chapter-4/figs/bug.png used on input line 77.
 (pdftex.def)             Requested size: 4.71327pt x 9.03378pt.
 File: Chapter-4/figs/bug.png Graphic file (type png)
  <use Chapter-4/figs/bug.png>
-Package pdftex.def Info: Chapter-4/figs/bug.png used on input line 77.
+Package pdftex.def Info: Chapter-4/figs/bug.png used on input line 80.
 (pdftex.def)             Requested size: 4.71327pt x 9.03378pt.
 
-<Chapter-4/figs/N4(no_tooltip).png, id=1363, 362.10281pt x 79.79813pt>
+<Chapter-4/figs/N4(no_tooltip).png, id=1370, 362.10281pt x 79.79813pt>
 File: Chapter-4/figs/N4(no_tooltip).png Graphic file (type png)
 
 <use Chapter-4/figs/N4(no_tooltip).png>
-Package pdftex.def Info: Chapter-4/figs/N4(no_tooltip).png used on input line 8
-7.
+Package pdftex.def Info: Chapter-4/figs/N4(no_tooltip).png used on input line 9
+0.
 (pdftex.def)             Requested size: 238.49121pt x 52.55733pt.
 
-Overfull \hbox (4.65244pt too wide) in paragraph at lines 103--118
+Overfull \hbox (4.65244pt too wide) in paragraph at lines 106--121
 [][]
  []
 
 
-Overfull \hbox (4.65244pt too wide) in paragraph at lines 103--118
+Overfull \hbox (4.65244pt too wide) in paragraph at lines 106--121
 [][] 
  []
 
 
-LaTeX Warning: Citation 'EclipseCompiler' on page 41 undefined on input line 12
-5.
+LaTeX Warning: Citation 'EclipseCompiler' on page 40 undefined on input line 12
+8.
 
-<Chapter-4/figs/comp-x.png, id=1364, 9.03375pt x 14.30344pt>
+<Chapter-4/figs/comp-x.png, id=1371, 9.03375pt x 14.30344pt>
 File: Chapter-4/figs/comp-x.png Graphic file (type png)
 
 <use Chapter-4/figs/comp-x.png>
-Package pdftex.def Info: Chapter-4/figs/comp-x.png used on input line 129.
+Package pdftex.def Info: Chapter-4/figs/comp-x.png used on input line 132.
 (pdftex.def)             Requested size: 5.70575pt x 9.03378pt.
 File: Chapter-4/figs/comp-x.png Graphic file (type png)
  <use Chapter-4/figs/comp-x.png>
-Package pdftex.def Info: Chapter-4/figs/comp-x.png used on input line 131.
+Package pdftex.def Info: Chapter-4/figs/comp-x.png used on input line 134.
 (pdftex.def)             Requested size: 5.70575pt x 9.03378pt.
 
 
-LaTeX Warning: Reference `Comptext' on page 41 undefined on input line 132.
+LaTeX Warning: Reference `Comptext' on page 40 undefined on input line 135.
 
-<Chapter-4/figs/comp-notification.png, id=1366, 303.38344pt x 66.2475pt>
+<Chapter-4/figs/comp-notification.png, id=1373, 303.38344pt x 66.2475pt>
 File: Chapter-4/figs/comp-notification.png Graphic file (type png)
 
 <use Chapter-4/figs/comp-notification.png>
 Package pdftex.def Info: Chapter-4/figs/comp-notification.png used on input lin
-e 141.
+e 144.
 (pdftex.def)             Requested size: 238.49121pt x 52.07819pt.
 
-Overfull \hbox (2.32622pt too wide) in paragraph at lines 141--152
+Overfull \hbox (2.32622pt too wide) in paragraph at lines 144--155
  [][] 
  []
 
 
-Overfull \hbox (4.65244pt too wide) in paragraph at lines 141--152
+Overfull \hbox (4.65244pt too wide) in paragraph at lines 144--155
  [][] 
  []
 
-[41 <./Chapter-4/figs/bug.png> <./Chapter-4/figs/comp-x.png>]
+[40 <./Chapter-4/figs/bug.png> <./Chapter-4/figs/comp-x.png>]
 
-LaTeX Warning: Citation 'JUnit' on page 42 undefined on input line 160.
+LaTeX Warning: Citation 'JUnit' on page 41 undefined on input line 163.
 
-<Chapter-4/figs/diamond.png, id=1374, 9.03375pt x 11.29219pt>
+<Chapter-4/figs/diamond.png, id=1381, 9.03375pt x 11.29219pt>
 File: Chapter-4/figs/diamond.png Graphic file (type png)
 
 <use Chapter-4/figs/diamond.png>
-Package pdftex.def Info: Chapter-4/figs/diamond.png used on input line 168.
+Package pdftex.def Info: Chapter-4/figs/diamond.png used on input line 171.
 (pdftex.def)             Requested size: 7.22699pt x 9.03378pt.
 
 
-LaTeX Warning: Reference `Ecltext' on page 42 undefined on input line 170.
+LaTeX Warning: Reference `Ecltext' on page 41 undefined on input line 173.
 
 
-Overfull \hbox (8.8559pt too wide) in paragraph at lines 159--171
+Overfull \hbox (8.8559pt too wide) in paragraph at lines 162--174
 \T1/mdput/m/n/10.95 (-20) EclEmma (v2.2) is a code cov-er-age tool that ex-e-cu
 tes a pro-gram, typ-i-cally with JU-nit as the driver [[]],
  []
 
-[42 <./Chapter-4/figs/N4(no_tooltip).png> <./Chapter-4/figs/comp-notification.p
-ng>] <Chapter-4/figs/EclExample.png, id=1387, 261.97874pt x 38.39343pt>
+[41 <./Chapter-4/figs/N4(no_tooltip).png> <./Chapter-4/figs/comp-notification.p
+ng>] <Chapter-4/figs/EclExample.png, id=1393, 261.97874pt x 38.39343pt>
 File: Chapter-4/figs/EclExample.png Graphic file (type png)
 
 <use Chapter-4/figs/EclExample.png>
-Package pdftex.def Info: Chapter-4/figs/EclExample.png used on input line 179.
+Package pdftex.def Info: Chapter-4/figs/EclExample.png used on input line 182.
 (pdftex.def)             Requested size: 238.49121pt x 34.95212pt.
 
-Overfull \hbox (2.32622pt too wide) in paragraph at lines 179--188
+Overfull \hbox (2.32622pt too wide) in paragraph at lines 182--191
  [][] 
  []
 
 
-Overfull \hbox (4.65244pt too wide) in paragraph at lines 179--188
+Overfull \hbox (4.65244pt too wide) in paragraph at lines 182--191
  [][] 
  []
 
 
-Overfull \hbox (11.12039pt too wide) in paragraph at lines 207--234
+Overfull \hbox (11.12039pt too wide) in paragraph at lines 210--237
  [][] 
  []
 
 
-LaTeX Warning: Citation 'OpenJDK' on page 43 undefined on input line 243.
+LaTeX Warning: Citation 'OpenJDK' on page 42 undefined on input line 246.
 
 
-LaTeX Warning: Citation 'JFreeChart' on page 43 undefined on input line 243.
+LaTeX Warning: Citation 'JFreeChart' on page 42 undefined on input line 246.
 
 
-LaTeX Warning: Citation 'FindBugsCloud' on page 43 undefined on input line 246.
+LaTeX Warning: Citation 'FindBugsCloud' on page 42 undefined on input line 249.
 
 
-[43 <./Chapter-4/figs/EclExample.png> <./Chapter-4/figs/diamond.png>] [44]
-<Chapter-4/figs/CMP2.png, id=1404, 714.41907pt x 148.30406pt>
+[42 <./Chapter-4/figs/EclExample.png> <./Chapter-4/figs/diamond.png>] [43]
+<Chapter-4/figs/CMP2.png, id=1411, 714.41907pt x 148.30406pt>
 File: Chapter-4/figs/CMP2.png Graphic file (type png)
 
 <use Chapter-4/figs/CMP2.png>
-Package pdftex.def Info: Chapter-4/figs/CMP2.png used on input line 275.
+Package pdftex.def Info: Chapter-4/figs/CMP2.png used on input line 278.
 (pdftex.def)             Requested size: 216.81pt x 45.00749pt.
 
-Overfull \hbox (2.32622pt too wide) in paragraph at lines 275--286
+Overfull \hbox (2.32622pt too wide) in paragraph at lines 278--289
  [][] 
  []
 
 
-Overfull \hbox (4.65244pt too wide) in paragraph at lines 275--286
+Overfull \hbox (4.65244pt too wide) in paragraph at lines 278--289
  [][] 
  []
 
 
-LaTeX Warning: Citation 'corbin2014basics' on page 45 undefined on input line 3
-10.
-
-
-LaTeX Warning: Citation 'dean1982computer' on page 45 undefined on input line 3
+LaTeX Warning: Citation 'corbin2014basics' on page 44 undefined on input line 3
 13.
 
-[45 <./Chapter-4/figs/CMP2.png>]
 
-LaTeX Warning: Citation 'Muslu:2014:Transition' on page 46 undefined on input l
-ine 331.
+LaTeX Warning: Citation 'dean1982computer' on page 44 undefined on input line 3
+16.
+
+[44 <./Chapter-4/figs/CMP2.png>]
+
+LaTeX Warning: Citation 'Muslu:2014:Transition' on page 45 undefined on input l
+ine 334.
 
 
-Overfull \hbox (31.78061pt too wide) in paragraph at lines 330--336
+Overfull \hbox (31.78061pt too wide) in paragraph at lines 333--339
 []\T1/mdput/m/n/10.95 (-20) Next, I used a card sort-ing method-ol-ogy sim-i-la
 r to that of Mu³lu and col-leagues [[]].
  []
 
+[45]
+
+LaTeX Warning: Citation 'onwuegbuzie2007validity' on page 46 undefined on input
+ line 352.
+
+
+LaTeX Warning: Citation 'gasson2004rigor' on page 46 undefined on input line 35
+5.
+
+
+LaTeX Warning: Citation 'li2004trustworthiness' on page 46 undefined on input l
+ine 355.
+
+
+LaTeX Warning: Citation 'li2004trustworthiness' on page 46 undefined on input l
+ine 357.
+
 [46]
 
-LaTeX Warning: Citation 'onwuegbuzie2007validity' on page 47 undefined on input
- line 349.
+LaTeX Warning: Citation 'johnson1989mental' on page 47 undefined on input line 
+416.
 
 
-LaTeX Warning: Citation 'gasson2004rigor' on page 47 undefined on input line 35
-2.
+LaTeX Warning: Citation 'argote2011organizational' on page 47 undefined on inpu
+t line 416.
 
 
-LaTeX Warning: Citation 'li2004trustworthiness' on page 47 undefined on input l
-ine 352.
-
-
-LaTeX Warning: Citation 'li2004trustworthiness' on page 47 undefined on input l
-ine 354.
-
-[47]
-
-LaTeX Warning: Citation 'johnson1989mental' on page 48 undefined on input line 
-413.
-
-
-LaTeX Warning: Citation 'argote2011organizational' on page 48 undefined on inpu
-t line 413.
-
-
-LaTeX Warning: Citation 'baca2009static' on page 48 undefined on input line 413
+LaTeX Warning: Citation 'baca2009static' on page 47 undefined on input line 416
 .
 
-/OCt2 <Chapter-4/figs/Issues_Full.pdf, id=1426, 1806.75pt x 1317.92375pt>
+/OCt2 <Chapter-4/figs/Issues_Full.pdf, id=1433, 1806.75pt x 1317.92375pt>
 File: Chapter-4/figs/Issues_Full.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Issues_Full.pdf>
-Package pdftex.def Info: Chapter-4/figs/Issues_Full.pdf used on input line 433.
+Package pdftex.def Info: Chapter-4/figs/Issues_Full.pdf used on input line 436.
 
 (pdftex.def)             Requested size: 451.68752pt x 329.48013pt.
  /OCt1
-<Chapter-4/figs/Issues_Challenges.pdf, id=1427, 1806.75pt x 1317.92375pt>
+<Chapter-4/figs/Issues_Challenges.pdf, id=1434, 1806.75pt x 1317.92375pt>
 File: Chapter-4/figs/Issues_Challenges.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Issues_Challenges.pdf>
 Package pdftex.def Info: Chapter-4/figs/Issues_Challenges.pdf used on input lin
-e 433.
+e 436.
 (pdftex.def)             Requested size: 451.68752pt x 329.48013pt.
- [48] [49 <./Chapter-4/figs/Issues_Full.pdf> <./Chapter-4/figs/Issues_Challenge
+ [47] [48 <./Chapter-4/figs/Issues_Full.pdf> <./Chapter-4/figs/Issues_Challenge
 s.pdf>]
 
-LaTeX Warning: Citation 'Nienaltowski:2008:Compiler' on page 50 undefined on in
-put line 477.
+LaTeX Warning: Citation 'Nienaltowski:2008:Compiler' on page 49 undefined on in
+put line 480.
 
-[50]
+[49]
 LaTeX Font Info:    Font shape `T1/cmtt/m/it' will be
-(Font)              scaled to size 11.71657pt on input line 504.
- [51]
+(Font)              scaled to size 11.71657pt on input line 507.
+ [50]
 
-LaTeX Warning: Citation 'Altmann:2004:Task' on page 52 undefined on input line 
-533.
+LaTeX Warning: Citation 'Altmann:2004:Task' on page 51 undefined on input line 
+536.
+
+[51]
+
+LaTeX Warning: Citation 'Traver:2010:Messages' on page 52 undefined on input li
+ne 559.
+
+
+LaTeX Warning: Citation 'o2015target' on page 52 undefined on input line 560.
 
 [52]
 
-LaTeX Warning: Citation 'Traver:2010:Messages' on page 53 undefined on input li
-ne 556.
+LaTeX Warning: Citation 'mccrickard2003attuning' on page 53 undefined on input 
+line 588.
 
 
-LaTeX Warning: Citation 'o2015target' on page 53 undefined on input line 557.
+LaTeX Warning: Reference `fig:N2' on page 53 undefined on input line 590.
 
-[53]
-
-LaTeX Warning: Citation 'mccrickard2003attuning' on page 54 undefined on input 
-line 585.
-
-
-LaTeX Warning: Reference `fig:N2' on page 54 undefined on input line 587.
-
-<Chapter-4/figs/finally-block.png, id=1470, 414.04688pt x 65.49469pt>
+<Chapter-4/figs/finally-block.png, id=1477, 414.04688pt x 65.49469pt>
 File: Chapter-4/figs/finally-block.png Graphic file (type png)
 
 <use Chapter-4/figs/finally-block.png>
 Package pdftex.def Info: Chapter-4/figs/finally-block.png used on input line 60
-2.
+5.
 (pdftex.def)             Requested size: 180.67499pt x 28.57988pt.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 603.
- [54]
+(Font)              scaled to size 10.70007pt on input line 606.
+ [53]
 
-LaTeX Warning: Citation 'Traver:2010:Messages' on page 55 undefined on input li
-ne 634.
+LaTeX Warning: Citation 'Traver:2010:Messages' on page 54 undefined on input li
+ne 637.
 
-[55 <./Chapter-4/figs/finally-block.png>] [56]
+[54 <./Chapter-4/figs/finally-block.png>] [55]
 
-LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 57 undefined on input
- line 663.
+LaTeX Warning: Citation 'Mucslu:2012:Speculative' on page 56 undefined on input
+ line 666.
 
-[57]
+[56]
 
-LaTeX Warning: Citation 'dean1982computer' on page 58 undefined on input line 6
-69.
+LaTeX Warning: Citation 'dean1982computer' on page 57 undefined on input line 6
+72.
 
 
-Overfull \hbox (19.97162pt too wide) in paragraph at lines 668--671
+Overfull \hbox (19.97162pt too wide) in paragraph at lines 671--674
 \T1/mdput/m/n/10.95 (-20) as-cer-tain de-vel-op-ers' knowl-edge and ex-pe-ri-en
 ces, which in-form their ex-pec-ta-tions [[]].
  []
 
 
-LaTeX Warning: Citation 'tutoringsys' on page 58 undefined on input line 678.
+LaTeX Warning: Citation 'tutoringsys' on page 57 undefined on input line 677.
 
 
-LaTeX Warning: Citation 'johnson2015bespoke' on page 58 undefined on input line
- 678.
-
-[58]
-
-LaTeX Warning: Citation 'mccrickard2003attuning' on page 59 undefined on input 
-line 687.
+LaTeX Warning: Citation 'mccrickard2003attuning' on page 57 undefined on input 
+line 691.
 
 
-LaTeX Warning: Citation 'sow2005tasks' on page 59 undefined on input line 687.
+LaTeX Warning: Citation 'sow2005tasks' on page 57 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'Zhang:2005' on page 59 undefined on input line 687.
+LaTeX Warning: Citation 'Zhang:2005' on page 57 undefined on input line 691.
 
 
-LaTeX Warning: Citation 'robillard2014recommendation' on page 59 undefined on i
-nput line 690.
+LaTeX Warning: Citation 'robillard2014recommendation' on page 57 undefined on i
+nput line 694.
 
+[57]
 
-LaTeX Warning: Citation 'smith2015questions' on page 59 undefined on input line
- 694.
+LaTeX Warning: Citation 'smith2015questions' on page 58 undefined on input line
+ 698.
 
-) [59]
+) [58]
 \openout2 = `Chapter-5/Chapter-5.aux'.
 
  (./Chapter-5/Chapter-5.tex
 Chapter 5.
 
-LaTeX Warning: Citation 'evans2003progress' on page 60 undefined on input line 
-7.
+LaTeX Warning: Citation 'murray1999authoring' on page 59 undefined on input lin
+e 7.
 
 
-LaTeX Warning: Citation 'hestenes1992force' on page 60 undefined on input line 
-7.
+LaTeX Warning: Citation 'schlungbaum1996model' on page 59 undefined on input li
+ne 7.
 
 
-LaTeX Warning: Citation 'evans2003progress' on page 60 undefined on input line 
-7.
-
-
-LaTeX Warning: Citation 'tew2010developing' on page 60 undefined on input line 
-7.
-
-
-LaTeX Warning: Citation 'almstrum2006concept' on page 60 undefined on input lin
-e 10.
-
-
-LaTeX Warning: Citation 'krone2010reasoning' on page 60 undefined on input line
- 10.
-
-
-LaTeX Warning: Citation 'tew2010assessing' on page 60 undefined on input line 1
-0.
-
-
-LaTeX Warning: Citation 'almstrum2006concept' on page 60 undefined on input lin
-e 10.
-
-
-LaTeX Warning: Citation 'tew2010assessing' on page 60 undefined on input line 1
-1.
-
-
-LaTeX Warning: Citation 'tew2010developing' on page 60 undefined on input line 
+LaTeX Warning: Citation 'evans2003progress' on page 59 undefined on input line 
 11.
 
 
-Overfull \hbox (2.77258pt too wide) in paragraph at lines 10--12
-\T1/mdput/m/n/10.95 (-20) tory Com-puter Sci-ence concepts[[]; []; []].
- []
+LaTeX Warning: Citation 'hestenes1992force' on page 59 undefined on input line 
+11.
 
-[60
+
+LaTeX Warning: Citation 'evans2003progress' on page 59 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation 'tew2010developing' on page 59 undefined on input line 
+11.
+
+[59
 
 
 
 ]
 
-LaTeX Warning: Citation 'zingaro2010experience' on page 61 undefined on input l
-ine 13.
+LaTeX Warning: Citation 'almstrum2006concept' on page 60 undefined on input lin
+e 14.
 
 
-LaTeX Warning: Citation 'Karpierz2014Misconception' on page 61 undefined on inp
-ut line 15.
+LaTeX Warning: Citation 'krone2010reasoning' on page 60 undefined on input line
+ 14.
 
 
-LaTeX Warning: Citation 'pellegrino2001knowing' on page 61 undefined on input l
+LaTeX Warning: Citation 'tew2010assessing' on page 60 undefined on input line 1
+4.
+
+
+LaTeX Warning: Citation 'almstrum2006concept' on page 60 undefined on input lin
+e 14.
+
+
+LaTeX Warning: Citation 'tew2010assessing' on page 60 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation 'tew2010developing' on page 60 undefined on input line 
+15.
+
+
+Overfull \hbox (4.32683pt too wide) in paragraph at lines 14--16
+\T1/mdput/m/n/10.95 (-20) tory Com-puter Sci-ence con-cepts [[]; []; []].
+ []
+
+
+LaTeX Warning: Citation 'zingaro2010experience' on page 60 undefined on input l
 ine 17.
 
 
-LaTeX Warning: Citation 'ghezzi2005challenges' on page 61 undefined on input li
-ne 17.
+LaTeX Warning: Citation 'Karpierz2014Misconception' on page 60 undefined on inp
+ut line 19.
 
 
-LaTeX Warning: Citation 'wohlin1999achieving' on page 61 undefined on input lin
-e 17.
+LaTeX Warning: Citation 'pellegrino2001knowing' on page 60 undefined on input l
+ine 21.
 
+
+LaTeX Warning: Citation 'ghezzi2005challenges' on page 60 undefined on input li
+ne 21.
+
+
+LaTeX Warning: Citation 'wohlin1999achieving' on page 60 undefined on input lin
+e 21.
+
+[60]
 
 LaTeX Warning: Citation 'tew2010developing' on page 61 undefined on input line 
-21.
+25.
 
 
 LaTeX Warning: Citation 'kaczmarczyk2010identifying' on page 61 undefined on in
-put line 21.
+put line 25.
 
 
 LaTeX Warning: Citation 'tew2010assessing' on page 61 undefined on input line 2
-3.
+8.
 
 
 LaTeX Warning: Citation 'tew2010developing' on page 61 undefined on input line 
-23.
+28.
 
 
 LaTeX Warning: Citation 'nelson1967testing' on page 61 undefined on input line 
-23.
+28.
 
 
-LaTeX Warning: Citation 'scott2003bloom' on page 61 undefined on input line 23.
+LaTeX Warning: Citation 'scott2003bloom' on page 61 undefined on input line 28.
 
 
 
 LaTeX Warning: Citation 'thompson2008bloom' on page 61 undefined on input line 
-23.
+28.
 
 
-LaTeX Warning: Citation 'starr2008bloom' on page 61 undefined on input line 23.
+LaTeX Warning: Citation 'starr2008bloom' on page 61 undefined on input line 28.
 
 
 
-Overfull \hbox (53.48781pt too wide) in paragraph at lines 21--25
-\T1/mdput/m/n/10.95 (-20) puter Sci-ence, the tar-get au-di-ence is typ-i-cally
- CS1 stu-dents [[]; []].
+Overfull \hbox (35.79434pt too wide) in paragraph at lines 25--30
+\T1/mdput/m/n/10.95 (-20) Com-puter Sci-ence, the tar-get au-di-ence is typ-i-c
+ally in-tro-duc-tory pro-gram-ming stu-dents [[];
  []
 
-[61]
-Overfull \hbox (31.22421pt too wide) in paragraph at lines 41--52
+
+Overfull \hbox (31.22421pt too wide) in paragraph at lines 46--57
  [][] 
  []
 
 
-LaTeX Warning: Citation 'tew2010developing' on page 62 undefined on input line 
-56.
+LaTeX Warning: Citation 'tew2010developing' on page 61 undefined on input line 
+61.
 
+[61]
 
 LaTeX Warning: Citation 'Gosling:1996:JLS:560667' on page 62 undefined on input
- line 59.
+ line 64.
 
-[62] <Chapter-5/figs/generics-Q2.png, id=1529, 692.5875pt x 213.79875pt>
+<Chapter-5/figs/generics-Q2.png, id=1540, 692.5875pt x 213.79875pt>
 File: Chapter-5/figs/generics-Q2.png Graphic file (type png)
 
 <use Chapter-5/figs/generics-Q2.png>
-Package pdftex.def Info: Chapter-5/figs/generics-Q2.png used on input line 63.
+Package pdftex.def Info: Chapter-5/figs/generics-Q2.png used on input line 68.
 (pdftex.def)             Requested size: 289.07999pt x 89.24026pt.
 
 
-LaTeX Warning: Citation 'thompson2008bloom' on page 63 undefined on input line 
-67.
+LaTeX Warning: Citation 'thompson2008bloom' on page 62 undefined on input line 
+72.
 
-[63 <./Chapter-5/figs/generics-Q2.png>]
+[62]
 
-LaTeX Warning: Citation 'tew2010developing' on page 64 undefined on input line 
-71.
-
-
-LaTeX Warning: Citation 'tew2010developing' on page 64 undefined on input line 
-71.
+LaTeX Warning: Citation 'tew2010developing' on page 63 undefined on input line 
+76.
 
 
-Overfull \hbox (16.65878pt too wide) in paragraph at lines 71--72
+LaTeX Warning: Citation 'tew2010developing' on page 63 undefined on input line 
+76.
+
+
+Overfull \hbox (16.65878pt too wide) in paragraph at lines 76--77
 \T1/mdput/m/n/10.95 (-20) ple choice and all ques-tions should have the same nu
 m-ber of items to choose from [[]];
  []
 
 
-LaTeX Warning: Citation 'scott2003bloom' on page 64 undefined on input line 73.
+LaTeX Warning: Citation 'scott2003bloom' on page 63 undefined on input line 78.
 
 
 
-LaTeX Warning: Citation 'thompson2008bloom' on page 64 undefined on input line 
-73.
+LaTeX Warning: Citation 'thompson2008bloom' on page 63 undefined on input line 
+78.
 
 
-LaTeX Warning: Citation 'starr2008bloom' on page 64 undefined on input line 73.
-
-
-
-LaTeX Warning: Citation 'khairuddin2008application' on page 64 undefined on inp
-ut line 73.
-
-
-LaTeX Warning: Citation 'scott2003bloom' on page 64 undefined on input line 73.
+LaTeX Warning: Citation 'starr2008bloom' on page 63 undefined on input line 78.
 
 
 
-Overfull \hbox (44.45609pt too wide) in paragraph at lines 73--76
+LaTeX Warning: Citation 'khairuddin2008application' on page 63 undefined on inp
+ut line 78.
+
+
+LaTeX Warning: Citation 'scott2003bloom' on page 63 undefined on input line 78.
+
+
+
+Overfull \hbox (44.45609pt too wide) in paragraph at lines 78--81
 []\T1/mdput/m/n/10.95 (-20) ]. Each ques-tion should map to at least one level 
 of Bloom's Tax-on-omy [[];
  []
 
 
-LaTeX Warning: Citation 'parker2016replication' on page 64 undefined on input l
-ine 78.
+LaTeX Warning: Citation 'parker2016replication' on page 63 undefined on input l
+ine 83.
 
 
-LaTeX Warning: Citation 'nelson1967testing' on page 64 undefined on input line 
-78.
+LaTeX Warning: Citation 'nelson1967testing' on page 63 undefined on input line 
+83.
+
+[63 <./Chapter-5/figs/generics-Q2.png>]
+
+LaTeX Warning: Citation 'boopathiraj2013analysis' on page 64 undefined on input
+ line 100.
+
+
+LaTeX Warning: Citation 'RSoftware' on page 64 undefined on input line 100.
+
+
+LaTeX Warning: Citation 'gorsuch1997exploratory' on page 64 undefined on input 
+line 104.
+
+
+LaTeX Warning: Citation 'boopathiraj2013analysis' on page 64 undefined on input
+ line 105.
 
 [64]
 
-LaTeX Warning: Citation 'boopathiraj2013analysis' on page 65 undefined on input
- line 95.
-
-
-LaTeX Warning: Citation 'RSoftware' on page 65 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'gorsuch1997exploratory' on page 65 undefined on input 
-line 99.
-
-
-LaTeX Warning: Citation 'boopathiraj2013analysis' on page 65 undefined on input
- line 100.
-
-[65]
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 109.
+               Default added (so using `tbp') on input line 114.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 136.
+               Default added (so using `tbp') on input line 141.
 
-<Chapter-5/figs/item3.png, id=1552, 428.60126pt x 189.70876pt>
+<Chapter-5/figs/item3.png, id=1562, 428.60126pt x 189.70876pt>
 File: Chapter-5/figs/item3.png Graphic file (type png)
 
 <use Chapter-5/figs/item3.png>
-Package pdftex.def Info: Chapter-5/figs/item3.png used on input line 138.
+Package pdftex.def Info: Chapter-5/figs/item3.png used on input line 143.
 (pdftex.def)             Requested size: 216.81pt x 95.9657pt.
- [66]
+ [65 <./Chapter-5/figs/item3.png>]
 
-LaTeX Warning: Citation 'tew2010developing' on page 67 undefined on input line 
-147.
+LaTeX Warning: Citation 'tew2010developing' on page 66 undefined on input line 
+152.
 
 
-LaTeX Warning: Citation 'tew2010assessing' on page 67 undefined on input line 1
-47.
+LaTeX Warning: Citation 'tew2010assessing' on page 66 undefined on input line 1
+52.
 
-[67 <./Chapter-5/figs/item3.png>]) [68]
+[66]) [67]
 \openout2 = `Chapter-6/Chapter-6.aux'.
 
  (./Chapter-6/Chapter-6.tex
 Chapter 6.
 
-LaTeX Warning: Citation 'Canas:1994:Mental' on page 69 undefined on input line 
-9.
+LaTeX Warning: Citation 'Canas:1994:Mental' on page 68 undefined on input line 
+6.
 
 
-LaTeX Warning: Citation 'raju1995differential' on page 69 undefined on input li
-ne 9.
+LaTeX Warning: Citation 'raju1995differential' on page 68 undefined on input li
+ne 6.
 
 
-LaTeX Warning: Citation 'fritz2010degree' on page 69 undefined on input line 9.
-
-
-
-LaTeX Warning: Citation 'argote2011organizational' on page 69 undefined on inpu
-t line 9.
-
-[69
+LaTeX Warning: Citation 'fritz2010degree' on page 68 undefined on input line 6.
 
 
 
-]
-
-LaTeX Warning: Citation 'heckman2009model' on page 70 undefined on input line 1
-2.
+LaTeX Warning: Citation 'argote2011organizational' on page 68 undefined on inpu
+t line 6.
 
 
-LaTeX Warning: Citation 'menzies2007data' on page 70 undefined on input line 12
+LaTeX Warning: Citation 'heckman2009model' on page 68 undefined on input line 9
 .
 
 
-LaTeX Warning: Citation 'haapio2011exploring' on page 70 undefined on input lin
-e 12.
+LaTeX Warning: Citation 'menzies2007data' on page 68 undefined on input line 9.
 
 
-Overfull \hbox (38.32787pt too wide) in paragraph at lines 11--14
+
+LaTeX Warning: Citation 'haapio2011exploring' on page 68 undefined on input lin
+e 9.
+
+
+Overfull \hbox (38.32787pt too wide) in paragraph at lines 8--11
 \T1/mdput/m/n/10.95 (-20) and non-functional prop-er-ties of soft-ware [[]; [];
  []].
  []
 
 
-LaTeX Warning: Citation 'fritz2010degree' on page 70 undefined on input line 15
+LaTeX Warning: Citation 'fritz2010degree' on page 68 undefined on input line 12
+.
+
+[68
+
+
+
+]
+
+LaTeX Warning: Citation 'argote2011organizational' on page 69 undefined on inpu
+t line 33.
+
+
+LaTeX Warning: Citation 'fritz2010degree' on page 69 undefined on input line 33
 .
 
 
-LaTeX Warning: Citation 'argote2011organizational' on page 70 undefined on inpu
-t line 36.
-
-
-Overfull \hbox (30.16061pt too wide) in paragraph at lines 36--37
+Overfull \hbox (30.16061pt too wide) in paragraph at lines 33--34
 \T1/mdput/m/n/10.95 (-20) According to ex-ist-ing re-search, we ac-quire knowl-
 edge through our ex-pe-ri-ences [[]].
  []
 
-[70]
-
-LaTeX Warning: Citation 'tew2010assessing' on page 71 undefined on input line 4
-9.
-
-<Chapter-6/figs/approach-fig.pdf, id=1583, 574.64296pt x 540.3137pt>
+[69] <Chapter-6/figs/approach-fig.pdf, id=1593, 574.64296pt x 540.3137pt>
 File: Chapter-6/figs/approach-fig.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/approach-fig.pdf>
-Package pdftex.def Info: Chapter-6/figs/approach-fig.pdf used on input line 60.
+Package pdftex.def Info: Chapter-6/figs/approach-fig.pdf used on input line 57.
 
 (pdftex.def)             Requested size: 325.215pt x 305.78897pt.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 67.
- [71]
-
-LaTeX Warning: Citation 'eclipseASTParser' on page 72 undefined on input line 6
-9.
+(Font)              scaled to size 7.52002pt on input line 64.
 
 
-Overfull \hbox (25.93558pt too wide) in paragraph at lines 69--70
+LaTeX Warning: Citation 'eclipseASTParser' on page 70 undefined on input line 6
+6.
+
+
+Overfull \hbox (25.93558pt too wide) in paragraph at lines 66--67
 \T1/mdput/m/n/10.95 (-20) gram-ming con-cepts. I an-a-lyzed de-vel-oper source 
 code us-ing the Eclipse JDT AST-Parser [[]].
  []
 
-[72 <./Chapter-6/figs/approach-fig.pdf>]
+[70]
 
-LaTeX Warning: Citation 'johnson2015bespoke' on page 73 undefined on input line
- 73.
+LaTeX Warning: Citation 'johnson2015bespoke' on page 71 undefined on input line
+ 70.
 
-
-Overfull \hbox (30.84532pt too wide) in paragraph at lines 85--113
+[71 <./Chapter-6/figs/approach-fig.pdf>]
+Overfull \hbox (30.84532pt too wide) in paragraph at lines 82--110
  [][] 
  []
 
 
-Overfull \hbox (6.59116pt too wide) in paragraph at lines 154--188
+Overfull \hbox (6.59116pt too wide) in paragraph at lines 151--185
  [][] 
  []
 
-<Chapter-6/figs/code.pdf, id=1648, 623.29224pt x 420.20532pt>
+<Chapter-6/figs/code.pdf, id=1661, 623.29224pt x 420.20532pt>
 File: Chapter-6/figs/code.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/code.pdf>
-Package pdftex.def Info: Chapter-6/figs/code.pdf used on input line 192.
+Package pdftex.def Info: Chapter-6/figs/code.pdf used on input line 189.
 (pdftex.def)             Requested size: 325.215pt x 219.25179pt.
 
 
-LaTeX Warning: Citation 'bromme1995fusing' on page 73 undefined on input line 2
-01.
+LaTeX Warning: Citation 'bromme1995fusing' on page 72 undefined on input line 1
+98.
 
 
-LaTeX Warning: Citation 'argote2011organizational' on page 73 undefined on inpu
-t line 201.
+LaTeX Warning: Citation 'argote2011organizational' on page 72 undefined on inpu
+t line 198.
 
-[73 <./Chapter-6/figs/code.pdf>] [74] [75] [76] [77] [78]
+[72] [73] [74] [75 <./Chapter-6/figs/code.pdf>] [76]
 
-LaTeX Warning: Citation 'johnson2015bespoke' on page 79 undefined on input line
- 248.
-
-
-LaTeX Warning: Citation 'fritz2010degree' on page 79 undefined on input line 25
-2.
+LaTeX Warning: Citation 'johnson2015bespoke' on page 77 undefined on input line
+ 245.
 
 
-Overfull \hbox (10.86064pt too wide) in paragraph at lines 252--253
+LaTeX Warning: Citation 'fritz2010degree' on page 77 undefined on input line 24
+9.
+
+
+Overfull \hbox (10.86064pt too wide) in paragraph at lines 249--250
 \T1/mdput/m/n/10.95 (-20) log in their mod-els to ac-count for the po-ten-tial 
 for large dif-fer-ences in at-tribute val-ues [[]].
  []
 
 
-LaTeX Warning: Citation 'fayyad1993multi' on page 79 undefined on input line 25
-5.
+LaTeX Warning: Citation 'fayyad1993multi' on page 77 undefined on input line 25
+2.
+
+[77]
+
+LaTeX Warning: Citation 'dreyfus2004five' on page 78 undefined on input line 25
+4.
 
 
-LaTeX Warning: Citation 'dreyfus2004five' on page 79 undefined on input line 25
-7.
-
-[79]
-
-LaTeX Warning: Citation 'Hall:2009:WDM:1656274.1656278' on page 80 undefined on
- input line 264.
+LaTeX Warning: Citation 'Hall:2009:WDM:1656274.1656278' on page 78 undefined on
+ input line 261.
 
 
-LaTeX Warning: Citation 'hall1999correlation' on page 80 undefined on input lin
-e 264.
+LaTeX Warning: Citation 'hall1999correlation' on page 78 undefined on input lin
+e 261.
 
 
-LaTeX Warning: Citation 'witten1999weka' on page 80 undefined on input line 272
+LaTeX Warning: Citation 'witten1999weka' on page 78 undefined on input line 269
 .
 
 
-LaTeX Warning: Citation 'wolpert1997no' on page 80 undefined on input line 273.
+LaTeX Warning: Citation 'wolpert1997no' on page 78 undefined on input line 270.
 
 
 
-LaTeX Warning: Citation 'menzies2004assessing' on page 80 undefined on input li
-ne 273.
+LaTeX Warning: Citation 'menzies2004assessing' on page 78 undefined on input li
+ne 270.
 
 
-LaTeX Warning: Citation 'menzies2007data' on page 80 undefined on input line 27
-3.
+LaTeX Warning: Citation 'menzies2007data' on page 78 undefined on input line 27
+0.
 
 
-LaTeX Warning: Citation 'heckman2009model' on page 80 undefined on input line 2
-73.
+LaTeX Warning: Citation 'heckman2009model' on page 78 undefined on input line 2
+70.
 
 
-LaTeX Warning: Citation 'fritz2010degree' on page 80 undefined on input line 27
-3.
+LaTeX Warning: Citation 'fritz2010degree' on page 78 undefined on input line 27
+0.
 
-[80] <Chapter-6/figs/variables.pdf, id=1763, 193.20131pt x 100.95868pt>
+[78] <Chapter-6/figs/variables.pdf, id=1768, 198.14105pt x 93.30971pt>
 File: Chapter-6/figs/variables.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/variables.pdf>
-Package pdftex.def Info: Chapter-6/figs/variables.pdf used on input line 369.
-(pdftex.def)             Requested size: 252.94499pt x 132.18596pt.
+Package pdftex.def Info: Chapter-6/figs/variables.pdf used on input line 366.
+(pdftex.def)             Requested size: 252.94499pt x 119.12704pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter-6/figs/exceptions.pdf, id=1764, 276.72534pt x 159.45863pt>
+<Chapter-6/figs/exceptions.pdf, id=1769, 311.41595pt x 158.66235pt>
 File: Chapter-6/figs/exceptions.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/exceptions.pdf>
-Package pdftex.def Info: Chapter-6/figs/exceptions.pdf used on input line 376.
-(pdftex.def)             Requested size: 252.94499pt x 145.75722pt.
+Package pdftex.def Info: Chapter-6/figs/exceptions.pdf used on input line 373.
+(pdftex.def)             Requested size: 252.94499pt x 128.8741pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter-6/figs/generics.pdf, id=1765, 245.09622pt x 96.95422pt>
+<Chapter-6/figs/generics.pdf, id=1770, 261.93967pt x 135.64827pt>
 File: Chapter-6/figs/generics.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/generics.pdf>
-Package pdftex.def Info: Chapter-6/figs/generics.pdf used on input line 383.
-(pdftex.def)             Requested size: 252.94499pt x 100.05923pt.
+Package pdftex.def Info: Chapter-6/figs/generics.pdf used on input line 380.
+(pdftex.def)             Requested size: 252.94499pt x 130.99083pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 389.
+(Font)              scaled to size 11.28003pt on input line 386.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 389.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 389.
+(hyperref)                removing `\mathsurround' on input line 386.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 389.
+(hyperref)                removing `\z@' on input line 386.
 
 
-LaTeX Warning: Reference `fig:loc' on page 81 undefined on input line 391.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 386.
 
 
-LaTeX Warning: Citation 'argote2011organizational' on page 81 undefined on inpu
-t line 392.
+LaTeX Warning: Citation 'argote2011organizational' on page 79 undefined on inpu
+t line 389.
 
-[81] [82]
+[79] [80] [81 <./Chapter-6/figs/variables.pdf>]
 LaTeX Font Info:    Font shape `T1/mdput/b/it' will be
-(Font)              scaled to size 10.29301pt on input line 404.
+(Font)              scaled to size 10.29301pt on input line 401.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 408.
+(hyperref)                removing `\mathsurround' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 408.
+(hyperref)                removing `\z@' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 408.
+(hyperref)                removing `subscript' on input line 405.
 
-[83 <./Chapter-6/figs/variables.pdf>] [84 <./Chapter-6/figs/exceptions.pdf> <./
-Chapter-6/figs/generics.pdf>]
+[82 <./Chapter-6/figs/exceptions.pdf> <./Chapter-6/figs/generics.pdf>]
 
-LaTeX Warning: Citation 'johnson2016cross' on page 85 undefined on input line 4
-33.
+LaTeX Warning: Citation 'johnson2016cross' on page 83 undefined on input line 4
+30.
 
+[83]
 
-LaTeX Warning: Citation 'johnson2015bespoke' on page 85 undefined on input line
- 440.
-
-
-LaTeX Warning: Citation 'Johnson:2013:Why' on page 85 undefined on input line 4
-40.
+LaTeX Warning: Citation 'johnson2015bespoke' on page 84 undefined on input line
+ 437.
 
 
-LaTeX Warning: Citation 'johnson2016cross' on page 85 undefined on input line 4
-40.
+LaTeX Warning: Citation 'Johnson:2013:Why' on page 84 undefined on input line 4
+37.
 
 
-Overfull \hbox (5.89635pt too wide) in paragraph at lines 440--441
+LaTeX Warning: Citation 'johnson2016cross' on page 84 undefined on input line 4
+37.
+
+
+Overfull \hbox (5.89635pt too wide) in paragraph at lines 437--438
 \T1/mdput/m/n/10.95 (-20) im-prove de-vel-op-ers' ex-pe-ri-ence when first us-i
 ng no-ti-fi-ca-tions used by the tool [[]].
  []
 
-[85]
 
-LaTeX Warning: Citation 'balachandran2013reducing' on page 86 undefined on inpu
-t line 445.
-
-
-LaTeX Warning: Citation 'fritz2010degree' on page 86 undefined on input line 44
-5.
+LaTeX Warning: Citation 'balachandran2013reducing' on page 84 undefined on inpu
+t line 442.
 
 
-LaTeX Warning: Citation 'johnson2016cross' on page 86 undefined on input line 4
-45.
+LaTeX Warning: Citation 'fritz2010degree' on page 84 undefined on input line 44
+2.
 
 
-LaTeX Warning: Citation 'fritz2010degree' on page 86 undefined on input line 44
-5.
+LaTeX Warning: Citation 'johnson2016cross' on page 84 undefined on input line 4
+42.
 
 
-Overfull \hbox (14.33092pt too wide) in paragraph at lines 445--446
+LaTeX Warning: Citation 'fritz2010degree' on page 84 undefined on input line 44
+2.
+
+
+Overfull \hbox (14.33092pt too wide) in paragraph at lines 442--443
 \T1/mdput/m/n/10.95 (-20) ing able to re-solve that de-fect. Sim-i-lar to work 
 on code re-view as-sign-ment [[]],
  []
 
 
-LaTeX Warning: Citation 'plonka2015knowledge' on page 86 undefined on input lin
-e 449.
+LaTeX Warning: Citation 'plonka2015knowledge' on page 84 undefined on input lin
+e 446.
 
 
-LaTeX Warning: Citation 'murphy2011peer' on page 86 undefined on input line 449
+LaTeX Warning: Citation 'murphy2011peer' on page 84 undefined on input line 446
 .
 
 
-LaTeX Warning: Citation 'lui2006pair' on page 86 undefined on input line 449.
+LaTeX Warning: Citation 'lui2006pair' on page 84 undefined on input line 446.
 
-[86]
+[84]
 
-LaTeX Warning: Citation 'zhang2005missing' on page 87 undefined on input line 4
-60.
+LaTeX Warning: Citation 'zhang2005missing' on page 85 undefined on input line 4
+57.
 
 
-LaTeX Warning: Citation 'kotsiantis2007supervised' on page 87 undefined on inpu
-t line 460.
+LaTeX Warning: Citation 'kotsiantis2007supervised' on page 85 undefined on inpu
+t line 457.
 
-[87]) [88]
+[85]) [86]
 \openout2 = `Chapter-7/Chapter-7.aux'.
 
  (./Chapter-7/Chapter-7.tex
 Chapter 7.
 
-LaTeX Warning: Citation 'johnson2016cross' on page 89 undefined on input line 5
+LaTeX Warning: Citation 'zou2008adapting' on page 87 undefined on input line 13
 .
 
 
-LaTeX Warning: Citation 'zou2008adapting' on page 89 undefined on input line 13
-.
-
-
-LaTeX Warning: Citation 'amershi2007unsupervised' on page 89 undefined on input
+LaTeX Warning: Citation 'amershi2007unsupervised' on page 87 undefined on input
  line 13.
 
 
-LaTeX Warning: Citation 'stamper2009unsupervised' on page 89 undefined on input
+LaTeX Warning: Citation 'stamper2009unsupervised' on page 87 undefined on input
  line 13.
 
 
-LaTeX Warning: Citation 'zou2008adapting' on page 89 undefined on input line 15
+LaTeX Warning: Citation 'zou2008adapting' on page 87 undefined on input line 15
 .
 
 
@@ -4036,44 +4029,45 @@ Overfull \hbox (92.60655pt too wide) in paragraph at lines 13--17
 ]; []].
  []
 
-[89
+[87
 
 
 
 ]
 
-LaTeX Warning: Citation 'ayewah2007evaluating' on page 90 undefined on input li
+LaTeX Warning: Citation 'ayewah2007evaluating' on page 88 undefined on input li
 ne 22.
 
 
-LaTeX Warning: Citation 'zheng2006value' on page 90 undefined on input line 22.
+LaTeX Warning: Citation 'zheng2006value' on page 88 undefined on input line 22.
 
 
 
-LaTeX Warning: Citation 'johnson2016cross' on page 90 undefined on input line 3
+LaTeX Warning: Citation 'johnson2016cross' on page 88 undefined on input line 3
 5.
 
 
-LaTeX Warning: Citation 'smith2015questions' on page 90 undefined on input line
+LaTeX Warning: Citation 'smith2015questions' on page 88 undefined on input line
  40.
 
 
-LaTeX Warning: Citation 'barik14' on page 90 undefined on input line 40.
+LaTeX Warning: Citation 'barik14' on page 88 undefined on input line 40.
 
 
-LaTeX Warning: Citation 'robillard2014recommendation' on page 90 undefined on i
+LaTeX Warning: Citation 'robillard2014recommendation' on page 88 undefined on i
 nput line 40.
 
+[88]
 
-LaTeX Warning: Citation 'larkin1980expert' on page 90 undefined on input line 4
+LaTeX Warning: Citation 'larkin1980expert' on page 89 undefined on input line 4
 3.
 
 
-LaTeX Warning: Citation 'mckeithen1981knowledge' on page 90 undefined on input 
+LaTeX Warning: Citation 'mckeithen1981knowledge' on page 89 undefined on input 
 line 43.
 
 
-LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 90 undefined on input 
+LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 89 undefined on input 
 line 43.
 
 
@@ -4081,245 +4075,240 @@ Overfull \hbox (27.69582pt too wide) in paragraph at lines 43--44
 \T1/mdput/m/n/10.95 (-20) tion to pro-gram-mer ex-per-tise [[]; []; []].
  []
 
-[90]
 
-LaTeX Warning: Citation 'mckeithen1981knowledge' on page 91 undefined on input 
+LaTeX Warning: Citation 'mckeithen1981knowledge' on page 89 undefined on input 
 line 51.
 
 
-LaTeX Warning: Citation 'mckeithen1981knowledge' on page 91 undefined on input 
+LaTeX Warning: Citation 'mckeithen1981knowledge' on page 89 undefined on input 
 line 53.
 
 
-LaTeX Warning: Citation 'larkin1980expert' on page 91 undefined on input line 5
+LaTeX Warning: Citation 'larkin1980expert' on page 89 undefined on input line 5
 5.
 
 
-LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 91 undefined on input 
+LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 89 undefined on input 
 line 55.
 
 
-LaTeX Warning: Citation 'larkin1980expert' on page 91 undefined on input line 5
+LaTeX Warning: Citation 'larkin1980expert' on page 89 undefined on input line 5
 7.
 
 
-LaTeX Warning: Citation 'wiedenbeck1985novice' on page 91 undefined on input li
+LaTeX Warning: Citation 'wiedenbeck1985novice' on page 89 undefined on input li
 ne 57.
 
 
-LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 91 undefined on input 
+LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 89 undefined on input 
 line 57.
 
-[91]
+[89]
 
-LaTeX Warning: Citation 'larkin1980expert' on page 92 undefined on input line 7
+LaTeX Warning: Citation 'larkin1980expert' on page 90 undefined on input line 7
 0.
 
-
-LaTeX Warning: Citation 'johnson2016cross' on page 92 undefined on input line 7
-5.
-
-
-LaTeX Warning: Citation 'nasehi2012makes' on page 92 undefined on input line 75
-.
-
-
-LaTeX Warning: Citation 'nasehi2012makes' on page 92 undefined on input line 82
-.
-
-
-LaTeX Warning: Citation 'johnson2013don' on page 92 undefined on input line 83.
-
-
-
-LaTeX Warning: Citation 'johnson2016cross' on page 92 undefined on input line 8
-3.
-
-[92]
-
-LaTeX Warning: Citation 'johnson2016cross' on page 93 undefined on input line 8
-6.
-
-<Chapter-7/figs/novice.png, id=2485, 798.985pt x 895.345pt>
+<Chapter-7/figs/novice.png, id=2565, 798.985pt x 895.345pt>
 File: Chapter-7/figs/novice.png Graphic file (type png)
 
 <use Chapter-7/figs/novice.png>
-Package pdftex.def Info: Chapter-7/figs/novice.png used on input line 91.
+Package pdftex.def Info: Chapter-7/figs/novice.png used on input line 74.
 (pdftex.def)             Requested size: 397.48499pt x 445.41719pt.
 
-<Chapter-7/figs/expert.png, id=2486, 809.0225pt x 917.4275pt>
+<Chapter-7/figs/expert.png, id=2566, 809.0225pt x 917.4275pt>
 File: Chapter-7/figs/expert.png Graphic file (type png)
 
 <use Chapter-7/figs/expert.png>
-Package pdftex.def Info: Chapter-7/figs/expert.png used on input line 98.
+Package pdftex.def Info: Chapter-7/figs/expert.png used on input line 81.
 (pdftex.def)             Requested size: 397.48499pt x 450.74731pt.
 
 
+LaTeX Warning: Citation 'johnson2016cross' on page 90 undefined on input line 8
+9.
+
+
+LaTeX Warning: Citation 'nasehi2012makes' on page 90 undefined on input line 89
+.
+
+
+LaTeX Warning: Citation 'nasehi2012makes' on page 90 undefined on input line 96
+.
+
+
+LaTeX Warning: Citation 'johnson2013don' on page 90 undefined on input line 97.
+
+
+
+LaTeX Warning: Citation 'johnson2016cross' on page 90 undefined on input line 9
+7.
+
+[90] [91 <./Chapter-7/figs/novice.png>] [92 <./Chapter-7/figs/expert.png>]
+
+LaTeX Warning: Citation 'johnson2016cross' on page 93 undefined on input line 1
+00.
+
+
 LaTeX Warning: Citation 'ayewah2010google' on page 93 undefined on input line 1
-22.
+23.
 
-[93] [94 <./Chapter-7/figs/novice.png>] [95 <./Chapter-7/figs/expert.png>]
+[93]
 
-Package array Warning: Column g is already defined on input line 133.
+Package array Warning: Column g is already defined on input line 134.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 135.
+               Default added (so using `tbp') on input line 136.
 
-[96] [97]
+[94] [95] [96]
 
-LaTeX Warning: Citation 'RSoftware' on page 98 undefined on input line 224.
+LaTeX Warning: Citation 'RSoftware' on page 97 undefined on input line 226.
 
 
-Overfull \hbox (10.77112pt too wide) in paragraph at lines 224--226
+Overfull \hbox (10.77112pt too wide) in paragraph at lines 226--228
 []\T1/mdput/m/n/10.95 (-20) To de-ter-mine the sig-nif-i-cance be-tween the dif
 -fer-ences cal-cu-lated, I used R with RStu-dio [[]]
  []
 
-[98]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 237.
+               Default added (so using `tbp') on input line 239.
 
 
-Package array Warning: Column g is already defined on input line 254.
+Package array Warning: Column g is already defined on input line 256.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 256.
+               Default added (so using `tbp') on input line 258.
 
 
-Overfull \hbox (15.10225pt too wide) in paragraph at lines 260--285
+Overfull \hbox (15.10225pt too wide) in paragraph at lines 262--287
  [][] 
  []
 
-[99] [100]
+[97] [98]
 
-LaTeX Warning: Citation 'johnson2016cross' on page 101 undefined on input line 
-332.
+LaTeX Warning: Citation 'johnson2016cross' on page 99 undefined on input line 3
+34.
 
+[99]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 354.
+               Default added (so using `tbp') on input line 356.
 
 
-Overfull \hbox (19.58661pt too wide) in paragraph at lines 358--385
+Overfull \hbox (19.58661pt too wide) in paragraph at lines 360--387
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 387.
+               Default added (so using `tbp') on input line 389.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 413.
+               Default added (so using `tbp') on input line 415.
 
-[101] [102] [103]
+[100] [101]
 
-LaTeX Warning: Citation 'munson1998code' on page 104 undefined on input line 46
-5.
-
-
-LaTeX Warning: Citation 'nagappan2005use' on page 104 undefined on input line 4
-65.
+LaTeX Warning: Citation 'munson1998code' on page 102 undefined on input line 46
+7.
 
 
-Overfull \hbox (42.86313pt too wide) in paragraph at lines 465--469
+LaTeX Warning: Citation 'nagappan2005use' on page 102 undefined on input line 4
+67.
+
+
+Overfull \hbox (42.86313pt too wide) in paragraph at lines 467--471
 \T1/mdput/m/n/10.95 (-20) which in real soft-ware projects can lead to code chu
 rn, can af-fect the qual-ity of the soft-ware [[];
  []
 
+[102]
 
-LaTeX Warning: Citation 'larkin1980expert' on page 104 undefined on input line 
-490.
-
-
-LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 104 undefined on input
- line 490.
-
-[104]
-
-LaTeX Warning: Citation 'johnson2016cross' on page 105 undefined on input line 
-501.
+LaTeX Warning: Citation 'larkin1980expert' on page 103 undefined on input line 
+492.
 
 
-LaTeX Warning: Citation 'mckeithen1981knowledge' on page 105 undefined on input
- line 506.
+LaTeX Warning: Citation 'Wiedenbeck:1993:Mental' on page 103 undefined on input
+ line 492.
 
 
-Overfull \hbox (35.08356pt too wide) in paragraph at lines 505--510
+LaTeX Warning: Citation 'mckeithen1981knowledge' on page 103 undefined on input
+ line 508.
+
+
+Overfull \hbox (35.08356pt too wide) in paragraph at lines 507--512
 \T1/mdput/m/n/10.95 (-20) two group set-up. For the pur-poses of this study, an
 d based on ex-ist-ing re-search [[]],
  []
 
+[103]
 
-LaTeX Warning: Citation 'nasehi2012makes' on page 105 undefined on input line 5
-13.
-
-
-LaTeX Warning: Citation 'nasehi2012makes' on page 105 undefined on input line 5
-17.
-
-[105]
-
-LaTeX Warning: Citation 'smith2015questions' on page 106 undefined on input lin
-e 540.
+LaTeX Warning: Citation 'nasehi2012makes' on page 104 undefined on input line 5
+15.
 
 
-LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 106 undefined on input l
-ine 540.
-
-[106] [107]
-
-LaTeX Warning: Citation 'larkin1980expert' on page 108 undefined on input line 
-577.
+LaTeX Warning: Citation 'nasehi2012makes' on page 104 undefined on input line 5
+19.
 
 
-LaTeX Warning: Citation 'nasehi2012makes' on page 108 undefined on input line 5
-93.
+LaTeX Warning: Citation 'smith2015questions' on page 104 undefined on input lin
+e 542.
 
-[108]) [109]
+
+LaTeX Warning: Citation 'Layman:2007:FaultFix' on page 104 undefined on input l
+ine 542.
+
+[104] [105]
+
+LaTeX Warning: Citation 'larkin1980expert' on page 106 undefined on input line 
+579.
+
+
+LaTeX Warning: Citation 'nasehi2012makes' on page 106 undefined on input line 5
+95.
+
+[106]) [107]
 \openout2 = `Chapter-8/Chapter-8.aux'.
 
  (./Chapter-8/Chapter-8.tex
 Chapter 8.
-[110
+[108
 
 
 
 ]
 
-LaTeX Warning: Citation 'nasehi2012makes' on page 111 undefined on input line 2
+LaTeX Warning: Citation 'nasehi2012makes' on page 109 undefined on input line 2
 7.
 
 
-LaTeX Warning: Citation 'nasehi2012makes' on page 111 undefined on input line 2
+LaTeX Warning: Citation 'nasehi2012makes' on page 109 undefined on input line 2
 7.
 
-[111] [112]
+[109] [110]
 
-LaTeX Warning: Citation 'forman1989role' on page 113 undefined on input line 63
+LaTeX Warning: Citation 'forman1989role' on page 111 undefined on input line 63
 .
 
 
-LaTeX Warning: Citation 'ge2003scaffolding' on page 113 undefined on input line
+LaTeX Warning: Citation 'ge2003scaffolding' on page 111 undefined on input line
  63.
 
 
-LaTeX Warning: Citation 'murphy2011peer' on page 113 undefined on input line 63
+LaTeX Warning: Citation 'murphy2011peer' on page 111 undefined on input line 63
 .
 
 
-LaTeX Warning: Citation 'balachandran2013reducing' on page 113 undefined on inp
+LaTeX Warning: Citation 'balachandran2013reducing' on page 111 undefined on inp
 ut line 69.
 
 
-LaTeX Warning: Citation 'fritz2010degree' on page 113 undefined on input line 7
+LaTeX Warning: Citation 'fritz2010degree' on page 111 undefined on input line 7
 0.
 
 
-LaTeX Warning: Citation 'johnson2016cross' on page 113 undefined on input line 
+LaTeX Warning: Citation 'johnson2016cross' on page 111 undefined on input line 
 70.
 
 
@@ -4328,19 +4317,19 @@ Overfull \hbox (14.33092pt too wide) in paragraph at lines 69--72
 on code re-view as-sign-ment [[]],
  []
 
-[113]
+[111]
 
-LaTeX Warning: Citation 'plonka2015knowledge' on page 114 undefined on input li
+LaTeX Warning: Citation 'plonka2015knowledge' on page 112 undefined on input li
 ne 74.
 
 
-LaTeX Warning: Citation 'murphy2011peer' on page 114 undefined on input line 74
+LaTeX Warning: Citation 'murphy2011peer' on page 112 undefined on input line 74
 .
 
 
-LaTeX Warning: Citation 'lui2006pair' on page 114 undefined on input line 74.
+LaTeX Warning: Citation 'lui2006pair' on page 112 undefined on input line 74.
 
-) [114]
+) [112]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 441.
@@ -4348,7 +4337,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Empty bibliography on input line 447.
 
-[115
+[113
 
 
 
@@ -4402,7 +4391,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2613, 614.295pt x 794.97pt>
+<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2705, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Pre-Int_Questionnaire.pdf>
@@ -4416,7 +4405,7 @@ Package pdftex.def Info: Chapter-3/figs/Pre-Int_Questionnaire.pdf used on input
  line 8.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2616, page=1, 614.295pt x 794.97p
+<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2708, page=1, 614.295pt x 794.97p
 t>
 File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
  <use Chapter-3/figs/Pre-Int_Questionnaire.pdf, page 1>
@@ -4441,13 +4430,13 @@ File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Pre-Int_Questionnaire.pdf, page1 used o
 n input line 8.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [116
+ [114
 
 
 
 
 ]
-<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2621, page=2, 614.295pt x 794.97p
+<Chapter-3/figs/Pre-Int_Questionnaire.pdf, id=2714, page=2, 614.295pt x 794.97p
 t>
 File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
  <use Chapter-3/figs/Pre-Int_Questionnaire.pdf, page 2>
@@ -4466,15 +4455,15 @@ File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Pre-Int_Questionnaire.pdf, page1 used o
 n input line 8.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [117 <./Chapter-3/figs/Pre-Int_Questionnaire.pdf>]
+ [115 <./Chapter-3/figs/Pre-Int_Questionnaire.pdf>]
 File: Chapter-3/figs/Pre-Int_Questionnaire.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Pre-Int_Questionnaire.pdf, page 2>
 Package pdftex.def Info: Chapter-3/figs/Pre-Int_Questionnaire.pdf, page2 used o
 n input line 8.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [118 <./Chapter-3/figs/Pre-Int_Questionnaire.pdf>]
-<Chapter-3/figs/script.pdf, id=2653, 473.17972pt x 605.87015pt>
+ [116 <./Chapter-3/figs/Pre-Int_Questionnaire.pdf>]
+<Chapter-3/figs/script.pdf, id=2747, 473.17972pt x 605.87015pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf>
@@ -4485,7 +4474,7 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf used on input line 12.
 (pdftex.def)             Requested size: 473.17854pt x 605.86867pt.
 
-<Chapter-3/figs/script.pdf, id=2656, page=1, 473.17972pt x 605.87015pt>
+<Chapter-3/figs/script.pdf, id=2750, page=1, 473.17972pt x 605.87015pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 1>
@@ -4510,8 +4499,8 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page1 used on input line 12
 .
 (pdftex.def)             Requested size: 283.91pt x 363.52489pt.
- [119]
-<Chapter-3/figs/script.pdf, id=2661, page=2, 469.24207pt x 643.77899pt>
+ [117]
+<Chapter-3/figs/script.pdf, id=2755, page=2, 469.24207pt x 643.77899pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 2>
@@ -4530,8 +4519,8 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page1 used on input line 12
 .
 (pdftex.def)             Requested size: 283.91pt x 363.52489pt.
- [120 <./Chapter-3/figs/script.pdf>]
-<Chapter-3/figs/script.pdf, id=2689, page=3, 474.3343pt x 575.62422pt>
+ [118 <./Chapter-3/figs/script.pdf>]
+<Chapter-3/figs/script.pdf, id=2782, page=3, 474.3343pt x 575.62422pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 3>
@@ -4550,8 +4539,8 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page2 used on input line 12
 .
 (pdftex.def)             Requested size: 281.5474pt x 386.27037pt.
- [121 <./Chapter-3/figs/script.pdf>]
-<Chapter-3/figs/script.pdf, id=2702, page=4, 466.14575pt x 567.65567pt>
+ [119 <./Chapter-3/figs/script.pdf>]
+<Chapter-3/figs/script.pdf, id=2795, page=4, 466.14575pt x 567.65567pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 4>
@@ -4570,8 +4559,8 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page3 used on input line 12
 .
 (pdftex.def)             Requested size: 284.60277pt x 345.3772pt.
- [122 <./Chapter-3/figs/script.pdf>]
-<Chapter-3/figs/script.pdf, id=2716, page=5, 471.05682pt x 619.34003pt>
+ [120 <./Chapter-3/figs/script.pdf>]
+<Chapter-3/figs/script.pdf, id=2809, page=5, 471.05682pt x 619.34003pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 5>
@@ -4590,8 +4579,8 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page4 used on input line 12
 .
 (pdftex.def)             Requested size: 279.6896pt x 340.59602pt.
- [123 <./Chapter-3/figs/script.pdf>]
-<Chapter-3/figs/script.pdf, id=2745, page=6, 481.58842pt x 335.7854pt>
+ [121 <./Chapter-3/figs/script.pdf>]
+<Chapter-3/figs/script.pdf, id=2838, page=6, 481.58842pt x 335.7854pt>
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 6>
@@ -4610,15 +4599,15 @@ File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page5 used on input line 12
 .
 (pdftex.def)             Requested size: 282.63628pt x 371.60687pt.
- [124 <./Chapter-3/figs/script.pdf>]
+ [122 <./Chapter-3/figs/script.pdf>]
 File: Chapter-3/figs/script.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/script.pdf, page 6>
 Package pdftex.def Info: Chapter-3/figs/script.pdf, page6 used on input line 12
 .
 (pdftex.def)             Requested size: 288.95528pt x 201.4728pt.
- [125 <./Chapter-3/figs/script.pdf>]
-<Chapter-3/figs/Sketches.pdf, id=2778, 614.295pt x 794.97pt>
+ [123 <./Chapter-3/figs/script.pdf>]
+<Chapter-3/figs/Sketches.pdf, id=2872, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf>
@@ -4629,7 +4618,7 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf used on input line 17.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-3/figs/Sketches.pdf, id=2781, page=1, 614.295pt x 794.97pt>
+<Chapter-3/figs/Sketches.pdf, id=2875, page=1, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf, page 1>
@@ -4654,8 +4643,8 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page1 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [126]
-<Chapter-3/figs/Sketches.pdf, id=2787, page=2, 614.295pt x 794.97pt>
+ [124]
+<Chapter-3/figs/Sketches.pdf, id=2880, page=2, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf, page 2>
@@ -4674,12 +4663,12 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page1 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [127 <./Chapter-3/figs/Sketches.pdf
+ [125 <./Chapter-3/figs/Sketches.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/Sketches.pdf): PDF inclusion: Subtype in Resources dict is not a nam
 e (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/Sketches.pdf, id=2795, page=3, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/Sketches.pdf, id=2888, page=3, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf, page 3>
@@ -4698,12 +4687,12 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page2 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [128 <./Chapter-3/figs/Sketches.pdf
+ [126 <./Chapter-3/figs/Sketches.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/Sketches.pdf): PDF inclusion: Subtype in Resources dict is not a nam
 e (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/Sketches.pdf, id=2801, page=4, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/Sketches.pdf, id=2895, page=4, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf, page 4>
@@ -4722,12 +4711,12 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page3 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [129 <./Chapter-3/figs/Sketches.pdf
+ [127 <./Chapter-3/figs/Sketches.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/Sketches.pdf): PDF inclusion: Subtype in Resources dict is not a nam
 e (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/Sketches.pdf, id=2807, page=5, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/Sketches.pdf, id=2901, page=5, 614.295pt x 794.97pt>
 File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/Sketches.pdf, page 5>
@@ -4746,7 +4735,7 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page4 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [130 <./Chapter-3/figs/Sketches.pdf
+ [128 <./Chapter-3/figs/Sketches.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/Sketches.pdf): PDF inclusion: Subtype in Resources dict is not a nam
@@ -4757,12 +4746,12 @@ File: Chapter-3/figs/Sketches.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/Sketches.pdf, page5 used on input line 
 17.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [131 <./Chapter-3/figs/Sketches.pdf
+ [129 <./Chapter-3/figs/Sketches.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/Sketches.pdf): PDF inclusion: Subtype in Resources dict is not a nam
 e (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/sketches-2.pdf, id=2818, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/sketches-2.pdf, id=2912, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf>
@@ -4773,7 +4762,7 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf used on input line 18.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-3/figs/sketches-2.pdf, id=2821, page=1, 614.295pt x 794.97pt>
+<Chapter-3/figs/sketches-2.pdf, id=2915, page=1, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 1>
@@ -4799,7 +4788,7 @@ Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page1 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
 
-<Chapter-3/figs/sketches-2.pdf, id=2822, page=2, 614.295pt x 794.97pt>
+<Chapter-3/figs/sketches-2.pdf, id=2916, page=2, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 2>
@@ -4818,12 +4807,12 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page1 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [132 <./Chapter-3/figs/sketches-2.pdf
+ [130 <./Chapter-3/figs/sketches-2.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/sketches-2.pdf): PDF inclusion: Subtype in Resources dict is not a n
 ame (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/sketches-2.pdf, id=2831, page=3, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/sketches-2.pdf, id=2924, page=3, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 3>
@@ -4842,8 +4831,8 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page2 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [133 <./Chapter-3/figs/sketches-2.pdf>] <Chapter-3/figs/sketches-2.pdf, id=283
-7, page=4, 614.295pt x 794.97pt>
+ [131 <./Chapter-3/figs/sketches-2.pdf>] <Chapter-3/figs/sketches-2.pdf, id=293
+0, page=4, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 4>
@@ -4862,12 +4851,12 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page3 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [134 <./Chapter-3/figs/sketches-2.pdf
+ [132 <./Chapter-3/figs/sketches-2.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/sketches-2.pdf): PDF inclusion: Subtype in Resources dict is not a n
 ame (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/sketches-2.pdf, id=2843, page=5, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/sketches-2.pdf, id=2937, page=5, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 5>
@@ -4886,12 +4875,12 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page4 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [135 <./Chapter-3/figs/sketches-2.pdf
+ [133 <./Chapter-3/figs/sketches-2.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/sketches-2.pdf): PDF inclusion: Subtype in Resources dict is not a n
 ame (key 'Subtype', type <stream>); ignored.
->] <Chapter-3/figs/sketches-2.pdf, id=2849, page=6, 614.295pt x 794.97pt>
+>] <Chapter-3/figs/sketches-2.pdf, id=2943, page=6, 614.295pt x 794.97pt>
 File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 
 <use Chapter-3/figs/sketches-2.pdf, page 6>
@@ -4910,7 +4899,7 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page5 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [136 <./Chapter-3/figs/sketches-2.pdf
+ [134 <./Chapter-3/figs/sketches-2.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/sketches-2.pdf): PDF inclusion: Subtype in Resources dict is not a n
@@ -4921,7 +4910,7 @@ File: Chapter-3/figs/sketches-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-3/figs/sketches-2.pdf, page6 used on input lin
 e 18.
 (pdftex.def)             Requested size: 368.57983pt x 476.98569pt.
- [137 <./Chapter-3/figs/sketches-2.pdf
+ [135 <./Chapter-3/figs/sketches-2.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-3/figs/sketches-2.pdf): PDF inclusion: Subtype in Resources dict is not a n
@@ -4958,7 +4947,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Chapter-4/figs/NotificationOracle.pdf, id=2860, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=2954, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/NotificationOracle.pdf>
@@ -4972,7 +4961,7 @@ Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf used on input li
 ne 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-4/figs/NotificationOracle.pdf, id=2863, page=1, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=2957, page=1, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/NotificationOracle.pdf, page 1>
@@ -4997,12 +4986,12 @@ File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page1 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [138
+ [136
 
 
 
 ]
-<Chapter-4/figs/NotificationOracle.pdf, id=2869, page=2, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=2962, page=2, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/NotificationOracle.pdf, page 2>
@@ -5019,6 +5008,56 @@ File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/NotificationOracle.pdf, page 1>
 Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page1 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [137 <./Chapter-4/figs/NotificationOracle.pdf
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
+ is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Chapter-4/figs/NotificationOracle.pdf, id=2985, page=3, 614.295pt x 794.97pt>
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 2>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page2 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [138 <./Chapter-4/figs/NotificationOracle.pdf
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
+ is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Chapter-4/figs/NotificationOracle.pdf, id=2993, page=4, 614.295pt x 794.97pt>
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
+nput line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/NotificationOracle.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [139 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5027,23 +5066,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2893, page=3, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3006, page=5, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 2>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page2 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [140 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5052,23 +5091,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2900, page=4, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3017, page=6, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page3 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [141 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5077,23 +5116,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2913, page=5, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3026, page=7, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 7>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 7>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page4 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [142 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5102,23 +5141,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2924, page=6, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3034, page=8, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 8>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 8>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page5 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 7>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [143 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5127,23 +5166,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2933, page=7, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3042, page=9, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 7>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 9>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 7>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 9>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page6 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 8>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [144 <./Chapter-4/figs/NotificationOracle.pdf
@@ -5152,75 +5191,25 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
  is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-4/figs/NotificationOracle.pdf, id=2942, page=8, 614.295pt x 794.97pt>
+<Chapter-4/figs/NotificationOracle.pdf, id=3051, page=10, 614.295pt x 794.97pt>
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 8>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
-nput line 7.
+<use Chapter-4/figs/NotificationOracle.pdf, page 10>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page10 used on 
+input line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 8>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
-nput line 7.
+<use Chapter-4/figs/NotificationOracle.pdf, page 10>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page10 used on 
+input line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/NotificationOracle.pdf, page 7>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page7 used on i
+<use Chapter-4/figs/NotificationOracle.pdf, page 9>
+Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
 nput line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [145 <./Chapter-4/figs/NotificationOracle.pdf
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
- is no dict (key 'ProcSets', type <array>); ignored.
->]
-<Chapter-4/figs/NotificationOracle.pdf, id=2950, page=9, 614.295pt x 794.97pt>
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 9>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
-nput line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 9>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
-nput line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 8>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page8 used on i
-nput line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [146 <./Chapter-4/figs/NotificationOracle.pdf
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
- is no dict (key 'ProcSets', type <array>); ignored.
->]
-<Chapter-4/figs/NotificationOracle.pdf, id=2958, page=10, 614.295pt x 794.97pt>
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-<use Chapter-4/figs/NotificationOracle.pdf, page 10>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page10 used on 
-input line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 10>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page10 used on 
-input line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/NotificationOracle.pdf, page 9>
-Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page9 used on i
-nput line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [147 <./Chapter-4/figs/NotificationOracle.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
@@ -5231,7 +5220,7 @@ File: Chapter-4/figs/NotificationOracle.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-4/figs/NotificationOracle.pdf, page10 used on 
 input line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [148 <./Chapter-4/figs/NotificationOracle.pdf
+ [146 <./Chapter-4/figs/NotificationOracle.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
@@ -5241,7 +5230,7 @@ ter-4/figs/NotificationOracle.pdf): PDF inclusion: invalid other resource which
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=2970, 613.29124pt x 794.97pt>
+<Chapter-4/figs/Consent.pdf, id=3063, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Consent.pdf>
@@ -5266,7 +5255,7 @@ rsion <1.5> allowed
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=2973, page=1, 613.29124pt x 794.97pt>
+<Chapter-4/figs/Consent.pdf, id=3066, page=1, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Consent.pdf, page 1>
@@ -5291,12 +5280,12 @@ File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page1 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
- [149]
+ [147]
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=2978, page=2, 613.29124pt x 794.97pt>
+<Chapter-4/figs/Consent.pdf, id=3071, page=2, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Consent.pdf, page 2>
@@ -5313,6 +5302,54 @@ File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/Consent.pdf, page 1>
 Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page1 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+ [148 <./Chapter-4/figs/Consent.pdf>]
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
+rsion <1.5> allowed
+<Chapter-4/figs/Consent.pdf, id=3104, page=3, 613.29124pt x 794.97pt>
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 2>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page2 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+ [149 <./Chapter-4/figs/Consent.pdf>]
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
+rsion <1.5> allowed
+<Chapter-4/figs/Consent.pdf, id=3127, page=4, 613.29124pt x 794.97pt>
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
+1.
+(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
+File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/Consent.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
  [150 <./Chapter-4/figs/Consent.pdf>]
@@ -5320,23 +5357,23 @@ Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page1 used on input line 1
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=3011, page=3, 613.29124pt x 794.97pt>
+<Chapter-4/figs/Consent.pdf, id=3162, page=5, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 2>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page2 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
  [151 <./Chapter-4/figs/Consent.pdf>]
@@ -5344,82 +5381,34 @@ Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page2 used on input line 1
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
 rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=3034, page=4, 613.29124pt x 794.97pt>
+<Chapter-4/figs/Consent.pdf, id=3235, page=6, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page3 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
  [152 <./Chapter-4/figs/Consent.pdf>]
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
-rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=3068, page=5, 613.29124pt x 794.97pt>
 File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/Consent.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page4 used on input line 1
+<use Chapter-4/figs/Consent.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
 1.
 (pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
  [153 <./Chapter-4/figs/Consent.pdf>]
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-4/figs/Consent.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
-rsion <1.5> allowed
-<Chapter-4/figs/Consent.pdf, id=3142, page=6, 613.29124pt x 794.97pt>
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page5 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
- [154 <./Chapter-4/figs/Consent.pdf>]
-File: Chapter-4/figs/Consent.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/Consent.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/Consent.pdf, page6 used on input line 1
-1.
-(pdftex.def)             Requested size: 429.30093pt x 556.4752pt.
- [155 <./Chapter-4/figs/Consent.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3238, 614.295pt x 794.97pt>
+<Chapter-4/figs/session-script.pdf, id=3331, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/session-script.pdf>
@@ -5433,7 +5422,7 @@ Package pdftex.def Info: Chapter-4/figs/session-script.pdf used on input line 1
 5.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-4/figs/session-script.pdf, id=3241, page=1, 614.295pt x 794.97pt>
+<Chapter-4/figs/session-script.pdf, id=3334, page=1, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/session-script.pdf, page 1>
@@ -5458,8 +5447,8 @@ File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page1 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [156]
-<Chapter-4/figs/session-script.pdf, id=3247, page=2, 614.295pt x 794.97pt>
+ [154]
+<Chapter-4/figs/session-script.pdf, id=3339, page=2, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/session-script.pdf, page 2>
@@ -5476,115 +5465,115 @@ File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
 <use Chapter-4/figs/session-script.pdf, page 1>
 Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page1 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [155 <./Chapter-4/figs/session-script.pdf>]
+<Chapter-4/figs/session-script.pdf, id=3366, page=3, 614.295pt x 794.97pt>
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 2>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page2 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [156 <./Chapter-4/figs/session-script.pdf>]
+<Chapter-4/figs/session-script.pdf, id=3372, page=4, 614.295pt x 794.97pt>
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
+ line 15.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
+
+<use Chapter-4/figs/session-script.pdf, page 3>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [157 <./Chapter-4/figs/session-script.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3273, page=3, 614.295pt x 794.97pt>
+<Chapter-4/figs/session-script.pdf, id=3377, page=5, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
+<use Chapter-4/figs/session-script.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
+<use Chapter-4/figs/session-script.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 2>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page2 used on input
+<use Chapter-4/figs/session-script.pdf, page 4>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [158 <./Chapter-4/figs/session-script.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3278, page=4, 614.295pt x 794.97pt>
+<Chapter-4/figs/session-script.pdf, id=3382, page=6, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
+<use Chapter-4/figs/session-script.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
+<use Chapter-4/figs/session-script.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 3>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page3 used on input
+<use Chapter-4/figs/session-script.pdf, page 5>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [159 <./Chapter-4/figs/session-script.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3283, page=5, 614.295pt x 794.97pt>
+<Chapter-4/figs/session-script.pdf, id=3387, page=7, 614.295pt x 794.97pt>
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
+<use Chapter-4/figs/session-script.pdf, page 7>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page7 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
+<use Chapter-4/figs/session-script.pdf, page 7>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page7 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
 
-<use Chapter-4/figs/session-script.pdf, page 4>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page4 used on input
+<use Chapter-4/figs/session-script.pdf, page 6>
+Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [160 <./Chapter-4/figs/session-script.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3288, page=6, 614.295pt x 794.97pt>
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 5>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page5 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [161 <./Chapter-4/figs/session-script.pdf>]
-<Chapter-4/figs/session-script.pdf, id=3293, page=7, 614.295pt x 794.97pt>
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 7>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page7 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 7>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page7 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
-
-<use Chapter-4/figs/session-script.pdf, page 6>
-Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page6 used on input
- line 15.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [162 <./Chapter-4/figs/session-script.pdf>]
 File: Chapter-4/figs/session-script.pdf Graphic file (type pdf)
  <use Chapter-4/figs/session-script.pdf, page 7>
 Package pdftex.def Info: Chapter-4/figs/session-script.pdf, page7 used on input
  line 15.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [163 <./Chapter-4/figs/session-script.pdf>]
+ [161 <./Chapter-4/figs/session-script.pdf>]
 
 ! LaTeX Error: \begin{document} ended by \end{appendices}.
 
@@ -5616,7 +5605,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Chapter-6/figs/concept-inventory.pdf, id=3303, 614.295pt x 794.97pt>
+<Chapter-6/figs/concept-inventory.pdf, id=3396, 614.295pt x 794.97pt>
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-inventory.pdf>
@@ -5630,7 +5619,7 @@ Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf used on input lin
 e 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-6/figs/concept-inventory.pdf, id=3306, page=1, 614.295pt x 794.97pt>
+<Chapter-6/figs/concept-inventory.pdf, id=3399, page=1, 614.295pt x 794.97pt>
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-inventory.pdf, page 1>
@@ -5655,12 +5644,12 @@ File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page1 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [164
+ [162
 
 
 
 ]
-<Chapter-6/figs/concept-inventory.pdf, id=3311, page=2, 614.295pt x 794.97pt>
+<Chapter-6/figs/concept-inventory.pdf, id=3405, page=2, 614.295pt x 794.97pt>
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-inventory.pdf, page 2>
@@ -5677,6 +5666,56 @@ File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-inventory.pdf, page 1>
 Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page1 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [163 <./Chapter-6/figs/concept-inventory.pdf
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
+is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Chapter-6/figs/concept-inventory.pdf, id=3438, page=3, 614.295pt x 794.97pt>
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 3>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 3>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 2>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page2 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+ [164 <./Chapter-6/figs/concept-inventory.pdf
+
+pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
+ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
+is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Chapter-6/figs/concept-inventory.pdf, id=3448, page=4, 614.295pt x 794.97pt>
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 4>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 4>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
+put line 7.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
+
+<use Chapter-6/figs/concept-inventory.pdf, page 3>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [165 <./Chapter-6/figs/concept-inventory.pdf
@@ -5685,23 +5724,23 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
 is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-6/figs/concept-inventory.pdf, id=3344, page=3, 614.295pt x 794.97pt>
+<Chapter-6/figs/concept-inventory.pdf, id=3453, page=5, 614.295pt x 794.97pt>
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 3>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 5>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 3>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 5>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 2>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page2 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 4>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [166 <./Chapter-6/figs/concept-inventory.pdf
@@ -5710,76 +5749,26 @@ pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
 is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Chapter-6/figs/concept-inventory.pdf, id=3355, page=4, 614.295pt x 794.97pt>
+<Chapter-6/figs/concept-inventory.pdf, id=3463, page=6, 614.295pt x 794.97pt>
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 4>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 6>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page6 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 4>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 6>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page6 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 
-<use Chapter-6/figs/concept-inventory.pdf, page 3>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page3 used on in
+<use Chapter-6/figs/concept-inventory.pdf, page 5>
+Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
  [167 <./Chapter-6/figs/concept-inventory.pdf
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
-is no dict (key 'ProcSets', type <array>); ignored.
->]
-<Chapter-6/figs/concept-inventory.pdf, id=3360, page=5, 614.295pt x 794.97pt>
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 5>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 5>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 4>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page4 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [168 <./Chapter-6/figs/concept-inventory.pdf
-
-pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
-ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
-is no dict (key 'ProcSets', type <array>); ignored.
->]
-<Chapter-6/figs/concept-inventory.pdf, id=3371, page=6, 614.295pt x 794.97pt>
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 6>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page6 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 6>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page6 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
-
-<use Chapter-6/figs/concept-inventory.pdf, page 5>
-Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page5 used on in
-put line 7.
-(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [169 <./Chapter-6/figs/concept-inventory.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
@@ -5790,12 +5779,12 @@ File: Chapter-6/figs/concept-inventory.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/concept-inventory.pdf, page6 used on in
 put line 7.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [170 <./Chapter-6/figs/concept-inventory.pdf
+ [168 <./Chapter-6/figs/concept-inventory.pdf
 
 pdfTeX warning: /usr/local/texlive/2015/bin/x86_64-darwin/pdflatex (file ./Chap
 ter-6/figs/concept-inventory.pdf): PDF inclusion: invalid other resource which 
 is no dict (key 'ProcSets', type <array>); ignored.
->] <Chapter-6/figs/feature-map.pdf, id=3385, 614.295pt x 794.97pt>
+>] <Chapter-6/figs/feature-map.pdf, id=3478, 614.295pt x 794.97pt>
 File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/feature-map.pdf>
@@ -5806,7 +5795,7 @@ File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/feature-map.pdf used on input line 11.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Chapter-6/figs/feature-map.pdf, id=3388, page=1, 614.295pt x 794.97pt>
+<Chapter-6/figs/feature-map.pdf, id=3481, page=1, 614.295pt x 794.97pt>
 File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/feature-map.pdf, page 1>
@@ -5831,8 +5820,8 @@ File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/feature-map.pdf, page1 used on input li
 ne 11.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [171]
-<Chapter-6/figs/feature-map.pdf, id=3393, page=2, 614.295pt x 794.97pt>
+ [169]
+<Chapter-6/figs/feature-map.pdf, id=3486, page=2, 614.295pt x 794.97pt>
 File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/feature-map.pdf, page 2>
@@ -5851,19 +5840,19 @@ File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/feature-map.pdf, page1 used on input li
 ne 11.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [172 <./Chapter-6/figs/feature-map.pdf>]
+ [170 <./Chapter-6/figs/feature-map.pdf>]
 File: Chapter-6/figs/feature-map.pdf Graphic file (type pdf)
  <use Chapter-6/figs/feature-map.pdf, page 2>
 Package pdftex.def Info: Chapter-6/figs/feature-map.pdf, page2 used on input li
 ne 11.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
- [173 <./Chapter-6/figs/feature-map.pdf>]
+ [171 <./Chapter-6/figs/feature-map.pdf>]
 Overfull \hbox (1.20024pt too wide) in paragraph at lines 13--13
  |[]\T1/mdput/b/n/14.4 Example Con-cept Map and Bloom's Tax-on-omy As-sess-ment
  Map-ping
  []
 
-<Chapter-6/figs/concept-graph.pdf, id=3604, 333.41893pt x 156.1038pt>
+<Chapter-6/figs/concept-graph.pdf, id=3697, 333.41893pt x 156.1038pt>
 File: Chapter-6/figs/concept-graph.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-graph.pdf>
@@ -5876,7 +5865,7 @@ Package pdftex.def Info: Chapter-6/figs/concept-graph.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 333.4181pt x 156.10341pt.
 
-<Chapter-6/figs/concept-graph.pdf, id=3607, page=1, 333.41893pt x 156.1038pt>
+<Chapter-6/figs/concept-graph.pdf, id=3700, page=1, 333.41893pt x 156.1038pt>
 File: Chapter-6/figs/concept-graph.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-graph.pdf, page 1>
@@ -5901,14 +5890,14 @@ File: Chapter-6/figs/concept-graph.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter-6/figs/concept-graph.pdf, page1 used on input 
 line 15.
 (pdftex.def)             Requested size: 233.39165pt x 109.2719pt.
- [174]
+ [172]
 File: Chapter-6/figs/concept-graph.pdf Graphic file (type pdf)
 
 <use Chapter-6/figs/concept-graph.pdf, page 1>
 Package pdftex.def Info: Chapter-6/figs/concept-graph.pdf, page1 used on input 
 line 15.
 (pdftex.def)             Requested size: 233.39165pt x 109.2719pt.
- [175 <./Chapter-6/figs/concept-graph.pdf>]
+ [173 <./Chapter-6/figs/concept-graph.pdf>]
 
 ! LaTeX Error: \begin{document} ended by \end{appendices}.
 
@@ -5927,7 +5916,7 @@ or  <return>  to continue without it.
 
  (./Appendix-E/Appendix-E.tex
 Appendix D.
-) [176
+) [174
 
 
 
@@ -5944,9 +5933,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
 (./Appendix-E/Appendix-E.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
-Package rerunfilecheck Info: File `Johnson-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 604FC2742C4353F49F49CC3FF8EE1EB8;7124.
 
+
+Package rerunfilecheck Warning: File `Johnson-thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Johnson-thesis.out':
+(rerunfilecheck)             Before: 604FC2742C4353F49F49CC3FF8EE1EB8;7124
+(rerunfilecheck)             After:  D30F8009F74D182BE4604451F055BA5E;7118.
 
 LaTeX Warning: There were undefined references.
 
@@ -5964,13 +5959,13 @@ Package logreq Info: Writing requests to 'Johnson-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39098 strings out of 493089
- 710687 string characters out of 6134842
- 1143513 words of memory out of 5000000
- 40771 multiletter control sequences out of 15000+600000
- 233948 words of font info for 533 fonts, out of 8000000 for 9000
+ 39090 strings out of 493089
+ 710613 string characters out of 6134842
+ 1142513 words of memory out of 5000000
+ 40769 multiletter control sequences out of 15000+600000
+ 233677 words of font info for 530 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,65p,10424b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,65p,10424b,1241s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{RQ3} has been referenced but does not exist, repl
 aced by a fixed one
 
@@ -5996,10 +5991,10 @@ a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><
 ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Johnson-thesis.pdf (189 pages, 9408483 bytes).
+Output written on Johnson-thesis.pdf (187 pages, 9442404 bytes).
 PDF statistics:
- 3781 PDF objects out of 4296 (max. 8388607)
- 2345 compressed objects within 24 object streams
- 395 named destinations out of 1000 (max. 500000)
+ 3874 PDF objects out of 4296 (max. 8388607)
+ 2398 compressed objects within 24 object streams
+ 393 named destinations out of 1000 (max. 500000)
  64869 words of extra memory for PDF output out of 74296 (max. 10000000)
 
