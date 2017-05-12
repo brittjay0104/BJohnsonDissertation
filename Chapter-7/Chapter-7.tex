@@ -228,6 +228,8 @@ All participants completed all three concept inventories necessary for data anal
 One participant was unable to finish all the defects in the user study due to work obligations. Although he did not get to all 9 notifications, since he completed the inventories I analyzed data collected from the 7 he did complete.
 
 To determine the significance between the differences calculated, I used R with RStudio~\cite{RSoftware} to run a two-sample unpaired t-test for set of aligned and misaligned values. I chose run a t-test because it can provide accurate results despite my small sample size. A t-test is also an  appropriate test for comparing averages across two samples that are different sizes.
+For t-tests on data across participants, I used an unadjusted alpha value of 0.05. 
+For t-tests ran on all participants, due to the large number of tests ran, I use a Bonferroni Correction for an alpha value of 0.03.
 I report the findings from these analyses in the next section.
 
 \section{Adaptation Effectiveness}
@@ -319,7 +321,7 @@ The difference between resolution time was the largest for experts.
 This may have occurred because the notifications designed for novices provided more information to read, which some participants felt obligated to read regardless of needing the information.
 
 Nine of the 14 participants spent less time on notifications aligned with their knowledge than they did on notifications not aligned with their knowledge.
-For two participants, the aligned notifications significantly reduced the time to resolution (Table~\ref{tab:time}).
+For one participant, based on the adjusted alpha value (0.03), the aligned notifications significantly reduced the time to resolution (Table~\ref{tab:time}).
 Also, despite there being more participants presented with aligned notifications (67) than misaligned notifications (57), participants took less time overall to resolve aligned notifications (231.25 seconds) than misaligned notifications (320.9 seconds). The difference was not significant, however, this may be due to the fact that I did not take into account other relevant factors, such as defect and notification experience, when determining developer concept knowledge classification.
 
 %Participants also took less time to resolve notifications aligned with their experience for 
@@ -410,7 +412,7 @@ P8                   & 108.33                                                   
 P9                   & 47.8                                                                                                  & 277.25                                                                                                   & \textit{0.1836}   \\
 P10                  & 35                                                                                                    & 180.3                                                                                                    & \textit{0.0200*} \\
 P11                  & 76                                                                                                    & 111.4                                                                                                    & \textit{0.4862}   \\
-P12                  & 47.5                                                                                                  & 132.6                                                                                                    & \textit{0.0518*} \\
+P12                  & 47.5                                                                                                  & 132.6                                                                                                    & \textit{0.0518} \\
 P13                  & 75.5                                                                                                  & 59.3                                                                                                     & \textit{0.6903}   \\
 P14                  & 64.6                                                                                                  & 130.33                                                                                                   & \textit{0.4116}  \\
 \bottomrule
