@@ -709,6 +709,9 @@ by asking participants experience questions.
 
 \section{Next Steps to A Solution}
 % this study explored the what (what's causing developers to not frequently use tools). Most common findings = notification understandability. Next study/question that needs to be answered is why developers have difficulty with notifications -- only then can we start to explore ways to mitigate barriers and potentially increase usage/improve opinion of tools.
+This study discovered reasons developers have for not using static analysis tools on their code.
+Majority of participants noted having difficulty understanding and then coming up with a resolution for the notifications they encounter in their tools.
+Based on the findings from this study, I discuss implications for improving developer perception of their tools.
 
 % interactive quick fixes (help with resolution)
 \subsection{Notification Resolution Solutions}
@@ -727,16 +730,18 @@ developers resolve static analysis warnings because many static analysis
 warnings do not have a small set of solutions. For example, FindBugs warns
 developers when two method names in the same class differ only by
 capitalization; no quick fix for this problem is likely to satisfy a developer.
-Instead, interactive quick fixes that enable easy access to refactoring and code
-modification tools may be able to semi-automatically help developers resolve
-static analysis warnings. Barik and colleagues developed and evaluated an approach for interactively resolving defects based on these findings~\cite{barik2016quick}.
 
-On the negative side, quick fixes could also cause
+Also, on the negative side, quick fixes could also cause
 developers to be hasty in fixing their code, which could potentially lead to
-more problems, such as the introduction of new defects~\cite{Mucslu:2012:Speculative}. There are also
-challenges related to implementing usable interactive quick fixes. We
+more problems, such as the introduction of new defects~\cite{Mucslu:2012:Speculative}. 
+There are also challenges related to implementing usable quick fixes. I
 have not yet investigated what theses challenges are or how to address them as
-they are out of scope for this particular study.
+they are out of scope for this dissertation. 
+I instead, focus my attention on why developers have difficulty with interpreting tool notifications and how we can mitigate those challenges, thereby increasing developer ability to resolve notifications.
+
+%Instead, interactive quick fixes that enable easy access to refactoring and code
+%modification tools may be able to semi-automatically help developers resolve
+%static analysis warnings. Barik and colleagues developed and evaluated an approach for interactively resolving defects based on these findings~\cite{barik2016quick}.
 
 \subsection{Notification Understandability Solutions}
 % notification understandability (help with understanding)
