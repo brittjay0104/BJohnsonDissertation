@@ -488,20 +488,62 @@ The differences discovered in exploring H\textsubscript{1} -- H\textsubscript{4}
 % RQ: do developer adaptation preferences match expectations, based on existing literature?
 
 One explicit question I asked participants was their preference regarding the set of notifications provided for each concept. 
-Eight participants selected a version they preferred for each concept. 
-Six participants could not provide a best notification across concepts, typically due to their varying experience with the defects presented.
+Ten participants selected a version they preferred for each concept. The distribution of instances when participant preferences matched preferences exactly, per concept, is shown in Table~\ref{tab:exact}. The distribution of instances when participant preferences matched, but with some variation, is shown in Table~\ref{tab:variation}.
+Four participants could not provide a best notification across concepts, typically due to their varying experience with the defects presented.
+We discuss these findings in detail below.
 
-When the 8 participants were experts in a given concept they preferred the shorter, more concise notifications that were designed for them.
+\begin{table}[]
+	\centering
+	\caption{Participants whose notification preference aligned exactly with expectations.}
+	\label{tab:exact}
+	\begin{tabular}{llll}
+		Concept            & \multicolumn{1}{c}{Novice} & \multicolumn{1}{c}{Expert} & \multicolumn{1}{c}{Total} \\
+		Variables          & 2                          & 2                          & 4                         \\
+		Exception Handling & 1                          & 2                          & 3                         \\
+		Generics           & 3                          & 1                          & 4                        
+	\end{tabular}
+\end{table}
+
+\begin{table}[]
+	\centering
+	\caption{Participants whose notification preference aligned with expectations, but with some variation.}
+	\label{tab:variation}
+	\begin{tabular}{llll}
+		Concept            & \multicolumn{1}{c}{Novice} & \multicolumn{1}{c}{Expert} & \multicolumn{1}{c}{Total} \\
+		Variables          & 1                          & 2                          & 3                         \\
+		Exception Handling & 1                          & 1                          & 2                         \\
+		Generics           & 3                          & 1                          & 4                        
+	\end{tabular}
+\end{table}
+
+
+
+When the 10 participants were experts in a given concept they preferred the shorter, more concise notifications that were designed for them.
 As suggested by prior research, experts typically already had plans for resolving the defects~\cite{larkin1980expert, Wiedenbeck:1993:Mental}, so they preferred some combination of the problem statement, goal statement, and examples provided.
-One expert participant, who was classified as an expert in all concepts for the study, said she wished to have had the subgoals for all the notifications, but just as confirmation.
-
-When the 8 participants were novices in a given concept, 90\% of the time they preferred the notifications designed for them, with subgoals that walk them through the problem and its solution. 
-Four of the 8 mentioned preferring even moreso the solution-oriented subgoals (i.e. ``do this'' or ``try that'') rather than the exploration-oriented subgoals (i.e. ``find this'' or ``look at that'').
-The handful of times participants did not prefer the notification designed for them noted preferring the expert notification because their prior experience with resolving the defect made the other information unnecessary.
-All participants found the goal statements provided useful, especially when they were prescriptive (i.e. ``Add missing throw statement'').
+In 5 instances, across all concepts, participants preferred aligned notification, exactly matching expectations, and made no mention of information that should be added or modified.
+In 4 instances, however, participants preferred the aligned notification but had some suggestions for how the notification could better communicate the problem.
+For examples, participants in this group mentioned wanting the subgoals to be available for confirmation of their actions.
+Some of the suggestions made by experts matched those made by novices. I discuss mutual variations later in this section.
 
 
-For 6 participants, it was difficult to pick just one version for each concept; most often, it was when participants were expert in a given concept that they had more than one best notification.
+When the 10 participants were novices in a given concept, they most often preferred the notifications designed for them, with subgoals that walk them through the problem and its solution.
+In 6 instances, these participants preferred the aligned notification as is, with no mention of additional information or modification needed. 
+In 4 instances, however, participants found that they preferred the aligned notifications but would find even more value with certain modifications.
+For example, participants preferred solution-oriented subgoals (i.e. ``do this'' or ``try that'') rather than the exploration-oriented subgoals (i.e. ``find this'' or ``look at that'').
+The few times novices did not prefer the aligned notification, they noted preferring the expert notification because their prior experience with resolving the defect made the other information unnecessary.
+
+
+All participants, both novice and expert, found the goal statements provided useful, especially when they were prescriptive (i.e. ``Add missing throw statement'').
+Often, participants preferred the goal statement to the problem statement when it was available. 
+All participants also found the availability of examples in the notification useful, as suggested by previous research~\cite{nasehi2012makes}; for many this was considered the most valuable information provided. 
+% TODO can I say they resolved more often when examples short and closely matched??
+Participants preferred short examples that closely matched the code they were looking at. 
+Four participants noted being distracted by or having difficulty determining the useful parts of examples that were too long or too different from the code they were working in.
+Similar to findings from~\cite{nasehi2012makes} on what makes a good example on StackOverflow, some participants wanted explanations with the code examples provided to ease integration into their own code.
+Two participants requested the examples be partnered with the appropriate subgoal(s).
+
+
+For 4 participants, it was difficult to pick just one version for each concept; most often, it was when participants were expert in a given concept that they had more than one best notification.
 In 8 instances, participants had varying levels of experience with the defects they had to resolve, which they stated made it difficult across notifications for primarily exceptions and generics. 
 For these participants, the information they preferred depended on the defect they were trying to resolve. This coincides with my previous research, from Chapter~\ref{chap:theory}, that suggested notification experience affects ability to understand and resolve notifications.
 % TODO example(s)?? quote(s)??
@@ -511,16 +553,7 @@ Inability to select a best notification may have also been affected by the group
 For the purposes of this study, and based on existing research~\cite{mckeithen1981knowledge}, I grouped intermediate developers with experts. 
 There was one participant who was classified as intermediate in generics, based on her score on the concept inventory, but because I chose a two option study design she was considered aligned with expert generics notifications in the study.
 During her session, she constantly mentioned missing the subgoals when she did not have them. She noted that it was not that she always needed them but that it was nice to have them there when she did. She is also one of the experts that could not decide across concepts which notifications she preferred. 
-It may be that there is a difference between intermediate expertise in software development and intermediate expertise in other STEM fields.
-
-
-
-All participants found the availability of examples in the notification useful, as suggested by previous research~\cite{nasehi2012makes}; for many this was considered the most valuable information provided. 
-% TODO can I say they resolved more often when examples short and closely matched??
-Participants preferred short examples that closely matched the code they were looking at. 
-Four participants noted being distracted by or having difficulty determining the useful parts of examples that were too long or too different from the code they were working in.
-Similar to findings from~\cite{nasehi2012makes} on what makes a good example on StackOverflow, some participants wanted explanations with the code examples provided to ease integration into their own code.
-Two participants requested the examples be partnered with the appropriate subgoal(s).
+It may be that there is a difference between intermediate expertise in software development and intermediate expertise in other STEM areas.
 
 
 
