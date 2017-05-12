@@ -37,10 +37,11 @@ To evaluate H\textsubscript{1} -- H\textsubscript{4}, I conducted user studies w
 
 \subsection{Notification Adaptations}
 
-Existing research on notification design focuses on the general information needs of all developers, regardless of their knowledge regarding the notification or its concepts~\cite{smith2015questions, barik14, robillard2014recommendation}. Therefore, there is no existing work that has examined notification design for expertise. 
+Existing research on notification design focuses on the general information needs of all developers, regardless of their knowledge regarding the notification or its concepts~\cite{smith2015questions, barik14, robillard2014recommendation}. Therefore, there is no existing work that has examined notification design for expertise to inform the adaptations necessary for my approach.
+There does exists work, however, in other fields that has examined problem solving and debugging in relation to programmer expertise~\cite{larkin1980expert, mckeithen1981knowledge, Wiedenbeck:1993:Mental}. 
 
-% TODO add this stuff to related work chapter ??
-There does exists work in other fields that has examined problem solving and debugging in relation to programmer expertise~\cite{larkin1980expert, mckeithen1981knowledge, Wiedenbeck:1993:Mental}. I used this existing research to inform the design of the adapted notifications for each level of expertise, and help answer my research question. Based on existing research, I designed knowledge-based notifications using the following criteria:
+I used existing research in problem solving and debugging to inform the design of the adapted notifications for each classification in my study, and help answer my research question.
+Based on existing research, I determined the following minimal criteria for knowledge-based notifications:
 \begin{itemize}
     \item Notifications designed for developers classified as intermediate and expert for a given concept provide brief notifications with goal statements to communicate the problem.
     \item Notifications designed for developers classified as novice for a given concept provide more detailed notifications with goal statements and subgoals to communicate the problem.
@@ -48,13 +49,13 @@ There does exists work in other fields that has examined problem solving and deb
 \end{itemize}
 
 % Determining number of adaptations to design
-The previous chapter on classifying developers suggested that for some concepts, progress to expertise is a three stage progression. Previous research found that there is typically homogeneity within expertise groups (novice, intermediate, expert) but that strategy selection and usage is based on expertise~\cite{mckeithen1981knowledge}. This research also found that the intermediate and expert groups exhibited similar strategies.  
+Previous research found that there is typically homogeneity within expertise groups (novice, intermediate, expert) but that strategy selection and usage is based on expertise~\cite{mckeithen1981knowledge}. This research also found that the intermediate and expert groups exhibited similar strategies.
+For this user study, I chose to design notifications for a novice and expert split rather than novice, intermediate, and expert. I made this decision because 1) designing 3 notifications per defect would have led to longer sessions, 2) the models created in Chapter~\ref{chap:experience} suggest only 2--3 knowledge groupings per concept, and 3) existing research suggests that intermediate and expert programmers solve problems in similar ways~\cite{mckeithen1981knowledge}.
 
-For the user study, I chose to design notifications for a novice and expert split rather than novice, intermediate, and expert. I made this decision because 1) designing 3 notifications per defect would have led to longer sessions, 2) the models created in Chapter~\ref{chap:experience} suggest only 2--3 knowledge groupings per concept, and 3) existing research suggests that intermediate and expert programmers solve problems in similar ways~\cite{mckeithen1981knowledge}.
 
-The adaptation provided for each classification should be meaningful to that expertise group. There exists research that has explored the differences between novice and expert problem solving in STEM domains~\cite{larkin1980expert, Wiedenbeck:1993:Mental}. Using this research, I determined possible adaptations for novice and expert developers.
+%The adaptation provided for each classification should be meaningful to that expertise group. There exists research that has explored the differences between novice and expert problem solving in STEM domains~\cite{larkin1980expert, Wiedenbeck:1993:Mental}. Using this research, I determined possible adaptations for novice and expert developers.
 
-Larkin and colleagues found that experts in STEM domains have common foundations when problem solving~\cite{larkin1980expert}. They found that experts use experience to work from a goal to a solution, while novices required a goal and subgoals to reach a solution. Similarly, Wiedenbeck and colleagues have done extensive work on expertise-based problem solving~\cite{wiedenbeck1985novice,Wiedenbeck:1993:Mental}. They posed five characteristics in expert mental representations, most of which novices lack:
+Larkin and colleagues found that experts in STEM domains have common foundations when problem solving~\cite{larkin1980expert}. They found that experts use experience to work from a goal to a solution, while novices, who typically lack experience, required a goal and subgoals to reach a solution. Similarly, Wiedenbeck and colleagues have done extensive work on expertise-based problem solving~\cite{wiedenbeck1985novice,Wiedenbeck:1993:Mental}. They posed five characteristics in expert mental representations, most of which novices lack:
 
 \begin{itemize}
     \item \textbf{It is hierarchal and multi-layered.} This means experts have an understanding of high level program structure and goals as well as low level data structures.
@@ -64,10 +65,12 @@ Larkin and colleagues found that experts in STEM domains have common foundations
     \item \textbf{It is well grounded in program text.} Experts are able to easily relate the various parts of their mental representations, such as an abstract plan, to the source code.   
 \end{itemize}
 
-
 % Separating problem and goal, adding subgoals
-Most notifications provided by state-of-the-art tools provide a problem statement when communicating about a defect. However, my previous research suggests current notifications do not always communicate effectively.
-Research in other STEM fields suggests that when problem solving, experts work from a goal to solution~\cite{larkin1980expert}. Therefore, the notifications modified for experts will provide a goal statement rather than a problem statement. The same research found that novices require a goal and set of subgoals that help them achieve the goal to reach a solution. Therefore, notifications modified for novices included a set of general subgoals for resolving the defects. Novice notification also include the problem statement used by FindBugs and the compiler.
+Based on their research, I determined the information provided in novice and expert notifications.
+The notifications modified for experts provide a goal statement rather than a problem statement. 
+Notifications modified for novices include a set of general subgoals for resolving the defects. 
+Novice notifications also include the problem statement used by FindBugs and the compiler.
+
 
 \begin{figure}
 	\centering
@@ -93,8 +96,8 @@ I determined the subgoals for each notification by determining a) the possible s
 It is important to maintain a realistic environment with realistic information, therefore the ability to generalize the information to other code snippets with the same defect was the most important. For example, for the notification shown in Figure~\ref{fig:novice}, the subgoals provide generally applicable fix options and provide steps, links, and examples. Also, most importantly, these fixes would generally apply to this defect no matter what code was implemented.
 
 % Adding examples/possible fixes
-Developers use examples to understand and resolve problems in code; often they go to sources like StackOverflow~\footnote{\url{https://stackoverflow.com/}} to find examples with explanations as most tool notifications do not include examples~\cite{nasehi2012makes}.
-My previous research also found that professional developers like having insights regarding possible fixes to the problem~\cite{johnson2013don,johnson2016cross}.
+Existing research also suggestss developers use examples to understand and resolve problems in code; often they go to sources like StackOverflow~\footnote{\url{https://stackoverflow.com/}} to find examples with explanations as most tool notifications do not include examples~\cite{nasehi2012makes}.
+My previous research , discussed in Chapters~\ref{chap:why} and~\ref{chap:theory}, also found that professional developers like having insights regarding possible fixes to the problem	.
 Therefore, I included examples in all of the notifications. I primarily used StackOverflow to find code examples for the notifications. I also used the same resources used to create the concept inventories in Chapter~\ref{chap:assess}.
 
 
